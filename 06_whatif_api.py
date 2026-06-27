@@ -609,20 +609,73 @@ def options():
 
 
 # ============================================================
+# API ENDPOINT: /chat (Context-Aware AI Therapist)
+# ============================================================
+
+@app.route("/chat", methods=["POST"])
+def chat():
+    """
+    Context-aware rule-based chatbot.
+    Receives message and dashboard state, returns a personalized response.
+    """
+    try:
+        data = request.json
+        msg = data.get("message", "").lower()
+        context = data.get("context", {})
+        
+        score = context.get("predicted_score", 5.0)
+        sleep = context.get("sleep_hours", 7.0)
+        screen = context.get("screen_time", 4.0)
+        
+        response = ""
+        
+        if "hello" in msg or "hi" in msg or "hey" in msg:
+            response = f"Hi there! I'm your AI therapist. I see your current addiction risk score is {score:.1f}. How are you feeling about your digital habits today?"
+        
+        elif "improve" in msg or "better" in msg or "fix" in msg or "reduce" in msg or "help" in msg:
+            if sleep < 6.5:
+                response = f"The fastest way to improve your {score:.1f} score is to get more rest. You're currently sleeping {sleep} hours, which creates a huge 'recovery debt'. Try adding just 45 minutes of sleep tonight."
+            elif screen > 6:
+                response = f"Your sleep is okay, but {screen} hours of screen time is heavily driving up your risk index. Can we try cutting that down by 1 hour today, specifically before bed?"
+            else:
+                response = "Your basic habits (sleep and screen time) are actually pretty good! To improve further, focus on the *quality* of your time online—try to reduce online conflicts and mindless scrolling."
+                
+        elif "sleep" in msg or "tired" in msg:
+            if sleep < 6.5:
+                response = f"I noticed you're only getting {sleep} hours of sleep. Our AI model flags anything under 7 hours as a massive risk multiplier for burnout. Setting a 'digital curfew' 1 hour before bed is the best way to fix this."
+            else:
+                response = f"You're getting {sleep} hours of sleep, which is decent! If you're still tired, the high screen time ({screen}h) might be reducing your sleep *quality* by messing with your melatonin."
+                
+        elif "stress" in msg or "anxious" in msg or "depressed" in msg:
+            response = "I'm sorry you're feeling that way. Our data shows a massive correlation between high screen time and anxiety. Taking a 24-hour 'digital detox' this weekend might give your nervous system the reset it needs. Would you be willing to try that?"
+            
+        else:
+            if score > 7:
+                response = f"I hear you. Given your high risk score of {score:.1f}, I really recommend we focus on small, manageable changes. Try using the 'What-If' sliders on the dashboard to see how small tweaks can pull you out of the danger zone."
+            else:
+                response = "That makes sense! Your digital wellness is looking relatively balanced right now. Is there a specific habit you want to optimize, or are you just exploring the dashboard?"
+                
+        return jsonify({"reply": response})
+        
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# ============================================================
 # START SERVER
 # ============================================================
 
 if __name__ == "__main__":
-    print("=" * 70)
+    print("======================================================================")
     print("MINDBALANCE AI PLATFORM API")
-    print("=" * 70)
-    print()
-    print("Endpoints:")
+    print("======================================================================")
+    print("\nEndpoints:")
     print("  POST /predict  - Predict score, SHAP, Counterfactual AI, Risk Index")
     print("  POST /whatif   - Compare current vs adjusted habits")
     print("  GET  /options  - Get valid dropdown values")
-    print()
-    print("Starting server on http://localhost:5000")
-    print("=" * 70)
-
+    print("  POST /chat     - Context-aware AI therapist")
+    print("\nStarting server on http://localhost:5000")
+    print("======================================================================")
+    
+    # Run server on all interfaces so local frontend can connect
     app.run(host="0.0.0.0", port=5000, debug=False)

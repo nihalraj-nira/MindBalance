@@ -217,6 +217,26 @@
 
     </div>
 
+    <!-- CHAT WIDGET -->
+    <div id="chatWidget" class="chat-widget hidden">
+        <div class="chat-header">
+            AI Therapist
+            <span id="chatClose" class="chat-close">&times;</span>
+        </div>
+        <div id="chatHistory" class="chat-history">
+            <div class="chat-msg ai">Hello! I'm your AI Therapist. Run a prediction, then ask me how to improve your score!</div>
+        </div>
+        <div class="chat-input-area">
+            <input type="text" id="chatInput" placeholder="Ask about your score..." />
+            <button id="chatSend">Send</button>
+        </div>
+    </div>
+    
+    <button id="chatToggle" class="chat-toggle-btn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+        AI Therapist
+    </button>
+
     <script src="assets/js/dashboard.js"></script>
 
 </body>
