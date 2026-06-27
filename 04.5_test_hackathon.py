@@ -12,7 +12,7 @@ from sklearn.metrics import (
 # LOAD TEST DATA
 # ============================================================
 
-TEST_PATH = "C:/Users/Khush/Desktop/HACKATHON/test.csv"
+TEST_PATH = "test.csv"
 
 df = pd.read_csv(TEST_PATH)
 
@@ -114,7 +114,7 @@ X_test = df.drop(
 # ============================================================
 
 encoder = joblib.load(
-    "C:/Users/Khush/Desktop/HACKATHON/models/encoder.pkl"
+    "models/encoder.pkl"
 )
 
 categorical_columns = [
@@ -152,7 +152,7 @@ X_test = pd.concat(
 # ============================================================
 
 scaler = joblib.load(
-    "C:/Users/Khush/Desktop/HACKATHON/models/scaler.pkl"
+    "models/scaler.pkl"
 )
 
 numeric_columns = X_test.select_dtypes(
@@ -168,7 +168,7 @@ X_test[numeric_columns] = scaler.transform(
 # ============================================================
 
 model = joblib.load(
-    "C:/Users/Khush/Desktop/HACKATHON/models/best_model.pkl"
+    "models/best_model.pkl"
 )
 
 # ============================================================
@@ -219,7 +219,7 @@ results = pd.DataFrame({
     "Residual": y_test - predictions
 })
 
-OUTPUT = "C:/Users/Khush/Desktop/HACKATHON/results/hackathon_test_predictions.csv"
+OUTPUT = "results/hackathon_test_predictions.csv"
 
 results.to_csv(
     OUTPUT,

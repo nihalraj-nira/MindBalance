@@ -8,7 +8,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 # LOAD FEATURE ENGINEERED DATASET
 # ============================================================
 
-DATA_PATH = "C:/Users/Khush/Desktop/HACKATHON/feature_engineered_dataset.csv"
+DATA_PATH = "feature_engineered_dataset.csv"
 
 df = pd.read_csv(DATA_PATH)
 
@@ -162,17 +162,17 @@ y_test.to_csv(
 
 
 os.makedirs(
-    "C:/Users/Khush/Desktop/HACKATHON/models",
+    "models",
     exist_ok=True
 )
 
 joblib.dump(
-    encoder,"C:/Users/Khush/Desktop/HACKATHON/models/encoder.pkl" # type: ignore
+    encoder,"models/encoder.pkl" # type: ignore
 )
 
 joblib.dump(
     scaler, # type: ignore
-    "C:/Users/Khush/Desktop/HACKATHON/models/scaler.pkl"
+    "models/scaler.pkl"
 )
 
 

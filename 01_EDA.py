@@ -8,7 +8,7 @@ import seaborn as sns
 # PATHS
 # ============================================================
 
-DATA_PATH = "C:/Users/Khush/Desktop/HACKATHON/dataset.csv"
+DATA_PATH = "dataset.csv"
 OUTPUT_DIR = "."
 FEATURE_ENGINEERED_PATH = os.path.join(OUTPUT_DIR, "feature_engineered_dataset.csv")
 CORRELATION_TABLE_PATH = os.path.join(OUTPUT_DIR, "feature_correlations.csv")
