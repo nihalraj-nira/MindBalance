@@ -399,10 +399,10 @@ def get_digital_twins(processed_row):
     healthiest = twins[0]
     
     msg = f"We found 5 students with your exact lifestyle. Their average addiction score is {round(avg_score, 1)}. "
-    if healthiest["score"] < avg_score - 1.0:
-        msg += f"The healthiest student among them lowered their score to {healthiest['score']} by adjusting their screen time to {healthiest['screen_time']}h and sleep to {healthiest['sleep_hours']}h."
+    if healthiest["score"] < avg_score:
+        msg += f"The healthiest student in this group managed a lower score of {healthiest['score']} by keeping screen time at {healthiest['screen_time']}h and sleep at {healthiest['sleep_hours']}h."
     else:
-        msg += "They all share similar risk levels due to your shared behavioral patterns."
+        msg += "They all share similar high risk levels due to these shared behavioral patterns."
         
     return {
         "average_score": round(avg_score, 2),
