@@ -257,6 +257,14 @@
             });
             $('recoList').innerHTML = htmlRecos;
 
+            // Render Digital Twins
+            if (data.digital_twins && data.digital_twins.message) {
+                const dtEl = $('dt-message');
+                if (dtEl) {
+                    dtEl.innerHTML = `<strong>KNN Analysis Complete:</strong> ${data.digital_twins.message}`;
+                }
+            }
+
             lastInputs = inputs;
             lastScore = score;
             runWhatIf();

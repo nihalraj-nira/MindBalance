@@ -5,6 +5,7 @@ import pandas as pd
 import shap
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+from sklearn.neighbors import NearestNeighbors
 
 # ============================================================
 # FLASK APP
@@ -22,6 +23,7 @@ BEST_MODEL_PATH = os.path.join(BASE_PATH, "models", "best_model.pkl")
 ENCODER_PATH = os.path.join(BASE_PATH, "models", "encoder.pkl")
 SCALER_PATH = os.path.join(BASE_PATH, "models", "scaler.pkl")
 X_TRAIN_PATH = os.path.join(BASE_PATH, "X_train.csv")
+Y_TRAIN_PATH = os.path.join(BASE_PATH, "y_train.csv")
 
 # ============================================================
 # LOAD MODEL + PREPROCESSORS (once at startup)
@@ -33,10 +35,15 @@ encoder = joblib.load(ENCODER_PATH)
 scaler = joblib.load(SCALER_PATH)
 
 X_train = pd.read_csv(X_TRAIN_PATH)
+y_train = pd.read_csv(Y_TRAIN_PATH)
 train_columns = X_train.columns.tolist()
 
 # SHAP explainer (created once)
 explainer = shap.TreeExplainer(model)
+
+# KNN Digital Twins Model
+print("Training KNN for Digital Twins...")
+knn = NearestNeighbors(n_neighbors=5, metric='euclidean').fit(X_train)
 
 print(f"Model: {model.__class__.__name__}")
 print(f"Features: {len(train_columns)}")
@@ -352,6 +359,60 @@ def get_risk_index(raw_input):
 
 
 # ============================================================
+# HELPER: DIGITAL TWINS
+# ============================================================
+
+def get_digital_twins(processed_row):
+    """
+    Finds the 5 most similar students using KNN.
+    Returns their raw habits and average scores.
+    """
+    distances, indices = knn.kneighbors(processed_row)
+    
+    twins = []
+    avg_score = 0
+    
+    for idx in indices[0]:
+        scaled_row = X_train.iloc[[idx]]
+        # Inverse transform to get raw values
+        raw_values = scaler.inverse_transform(scaled_row)[0]
+        
+        # Convert to dictionary using columns
+        raw_dict = dict(zip(X_train.columns, raw_values))
+        
+        score = float(y_train.iloc[idx]["Addicted_Score"])
+        avg_score += score
+        
+        twins.append({
+            "score": round(score, 2),
+            "sleep_hours": round(max(0, raw_dict["Sleep_Hours_Per_Night"]), 1),
+            "screen_time": round(max(0, raw_dict["Avg_Daily_Usage_Hours"]), 1),
+            "mental_health": round(max(1, raw_dict["Mental_Health_Score"]), 1),
+            "conflicts": round(max(0, raw_dict["Conflicts_Over_Social_Media"]), 0)
+        })
+        
+    avg_score = avg_score / 5
+    
+    # Sort twins so the healthiest (lowest score) is first
+    twins.sort(key=lambda x: x["score"])
+    
+    healthiest = twins[0]
+    
+    msg = f"We found 5 students with your exact lifestyle. Their average addiction score is {round(avg_score, 1)}. "
+    if healthiest["score"] < avg_score - 1.0:
+        msg += f"The healthiest student among them lowered their score to {healthiest['score']} by adjusting their screen time to {healthiest['screen_time']}h and sleep to {healthiest['sleep_hours']}h."
+    else:
+        msg += "They all share similar risk levels due to your shared behavioral patterns."
+        
+    return {
+        "average_score": round(avg_score, 2),
+        "healthiest_twin": healthiest,
+        "message": msg,
+        "all_twins": twins
+    }
+
+
+# ============================================================
 # API ENDPOINT: /predict
 # ============================================================
 
@@ -403,6 +464,9 @@ def predict():
         # Counterfactual AI
         counterfactual = get_counterfactual(data, score)
 
+        # Digital Twins
+        digital_twins = get_digital_twins(processed)
+
         return jsonify({
             "predicted_score": round(score, 2),
             "risk_level": risk,
@@ -411,6 +475,7 @@ def predict():
             "top_features": top_features,
             "recommendations": recs,
             "counterfactual_goal": counterfactual,
+            "digital_twins": digital_twins,
             "engineered_scores": {
                 "Recovery_Capacity": round(data["Sleep_Hours_Per_Night"] * data["Mental_Health_Score"], 2),
                 "Psychosocial_Load": round(data["Avg_Daily_Usage_Hours"] * data["Conflicts_Over_Social_Media"], 2),
