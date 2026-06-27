@@ -17,7 +17,7 @@ CORS(app)  # Allow dashboard (any origin) to call this API
 # PATHS
 # ============================================================
 
-BASE_PATH = "C:/Users/Khush/Desktop/HACKATHON"
+BASE_PATH = "."
 BEST_MODEL_PATH = os.path.join(BASE_PATH, "models", "best_model.pkl")
 ENCODER_PATH = os.path.join(BASE_PATH, "models", "encoder.pkl")
 SCALER_PATH = os.path.join(BASE_PATH, "models", "scaler.pkl")

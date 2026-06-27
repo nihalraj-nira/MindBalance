@@ -138,7 +138,7 @@ X_test[numeric_columns] = scaler.transform(
 # SAVE PREPROCESSED DATA
 # ============================================================
 
-OUTPUT_DIR = "C:/Users/Khush/Desktop/HACKATHON/"
+OUTPUT_DIR = ""
 
 X_train.to_csv(
     OUTPUT_DIR + "X_train.csv",

@@ -25,7 +25,7 @@ warnings.filterwarnings("ignore")
 # PATHS
 # ============================================================
 
-BASE_PATH = "C:/Users/Khush/Desktop/HACKATHON"
+BASE_PATH = "."
 RAW_DATA_PATH = os.path.join(BASE_PATH, "feature_engineered_dataset.csv")
 BEST_MODEL_PATH = os.path.join(BASE_PATH, "models", "best_model.pkl")
 

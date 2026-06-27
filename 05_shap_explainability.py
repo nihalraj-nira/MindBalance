@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 # PATHS
 # ============================================================
 
-BASE_PATH = "C:/Users/Khush/Desktop/HACKATHON"
+BASE_PATH = "."
 
 X_TRAIN_PATH = os.path.join(BASE_PATH, "X_train.csv")
 X_TEST_PATH = os.path.join(BASE_PATH, "X_test.csv")
