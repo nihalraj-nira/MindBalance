@@ -168,13 +168,186 @@
         <div class="reco-body">
           <h4>${r.title}</h4>
           <p>${r.body}</p>
+(function () {
+    // ---------- ELEMENTS ----------
+    const $ = id => document.getElementById(id);
+    const screen = $('screen'), sleep = $('sleep'), sleepq = $('sleepq'),
+        stress = $('stress'), study = $('study'), platform = $('platform');
+    const simsleep = $('simsleep'), simscreen = $('simscreen');
+    let lateNight = 1;
+
+    // ---------- LIVE LABEL BINDING ----------
+    function fmt(v, unit) { return parseFloat(v).toFixed(unit === 'h' ? 1 : 0) + (unit === 'h' ? ' h' : ''); }
+
+    screen.addEventListener('input', () => $('v-screen').textContent = parseFloat(screen.value).toFixed(1) + ' h');
+    sleep.addEventListener('input', () => $('v-sleep').textContent = parseFloat(sleep.value).toFixed(2).replace(/0$/, '') + ' h');
+    sleepq.addEventListener('input', () => $('v-sleepq').textContent = sleepq.value + ' / 10');
+    stress.addEventListener('input', () => $('v-stress').textContent = stress.value + ' / 10');
+    study.addEventListener('input', () => $('v-study').textContent = parseFloat(study.value).toFixed(1) + ' h');
+    simsleep.addEventListener('input', () => { $('v-simsleep').textContent = parseFloat(simsleep.value).toFixed(2).replace(/0$/, '') + ' h'; runWhatIf(); });
+    simscreen.addEventListener('input', () => { $('v-simscreen').textContent = parseFloat(simscreen.value).toFixed(1) + ' h'; runWhatIf(); });
+
+    document.querySelectorAll('#latenight .toggle-pill').forEach(p => {
+        p.addEventListener('click', () => {
+            document.querySelectorAll('#latenight .toggle-pill').forEach(x => x.classList.remove('active'));
+            p.classList.add('active');
+            lateNight = parseInt(p.dataset.val);
+        });
+    });
+
+    // ---------- "MODEL" (lightweight client-side stand-in for the trained RF model) ----------
+    // Coefficients approximate plausible directionality from EDA; Person C's exported
+    // model/SHAP values should replace this function 1:1 via the same interface.
+    function computeRisk(inputs) {
+        const { screenT, sleepT, sleepQ, stressL, studyH, late } = inputs;
+
+        const baseline = 42;
+
+        const contributions = [
+            { factor: 'Screen time', value: clampContrib((screenT - 5.0) * 4.2) },
+            { factor: 'Sleep duration', value: clampContrib((7.2 - sleepT) * 5.4) },
+            { factor: 'Sleep quality', value: clampContrib((5.5 - sleepQ) * 2.1) },
+            { factor: 'Stress level', value: clampContrib((stressL - 5.0) * 3.4) },
+            { factor: 'Study hours', value: clampContrib((studyH - 4.0) * -1.6) },
+            { factor: 'Late-night usage', value: clampContrib(late * 5.5) },
+        ];
+
+        let score = baseline + contributions.reduce((s, c) => s + c.value, 0);
+        score = Math.max(2, Math.min(98, score));
+
+        return { score: Math.round(score), contributions, baseline };
+    }
+    function clampContrib(v) { return Math.max(-22, Math.min(22, v)); }
+
+    function deriveIndices(inputs, riskScore) {
+        const recovery = Math.max(2, Math.min(98, Math.round(
+            (inputs.sleepT / 9) * 55 + (inputs.sleepQ / 10) * 45 - (inputs.late * 4)
+        )));
+        const balance = Math.max(2, Math.min(98, Math.round(
+            100 - (inputs.screenT / 14) * 40 - (inputs.stressL / 10) * 30 + (inputs.studyH / 10) * 15
+        )));
+        const load = Math.max(2, Math.min(98, Math.round(
+            (inputs.stressL / 10) * 60 + (inputs.screenT / 14) * 25 + inputs.late * 5
+        )));
+        const density = Math.max(2, Math.min(98, Math.round(
+            (inputs.stressL / 10) * 50 + (100 - recovery) * 0.3
+        )));
+        return { recovery, balance, load, density };
+    }
+
+    // ---------- RENDER: GAUGE ----------
+    function renderGauge(score) {
+        const circumference = 427; // 2*pi*68
+        const offset = circumference - (circumference * (score / 100));
+        const arc = $('gaugeArc');
+        arc.style.strokeDashoffset = offset;
+        let color = '#8FB89C';
+        if (score >= 70) color = '#D97D6B';
+        else if (score >= 45) color = '#E0A458';
+        arc.style.stroke = color;
+        $('riskScore').textContent = score;
+        $('riskScore').style.color = color;
+    }
+
+    function renderBand(score) {
+        const band = $('riskBand');
+        let label, color, bg;
+        if (score >= 70) { label = 'High Risk'; color = '#D97D6B'; bg = 'rgba(217,125,107,.14)'; }
+        else if (score >= 45) { label = 'Moderate Risk'; color = '#E0A458'; bg = 'rgba(224,164,88,.14)'; }
+        else { label = 'Low Risk'; color = '#8FB89C'; bg = 'rgba(143,184,156,.14)'; }
+        band.style.background = bg;
+        band.style.color = color;
+        band.innerHTML = `<span class="band-dot" style="background:${color};"></span> ${label}`;
+    }
+
+    function renderHeadline(score, inputs) {
+        let headline, sub;
+        if (score >= 70) {
+            headline = `Several overlapping pressures are pushing this profile into the high-risk band.`;
+            sub = `Sleep debt and stress are compounding with screen time late into the night — the model flags this pattern as the strongest predictor of academic and mental health decline in the training cohort.`;
+        } else if (score >= 45) {
+            headline = `This profile sits in a moderate-risk band — a few adjustable habits are driving most of the score.`;
+            sub = `No single factor is extreme, but the combination of screen time and sleep quality is enough to erode recovery capacity over time.`;
+        } else {
+            headline = `This profile reflects a well-balanced digital lifestyle.`;
+            sub = `Sleep, stress, and screen time are in a healthy range relative to the training cohort. Small variations are normal — keep monitoring late-night usage.`;
+        }
+        $('riskHeadline').textContent = headline;
+        $('riskSub').textContent = sub;
+    }
+
+    // ---------- RENDER: MINI INDICES ----------
+    function renderIndices(idx) {
+        $('mn-recovery').textContent = idx.recovery;
+        $('mn-balance').textContent = idx.balance;
+        $('mn-load').textContent = idx.load;
+        $('mn-density').textContent = idx.density;
+        $('mn-recovery-bar').style.width = idx.recovery + '%';
+        $('mn-balance-bar').style.width = idx.balance + '%';
+        $('mn-load-bar').style.width = idx.load + '%';
+        $('mn-density-bar').style.width = idx.density + '%';
+    }
+
+    // ---------- RENDER: LEDGER ----------
+    function renderLedger(contributions) {
+        const max = Math.max(...contributions.map(c => Math.abs(c.value)), 1);
+        const rows = contributions
+            .slice()
+            .sort((a, b) => Math.abs(b.value) - Math.abs(a.value))
+            .map(c => {
+                const pct = (Math.abs(c.value) / max) * 46; // max 46% of track width per side
+                const isPos = c.value >= 0;
+                const left = isPos ? 50 : (50 - pct);
+                const width = pct;
+                return `
+        <div class="ledger-row">
+          <div class="ledger-factor">${c.factor}</div>
+          <div class="ledger-track">
+            <div class="ledger-bar ${isPos ? 'pos' : 'neg'}" style="left:${left}%; width:${width}%;"></div>
+          </div>
+          <div class="ledger-val ${isPos ? 'pos' : 'neg'}">${isPos ? '+' : ''}${c.value.toFixed(1)}</div>
+        </div>`;
+            }).join('');
+        $('ledgerRows').innerHTML = rows;
+    }
+
+    // ---------- RENDER: RECOMMENDATIONS ----------
+    function renderRecommendations(inputs, score) {
+        const recos = [];
+        if (inputs.sleepT < 6.5) {
+            recos.push({ urgent: true, tag: 'Sleep', title: 'Extend sleep toward 7.5–8 h', body: 'The model identifies sleep duration as one of the largest drivers of risk in this profile. Even a 45–60 minute increase shows a measurable effect in the cohort data.' });
+        }
+        if (inputs.late >= 1) {
+            recos.push({ urgent: inputs.late === 2, tag: 'Late-night use', title: 'Set a screen cutoff before midnight', body: 'Late-night usage compounds sleep debt more than total screen time alone. A consistent cutoff is the single highest-leverage change available here.' });
+        }
+        if (inputs.screenT > 6) {
+            recos.push({ urgent: false, tag: 'Screen time', title: 'Trim 60–90 minutes of discretionary use', body: 'Reducing screen time without touching study hours preserved the Lifestyle Balance index in similar cohort profiles.' });
+        }
+        if (inputs.stressL >= 6) {
+            recos.push({ urgent: false, tag: 'Stress', title: 'Introduce a short wind-down routine', body: 'Elevated stress is amplifying the impact of poor sleep quality. A 10-minute wind-down before bed is associated with improved next-day recovery scores.' });
+        }
+        if (inputs.studyH < 2) {
+            recos.push({ urgent: false, tag: 'Study habits', title: 'Anchor a fixed daily study block', body: 'Structured study time correlates with lower psychosocial load even when screen time stays constant.' });
+        }
+        if (recos.length === 0) {
+            recos.push({ urgent: false, tag: 'Maintain', title: 'Keep current habits steady', body: 'This profile is within a healthy range across all tracked indices. Recheck weekly to catch drift early.' });
+        }
+        $('recoList').innerHTML = recos.slice(0, 4).map(r => `
+      <div class="reco-item ${r.urgent ? 'urgent' : ''}">
+        <div class="reco-tag">${r.tag}</div>
+        <div class="reco-body">
+          <h4>${r.title}</h4>
+          <p>${r.body}</p>
         </div>
       </div>
     `).join('');
     }
 
     // ---------- CURRENT STATE ----------
-    let lastInputs = null, lastScore = null;
+    let lastInputs = null;
+    let lastScore = null;
+    let currentTraj = null; // Store current trajectory for chart
+    let forecastChartInstance = null;
 
     function getCurrentInputs() {
         return {
@@ -265,6 +438,11 @@
                 }
             }
 
+            if (data.current_trajectory) {
+                currentTraj = data.current_trajectory;
+                updateForecastChart(currentTraj, null);
+            }
+
             lastInputs = inputs;
             lastScore = score;
             runWhatIf();
@@ -318,16 +496,20 @@
             const deltaEl = $('sim-delta');
             if (delta < 0) {
                 deltaEl.textContent = `▼ ${Math.abs(delta)} pts`;
-                deltaEl.style.color = '#8FB89C';
+                deltaEl.className = 'dc-arrow better';
             } else if (delta > 0) {
                 deltaEl.textContent = `▲ ${delta} pts`;
-                deltaEl.style.color = '#D97D6B';
+                deltaEl.className = 'dc-arrow worse';
             } else {
-                deltaEl.textContent = `No change`;
-                deltaEl.style.color = '#8A92A3';
+                deltaEl.textContent = `—`;
+                deltaEl.className = 'dc-arrow';
+            }
+
+            if (data.adjusted.adjusted_trajectory && currentTraj) {
+                updateForecastChart(currentTraj, data.adjusted.adjusted_trajectory);
             }
         } catch (e) {
-            console.error("API error in whatif", e);
+            console.error("API Error during What-If", e);
             const base = computeRisk(lastInputs).score;
             const sim = computeRisk(simInputs).score;
             $('sim-from').textContent = base;
@@ -461,7 +643,71 @@
         if (e.key === 'Enter') sendChatMessage();
     });
 
+    // ---------- FORECAST CHART ----------
+    function initForecastChart() {
+        const ctx = document.getElementById('forecastChart');
+        if (!ctx) return;
+        
+        const labels = Array.from({length: 13}, (_, i) => `Week ${i}`);
+        
+        forecastChartInstance = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: 'Current Path',
+                        data: [],
+                        borderColor: '#E74C3C',
+                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.4,
+                        fill: true
+                    },
+                    {
+                        label: 'Adjusted Path (What-If)',
+                        data: [],
+                        borderColor: '#2ECC71',
+                        borderWidth: 3,
+                        borderDash: [5, 5],
+                        tension: 0.4,
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 10,
+                        grid: { color: 'rgba(255,255,255,0.05)' }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255,255,255,0.05)' }
+                    }
+                },
+                plugins: {
+                    legend: { labels: { color: '#8A92A3' } }
+                }
+            }
+        });
+    }
+
+    function updateForecastChart(current, adjusted) {
+        if (!forecastChartInstance) return;
+        if (current) forecastChartInstance.data.datasets[0].data = current;
+        if (adjusted) {
+            forecastChartInstance.data.datasets[1].data = adjusted;
+        } else {
+            forecastChartInstance.data.datasets[1].data = [];
+        }
+        forecastChartInstance.update();
+    }
+
     // ---------- INIT ----------
+    initForecastChart();
     runPrediction();
     renderChart();
 

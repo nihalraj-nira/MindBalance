@@ -422,6 +422,25 @@ def get_digital_twins(processed_row):
     }
 
 
+def generate_forecast(score):
+    """
+    Generates a 12-week trajectory forecast based on the current score.
+    High scores degrade over time. Low scores stay stable or improve slightly.
+    """
+    forecast = [round(score, 2)]
+    current = score
+    for _ in range(12):
+        if current > 7.5:
+            current += 0.15 # Degrades quickly
+        elif current > 5.5:
+            current += 0.05 # Degrades slowly
+        else:
+            current -= 0.05 # Improves slightly
+            
+        current = min(10.0, max(0.0, current))
+        forecast.append(round(current, 2))
+    return forecast
+
 # ============================================================
 # API ENDPOINT: /predict
 # ============================================================
@@ -476,6 +495,9 @@ def predict():
 
         # Digital Twins
         digital_twins = get_digital_twins(processed)
+        
+        # 10. Generate predictive forecast
+        trajectory = generate_forecast(score)
 
         return jsonify({
             "predicted_score": round(score, 2),
@@ -486,6 +508,7 @@ def predict():
             "recommendations": recs,
             "counterfactual_goal": counterfactual,
             "digital_twins": digital_twins,
+            "current_trajectory": trajectory,
             "engineered_scores": {
                 "Recovery_Capacity": round(data["Sleep_Hours_Per_Night"] * data["Mental_Health_Score"], 2),
                 "Psychosocial_Load": round(data["Avg_Daily_Usage_Hours"] * data["Conflicts_Over_Social_Media"], 2),
@@ -555,7 +578,8 @@ def whatif():
             "adjusted": {
                 "predicted_score": round(adjusted_score, 2),
                 "risk_level": adjusted_risk,
-                "top_features": adjusted_shap
+                "top_features": adjusted_shap,
+                "adjusted_trajectory": generate_forecast(adjusted_score)
             },
             "comparison": {
                 "score_change": round(score_change, 2),

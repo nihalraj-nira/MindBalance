@@ -215,6 +215,17 @@
             <div class="chart-wrap" id="chartWrap"></div>
         </div>
 
+        <!-- FORECASTING PANEL -->
+        <div class="panel" style="margin-top:24px;">
+            <div class="panel-title">Predictive Forecasting (3-Month Trajectory)</div>
+            <p style="font-size:13px; color:var(--text-dim); margin-bottom:18px;">
+                Shows your projected mental health crash or recovery if you maintain your current habits versus your adjusted What-If habits.
+            </p>
+            <div style="height: 300px; width: 100%;">
+                <canvas id="forecastChart"></canvas>
+            </div>
+        </div>
+
     </div>
 
     <!-- CHAT WIDGET -->
@@ -237,6 +248,8 @@
         AI Therapist
     </button>
 
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="assets/js/dashboard.js"></script>
 
 </body>
