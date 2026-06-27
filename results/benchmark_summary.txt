@@ -1,0 +1,36 @@
+================================================================================
+MINDBALANCE MODEL BENCHMARK SUMMARY
+================================================================================
+
+Best Model: Gradient Boosting
+Best R2   : 0.9041
+
+Top 10 Models by R2:
+                 Model      MAE      MSE     RMSE       R2  Training_Time_Seconds  Prediction_Time_Seconds
+     Gradient Boosting 0.385477 0.247092 0.497084 0.904066               3.578134                 0.007562
+     Linear Regression 0.394815 0.252019 0.502015 0.902153               0.074722                 0.004272
+Hist Gradient Boosting 0.390306 0.253911 0.503896 0.901418               0.453354                 0.010366
+              AdaBoost 0.406000 0.269890 0.519509 0.895215              11.768520                 0.148232
+         Random Forest 0.401945 0.272512 0.522026 0.894197              12.143962                 0.294191
+                   SVR 0.404001 0.281743 0.530794 0.890613              18.890763                 7.717091
+           Extra Trees 0.415770 0.295446 0.543550 0.885292               5.406961                 0.117511
+                   KNN 0.531028 0.466921 0.683317 0.818716               0.011947                 4.524215
+         Decision Tree 0.481312 0.536130 0.732209 0.791846               0.512824                 0.008336
+
+Top Features:
+                     Feature  Importance
+Affects_Academic_Performance    0.813056
+              Stress_Density    0.091259
+              Wellness_Ratio    0.047883
+           Psychosocial_Load    0.024176
+           Recovery_Capacity    0.013227
+         Mental_Health_Score    0.004787
+             Usage_Age_Ratio    0.001747
+                         Age    0.001605
+           Lifestyle_Balance    0.000497
+       Sleep_Hours_Per_Night    0.000273
+               Sleep_Deficit    0.000176
+       Avg_Daily_Usage_Hours    0.000138
+     Most_Used_Platform_LINE    0.000124
+ Conflicts_Over_Social_Media    0.000102
+          Governorate_Fayoum    0.000102

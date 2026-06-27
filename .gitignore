@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+venv/
+.env
+.idea/
+.vscode/
+
+# Ignore large generated files to avoid GitHub's 100MB limit
+models/*.pkl
+
+# EXPLICITLY INCLUDE the small, required models
+!models/best_model.pkl
+!models/encoder.pkl
+!models/scaler.pkl

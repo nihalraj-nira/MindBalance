@@ -1,0 +1,2412 @@
+Age,Gender,Academic_Level,Country,Governorate,Avg_Daily_Usage_Hours,Most_Used_Platform,Affects_Academic_Performance,Sleep_Hours_Per_Night,Mental_Health_Score,Relationship_Status,Conflicts_Over_Social_Media,Addicted_Score
+19,Female,Undergraduate,Egypt,Port Said,4.6,Instagram,Yes,8.0,5,In Relationship,4,8
+21,Female,High School,Egypt,Dakahlia,6.8,LinkedIn,Yes,5.9,5,Single,4,8
+19,Female,Undergraduate,Egypt,Giza,8.3,Instagram,Yes,4.8,4,Single,4,9
+19,Male,Graduate,Egypt,Assiut,6.9,VKontakte,Yes,5.3,4,Single,5,9
+24,Female,Undergraduate,Egypt,Giza,4.1,Instagram,No,6.7,6,In Relationship,3,5
+20,Male,Graduate,Egypt,Luxor,6.1,WhatsApp,Yes,4.7,5,Single,4,8
+18,Female,Graduate,Egypt,Ismailia,4.3,Instagram,Yes,7.5,7,Single,2,7
+21,Male,Undergraduate,Egypt,Assiut,7.4,TikTok,Yes,4.8,4,In Relationship,5,9
+22,Male,Undergraduate,Egypt,Suez,4.6,WhatsApp,Yes,6.6,6,Single,2,7
+24,Female,Graduate,Egypt,Beheira,4.8,TikTok,Yes,5.8,7,Single,3,7
+20,Male,Undergraduate,Egypt,Fayoum,4.8,WeChat,Yes,6.3,5,Single,4,8
+19,Female,High School,Egypt,Aswan,5.2,YouTube,Yes,7.3,6,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Assiut,3.0,TikTok,No,7.8,7,Single,2,5
+20,Male,Graduate,Egypt,Sohag,4.8,Instagram,Yes,6.2,5,Single,4,8
+19,Female,Undergraduate,Egypt,Gharbia,3.2,Instagram,No,7.6,8,Single,2,4
+19,Male,Undergraduate,Egypt,Alexandria,4.6,TikTok,No,6.8,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Monufia,3.5,Instagram,No,7.9,8,Single,2,5
+19,Male,Undergraduate,Egypt,Gharbia,5.0,TikTok,Yes,5.9,7,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Qalyubia,4.0,TikTok,No,7.6,7,Single,2,5
+21,Male,Graduate,Egypt,Assiut,4.7,Instagram,Yes,5.5,5,Single,4,8
+19,Female,Undergraduate,Egypt,Assiut,6.5,Instagram,Yes,5.4,6,In Relationship,3,8
+24,Male,Undergraduate,Egypt,Fayoum,7.2,Facebook,Yes,4.1,5,Single,3,8
+20,Female,Graduate,Egypt,Cairo,6.2,Instagram,Yes,5.8,5,Single,4,9
+21,Male,Undergraduate,Egypt,Fayoum,3.8,Instagram,No,6.9,5,Single,3,5
+22,Female,Undergraduate,Egypt,Giza,5.8,Snapchat,Yes,7.7,5,Single,3,7
+19,Female,Undergraduate,Egypt,Qalyubia,5.6,Facebook,Yes,7.7,6,Complicated,4,7
+20,Male,Graduate,Egypt,Suez,5.7,TikTok,Yes,5.3,5,Single,4,8
+20,Female,Graduate,Egypt,Suez,5.9,Instagram,Yes,6.5,6,In Relationship,3,7
+19,Male,Graduate,Egypt,Alexandria,4.4,Instagram,Yes,7.7,5,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Gharbia,4.7,Instagram,Yes,6.0,6,Single,3,7
+21,Male,Graduate,Egypt,Sohag,6.3,Facebook,Yes,5.5,6,Single,3,7
+23,Female,Undergraduate,Egypt,Ismailia,5.0,TikTok,Yes,8.1,6,Single,3,7
+20,Male,Undergraduate,Egypt,Beheira,3.5,Instagram,No,7.3,6,Single,2,5
+19,Male,Undergraduate,Egypt,Qalyubia,5.5,TikTok,Yes,6.4,5,Single,3,8
+19,Male,Graduate,Egypt,Qena,3.9,Facebook,No,7.3,7,Single,2,5
+18,Male,Graduate,Egypt,Dakahlia,5.1,TikTok,Yes,7.3,6,In Relationship,4,8
+22,Male,Graduate,Egypt,Port Said,3.9,Instagram,No,8.2,7,Single,3,5
+20,Female,Undergraduate,Egypt,Gharbia,4.8,TikTok,Yes,5.6,6,Single,2,7
+20,Female,Graduate,Egypt,Red Sea,6.8,WhatsApp,Yes,5.4,5,Single,4,8
+22,Female,High School,Egypt,Assiut,5.2,Facebook,Yes,5.4,6,Single,3,8
+21,Male,Undergraduate,Egypt,Assiut,3.2,TikTok,No,8.0,7,Single,2,4
+20,Female,Graduate,Egypt,Qalyubia,5.5,TikTok,Yes,6.0,5,Single,4,8
+20,Female,Undergraduate,Egypt,Gharbia,2.4,VKontakte,No,9.1,8,Single,1,3
+22,Male,Graduate,Egypt,Red Sea,7.1,Facebook,Yes,5.2,5,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Minya,5.8,TikTok,Yes,5.2,6,Single,3,7
+22,Female,Undergraduate,Egypt,Fayoum,4.0,Twitter,Yes,6.6,6,Single,3,7
+19,Male,Undergraduate,Egypt,Assiut,5.8,Instagram,Yes,6.7,5,In Relationship,4,9
+24,Male,Undergraduate,Egypt,Luxor,4.4,LinkedIn,No,6.3,8,Single,1,4
+19,Female,Graduate,Egypt,Alexandria,3.0,Facebook,No,7.9,8,Single,2,5
+21,Male,Graduate,Egypt,Dakahlia,6.6,Facebook,Yes,4.5,6,Single,3,8
+19,Male,Undergraduate,Egypt,Beheira,5.2,Instagram,Yes,6.8,6,Single,4,7
+21,Female,Undergraduate,Egypt,Aswan,6.2,Instagram,Yes,6.7,5,In Relationship,3,7
+20,Female,Graduate,Egypt,Port Said,4.2,TikTok,No,7.8,7,Single,3,5
+24,Male,Undergraduate,Egypt,Beheira,4.7,YouTube,No,6.8,6,In Relationship,3,5
+19,Female,Graduate,Egypt,Luxor,6.1,TikTok,Yes,6.5,6,In Relationship,3,8
+20,Female,Graduate,Egypt,Minya,4.2,Facebook,No,6.3,8,In Relationship,2,5
+19,Male,High School,Egypt,Beheira,5.2,Instagram,Yes,6.7,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Sohag,7.1,WhatsApp,Yes,5.9,5,In Relationship,4,9
+19,Male,Graduate,Egypt,Alexandria,4.2,Instagram,No,8.0,7,Single,3,5
+19,Male,Undergraduate,Egypt,Cairo,5.0,Twitter,Yes,5.9,5,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Monufia,5.2,Instagram,No,7.4,6,In Relationship,3,6
+21,Female,Graduate,Egypt,Dakahlia,6.5,Instagram,Yes,6.1,5,Single,4,8
+20,Male,Graduate,Egypt,Aswan,4.7,Facebook,Yes,7.3,7,In Relationship,4,7
+20,Female,Undergraduate,Egypt,Ismailia,5.5,Instagram,Yes,6.3,6,In Relationship,3,8
+22,Male,Graduate,Egypt,Dakahlia,4.9,TikTok,Yes,6.0,6,In Relationship,3,7
+19,Male,High School,Egypt,Red Sea,5.3,Facebook,Yes,5.7,7,Complicated,3,7
+21,Male,Graduate,Egypt,Sohag,3.6,WhatsApp,No,7.8,7,In Relationship,2,5
+22,Male,High School,Egypt,Port Said,3.2,Instagram,No,8.7,7,Single,2,5
+24,Female,Undergraduate,Egypt,Sharqia,3.9,Instagram,No,7.3,7,Single,2,5
+21,Male,Graduate,Egypt,Sharqia,4.1,Facebook,No,8.1,7,Single,1,4
+22,Male,Graduate,Egypt,Aswan,4.5,TikTok,Yes,6.7,6,Single,3,7
+21,Female,High School,Egypt,Luxor,4.3,Instagram,Yes,7.4,6,Single,3,7
+19,Female,Graduate,Egypt,Dakahlia,4.8,WhatsApp,Yes,5.2,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Luxor,6.3,Instagram,Yes,5.9,4,In Relationship,4,9
+22,Male,High School,Egypt,Giza,3.9,TikTok,No,8.2,8,In Relationship,2,5
+22,Male,Graduate,Egypt,Suez,5.2,TikTok,Yes,5.8,7,Single,2,7
+20,Male,Graduate,Egypt,Sohag,2.5,Instagram,No,8.2,8,Single,2,4
+20,Female,Undergraduate,Egypt,Sharqia,6.8,WhatsApp,Yes,4.2,5,Single,4,8
+19,Male,Undergraduate,Egypt,Fayoum,4.8,Instagram,Yes,6.6,6,Single,3,7
+21,Female,Undergraduate,Egypt,Qalyubia,4.9,Facebook,No,8.1,8,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Aswan,7.2,Instagram,Yes,4.6,5,Single,4,8
+22,Male,Undergraduate,Egypt,Red Sea,3.1,TikTok,No,7.9,6,Single,2,5
+19,Female,Graduate,Egypt,Assiut,5.1,Snapchat,Yes,6.9,6,In Relationship,2,7
+21,Female,Graduate,Egypt,Dakahlia,5.9,Instagram,Yes,7.2,6,Single,3,7
+21,Male,Undergraduate,Egypt,Alexandria,4.7,Instagram,No,6.5,7,In Relationship,2,5
+20,Female,Undergraduate,Egypt,Suez,4.7,TikTok,No,7.8,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Giza,5.3,Instagram,Yes,6.3,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Dakahlia,4.9,Facebook,Yes,6.5,6,In Relationship,3,7
+23,Female,Undergraduate,Egypt,Suez,4.3,TikTok,No,7.3,7,In Relationship,3,5
+21,Female,Graduate,Egypt,Beheira,5.6,Instagram,Yes,6.1,5,Single,4,8
+23,Female,High School,Egypt,Minya,4.4,Facebook,Yes,6.3,6,Single,3,6
+21,Female,Graduate,Egypt,Sharqia,4.9,Instagram,Yes,7.4,6,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Red Sea,4.3,KakaoTalk,Yes,7.3,6,Single,3,7
+21,Male,Undergraduate,Egypt,Alexandria,4.4,VKontakte,No,5.9,7,Single,3,5
+21,Female,Undergraduate,Egypt,Gharbia,3.3,Instagram,No,7.8,7,Single,3,5
+20,Female,High School,Egypt,Suez,5.2,Instagram,Yes,6.0,5,Single,2,7
+20,Female,Graduate,Egypt,Gharbia,6.1,Instagram,Yes,5.8,5,Single,4,8
+22,Male,Undergraduate,Egypt,Port Said,4.0,LINE,Yes,6.7,7,Single,3,6
+20,Male,Graduate,Egypt,Fayoum,7.2,Instagram,Yes,6.4,4,In Relationship,5,9
+24,Female,Undergraduate,Egypt,Giza,4.2,WhatsApp,No,7.7,7,Single,3,4
+19,Female,Undergraduate,Egypt,Giza,5.4,Instagram,Yes,7.1,6,In Relationship,3,8
+19,Female,Graduate,Egypt,Giza,7.2,Instagram,Yes,5.5,5,Single,5,9
+21,Male,Graduate,Egypt,Giza,6.7,Instagram,Yes,5.4,5,Single,4,8
+23,Male,Graduate,Egypt,Minya,6.3,Instagram,Yes,4.9,6,Single,3,7
+21,Male,Graduate,Egypt,Minya,4.5,Facebook,Yes,7.4,7,Single,3,7
+22,Female,Undergraduate,Egypt,Qena,8.1,Facebook,Yes,4.4,4,Single,4,9
+22,Female,Undergraduate,Egypt,Qalyubia,4.3,TikTok,No,6.8,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Assiut,5.7,TikTok,Yes,5.8,5,Single,4,8
+23,Male,High School,Egypt,Alexandria,7.0,LinkedIn,Yes,4.8,5,In Relationship,3,8
+20,Female,Undergraduate,Egypt,Alexandria,5.9,TikTok,Yes,5.2,5,Single,3,8
+21,Female,Graduate,Egypt,Giza,3.9,TikTok,No,7.4,7,Single,2,5
+21,Male,Undergraduate,Egypt,Red Sea,2.9,Twitter,No,9.2,8,Single,2,4
+21,Female,Graduate,Egypt,Monufia,4.6,Instagram,No,7.4,7,In Relationship,3,5
+19,Male,Graduate,Egypt,Gharbia,5.5,Instagram,Yes,6.8,6,Single,3,7
+21,Male,Undergraduate,Egypt,Alexandria,3.6,Facebook,Yes,7.8,6,In Relationship,3,6
+20,Female,Undergraduate,Egypt,Dakahlia,4.7,Instagram,Yes,7.3,7,Single,3,7
+18,Male,Undergraduate,Egypt,Qalyubia,4.4,Twitter,Yes,6.0,6,In Relationship,2,7
+22,Female,Graduate,Egypt,Monufia,3.2,Instagram,No,8.3,8,Single,2,4
+21,Female,High School,Egypt,Ismailia,2.6,TikTok,No,9.2,8,In Relationship,1,3
+20,Female,Graduate,Egypt,Dakahlia,4.0,LinkedIn,Yes,7.9,7,Single,3,6
+19,Female,High School,Egypt,Minya,4.8,Instagram,Yes,7.2,6,In Relationship,3,6
+20,Female,Graduate,Egypt,Gharbia,2.4,WhatsApp,No,9.3,7,Single,1,4
+20,Male,Graduate,Egypt,Aswan,6.9,Facebook,Yes,4.5,5,In Relationship,4,9
+22,Male,Undergraduate,Egypt,Alexandria,6.4,Facebook,Yes,4.8,4,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Giza,5.2,Instagram,Yes,7.3,6,Single,3,7
+19,Female,Graduate,Egypt,Red Sea,4.9,Instagram,Yes,6.1,7,In Relationship,2,6
+20,Male,Graduate,Egypt,Alexandria,4.9,Snapchat,Yes,7.1,6,Single,4,7
+21,Female,Undergraduate,Egypt,Beheira,3.3,TikTok,No,7.8,7,In Relationship,2,4
+21,Female,Graduate,Egypt,Qena,4.5,Facebook,Yes,7.9,5,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Gharbia,5.3,Instagram,No,6.5,6,Single,2,5
+22,Female,Graduate,Egypt,Suez,5.4,Instagram,Yes,7.6,5,In Relationship,4,7
+21,Male,Undergraduate,Egypt,Giza,5.7,Instagram,Yes,7.6,7,Single,4,8
+21,Male,Graduate,Egypt,Sohag,3.9,TikTok,Yes,8.2,7,In Relationship,3,6
+19,Male,Graduate,Egypt,Sohag,4.0,TikTok,Yes,7.4,6,In Relationship,4,7
+21,Female,Undergraduate,Egypt,Alexandria,6.1,Instagram,Yes,6.8,6,Single,4,7
+22,Female,Graduate,Egypt,Beheira,4.8,Twitter,Yes,6.2,6,In Relationship,3,7
+23,Female,Undergraduate,Egypt,Luxor,3.8,Instagram,Yes,7.9,6,Single,3,7
+19,Male,High School,Egypt,Gharbia,6.9,TikTok,Yes,5.2,6,Single,3,8
+19,Female,Undergraduate,Egypt,Beheira,3.8,TikTok,No,7.4,8,Single,2,5
+22,Female,Graduate,Egypt,Beheira,3.6,LinkedIn,No,7.5,7,In Relationship,3,5
+20,Female,Graduate,Egypt,Luxor,5.5,Instagram,Yes,6.6,5,In Relationship,3,8
+21,Male,High School,Egypt,Cairo,5.9,Facebook,Yes,6.6,6,Single,2,7
+22,Male,Graduate,Egypt,Port Said,4.6,Instagram,Yes,6.7,7,Single,3,7
+22,Male,Undergraduate,Egypt,Alexandria,5.8,Instagram,Yes,6.5,5,Single,4,7
+22,Female,Graduate,Egypt,Red Sea,4.5,Instagram,Yes,7.0,7,Single,3,8
+21,Female,Undergraduate,Egypt,Sharqia,5.3,Instagram,Yes,7.0,6,In Relationship,3,8
+18,Female,Undergraduate,Egypt,Dakahlia,6.6,KakaoTalk,Yes,7.1,6,Single,4,8
+19,Female,Undergraduate,Egypt,Aswan,4.6,WhatsApp,Yes,7.2,6,Single,4,8
+21,Female,Graduate,Egypt,Giza,3.7,Facebook,No,8.4,8,In Relationship,1,4
+20,Male,Graduate,Egypt,Suez,6.5,LinkedIn,Yes,5.7,5,In Relationship,5,9
+22,Male,Graduate,Egypt,Giza,3.0,TikTok,No,6.9,8,In Relationship,1,4
+21,Female,Graduate,Egypt,Assiut,4.4,TikTok,Yes,7.2,6,In Relationship,3,7
+19,Female,High School,Egypt,Red Sea,4.8,TikTok,Yes,6.6,6,In Relationship,2,6
+22,Male,Undergraduate,Egypt,Cairo,3.6,Instagram,No,7.4,7,In Relationship,2,5
+20,Female,Graduate,Egypt,Luxor,4.5,Snapchat,Yes,8.1,7,In Relationship,3,7
+22,Female,Graduate,Egypt,Fayoum,5.9,TikTok,Yes,5.5,5,Single,3,7
+19,Male,High School,Egypt,Qalyubia,3.7,Instagram,No,7.6,8,Single,2,5
+24,Male,Undergraduate,Egypt,Cairo,5.4,Instagram,No,6.8,7,In Relationship,3,6
+20,Female,Undergraduate,Egypt,Qena,5.8,Instagram,Yes,5.9,6,In Relationship,3,8
+18,Female,Undergraduate,Egypt,Luxor,4.6,Instagram,Yes,8.6,7,Single,2,6
+20,Female,Undergraduate,Egypt,Assiut,4.2,Facebook,No,6.0,7,In Relationship,2,4
+22,Male,Graduate,Egypt,Sohag,4.2,Facebook,No,6.6,7,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Beheira,6.7,Facebook,Yes,6.7,5,Complicated,4,8
+22,Female,Undergraduate,Egypt,Beheira,5.7,Twitter,Yes,7.2,7,Single,4,7
+21,Female,Graduate,Egypt,Red Sea,4.7,LinkedIn,Yes,6.4,6,Complicated,3,7
+21,Male,Graduate,Egypt,Dakahlia,4.6,Instagram,Yes,6.4,6,Single,3,7
+22,Male,Graduate,Egypt,Suez,3.4,Instagram,Yes,7.1,7,In Relationship,3,6
+23,Female,Graduate,Egypt,Sharqia,5.3,KakaoTalk,Yes,5.3,6,In Relationship,2,7
+20,Female,Undergraduate,Egypt,Luxor,6.2,TikTok,Yes,6.0,5,In Relationship,3,9
+19,Male,Graduate,Egypt,Dakahlia,6.1,Facebook,Yes,5.6,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Assiut,4.4,TikTok,Yes,7.8,5,Single,4,8
+21,Male,Undergraduate,Egypt,Fayoum,4.1,WhatsApp,No,7.2,7,Single,2,4
+22,Male,Graduate,Egypt,Dakahlia,6.5,Facebook,Yes,4.9,4,In Relationship,4,9
+20,Female,Graduate,Egypt,Gharbia,7.5,Twitter,Yes,4.5,4,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Dakahlia,3.6,WhatsApp,No,8.2,8,In Relationship,2,4
+24,Male,Undergraduate,Egypt,Monufia,3.4,LINE,No,7.9,7,Single,2,5
+22,Male,Graduate,Egypt,Dakahlia,6.5,YouTube,Yes,5.7,5,In Relationship,4,8
+24,Male,Graduate,Egypt,Luxor,4.3,KakaoTalk,No,7.6,8,In Relationship,1,3
+22,Male,Undergraduate,Egypt,Qalyubia,5.3,Instagram,Yes,7.3,6,Single,3,7
+20,Female,Graduate,Egypt,Cairo,4.9,Facebook,Yes,7.9,6,In Relationship,4,7
+22,Male,Graduate,Egypt,Assiut,2.5,Facebook,No,8.4,8,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Cairo,3.5,TikTok,No,7.5,8,Single,2,4
+24,Female,Graduate,Egypt,Red Sea,4.3,WeChat,No,8.6,7,Single,2,4
+21,Male,Undergraduate,Egypt,Ismailia,4.1,Facebook,No,8.2,8,Single,2,4
+19,Female,Undergraduate,Egypt,Sohag,3.1,Instagram,No,6.0,7,Single,1,5
+20,Female,High School,Egypt,Suez,5.9,TikTok,Yes,5.0,4,In Relationship,4,9
+21,Female,Graduate,Egypt,Beheira,3.8,WhatsApp,No,6.8,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Beheira,5.7,Instagram,Yes,5.5,5,In Relationship,3,8
+20,Female,Graduate,Egypt,Ismailia,4.2,Instagram,No,7.0,7,Single,3,5
+20,Female,Graduate,Egypt,Gharbia,4.9,Instagram,Yes,6.5,7,Single,3,7
+20,Male,Undergraduate,Egypt,Minya,5.4,TikTok,No,7.4,7,In Relationship,3,5
+20,Male,Graduate,Egypt,Suez,6.5,TikTok,Yes,4.3,4,Single,4,9
+19,Male,Undergraduate,Egypt,Fayoum,6.9,Facebook,Yes,4.8,5,Single,4,8
+21,Male,Graduate,Egypt,Dakahlia,3.6,Instagram,No,8.6,8,In Relationship,1,4
+22,Male,Graduate,Egypt,Ismailia,5.9,Facebook,Yes,6.4,7,Single,3,7
+21,Female,Undergraduate,Egypt,Qena,5.7,YouTube,Yes,6.3,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Assiut,5.1,WeChat,Yes,5.4,5,Single,3,7
+19,Female,Graduate,Egypt,Fayoum,3.0,TikTok,No,7.8,8,In Relationship,2,5
+19,Male,Graduate,Egypt,Monufia,4.8,TikTok,Yes,6.4,6,Single,3,7
+21,Male,Graduate,Egypt,Port Said,5.4,Instagram,No,7.3,6,In Relationship,3,5
+21,Female,Graduate,Egypt,Luxor,3.5,Facebook,Yes,7.6,8,In Relationship,2,6
+19,Male,Graduate,Egypt,Cairo,2.5,Instagram,No,8.6,8,Single,2,4
+22,Male,Graduate,Egypt,Beheira,4.4,TikTok,Yes,8.2,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Sharqia,6.4,TikTok,Yes,6.5,5,In Relationship,5,8
+20,Male,Undergraduate,Egypt,Port Said,5.7,TikTok,Yes,5.4,6,Single,4,8
+20,Male,Undergraduate,Egypt,Port Said,3.7,Twitter,No,8.4,8,In Relationship,1,4
+21,Female,Undergraduate,Egypt,Cairo,5.8,LinkedIn,Yes,6.3,5,In Relationship,4,9
+19,Female,Graduate,Egypt,Alexandria,6.0,TikTok,Yes,6.3,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Luxor,2.8,YouTube,Yes,8.0,7,In Relationship,2,6
+20,Male,Undergraduate,Egypt,Gharbia,5.6,TikTok,Yes,5.5,6,In Relationship,3,7
+20,Female,High School,Egypt,Minya,6.5,Instagram,Yes,6.0,5,In Relationship,4,7
+20,Female,Undergraduate,Egypt,Aswan,4.6,Instagram,Yes,7.2,6,Single,3,7
+19,Male,Undergraduate,Egypt,Qena,4.2,Facebook,No,7.3,8,Single,1,4
+19,Female,Graduate,Egypt,Fayoum,4.6,TikTok,Yes,7.2,7,Single,2,7
+20,Male,Undergraduate,Egypt,Cairo,5.0,VKontakte,Yes,6.3,6,In Relationship,2,7
+19,Male,Undergraduate,Egypt,Assiut,4.6,Facebook,Yes,6.8,6,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Ismailia,5.3,WhatsApp,Yes,5.1,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Dakahlia,4.0,WhatsApp,No,6.0,8,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Sharqia,4.9,WhatsApp,Yes,7.5,5,Single,3,8
+20,Male,Graduate,Egypt,Ismailia,5.8,TikTok,Yes,5.9,6,Complicated,4,7
+19,Male,High School,Egypt,Sohag,6.0,Instagram,Yes,5.4,4,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Ismailia,6.3,Facebook,Yes,5.4,5,Single,4,9
+19,Female,Graduate,Egypt,Gharbia,6.6,WeChat,Yes,6.2,5,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Luxor,6.2,TikTok,Yes,5.9,5,Complicated,3,8
+20,Male,Graduate,Egypt,Luxor,3.3,Instagram,No,7.0,7,Single,3,5
+19,Male,Undergraduate,Egypt,Luxor,3.0,YouTube,No,8.8,7,Single,3,5
+21,Female,Undergraduate,Egypt,Beheira,5.4,TikTok,No,6.6,7,Single,2,5
+20,Female,Undergraduate,Egypt,Giza,5.7,TikTok,No,6.6,8,Single,2,5
+20,Female,Undergraduate,Egypt,Suez,2.7,Instagram,No,9.5,8,In Relationship,2,4
+19,Female,Graduate,Egypt,Sohag,4.7,Instagram,Yes,6.0,5,In Relationship,3,7
+19,Male,Graduate,Egypt,Red Sea,4.7,Instagram,Yes,7.1,7,Single,3,7
+21,Female,Undergraduate,Egypt,Monufia,6.8,Instagram,Yes,5.7,5,Single,4,9
+20,Male,Undergraduate,Egypt,Qena,5.9,Instagram,Yes,6.5,5,Single,4,9
+22,Female,Graduate,Egypt,Fayoum,4.6,TikTok,Yes,5.7,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Sharqia,5.5,WhatsApp,Yes,6.4,5,Single,4,7
+21,Female,Undergraduate,Egypt,Minya,8.3,WhatsApp,Yes,3.9,4,Single,5,9
+22,Male,Graduate,Egypt,Qalyubia,5.7,Snapchat,Yes,7.2,5,In Relationship,4,7
+21,Female,Undergraduate,Egypt,Sharqia,6.5,Instagram,Yes,6.0,5,In Relationship,4,7
+19,Male,Undergraduate,Egypt,Ismailia,3.8,Instagram,No,7.9,7,Single,2,5
+24,Female,Undergraduate,Egypt,Gharbia,4.9,Facebook,Yes,7.3,6,In Relationship,3,7
+23,Female,Graduate,Egypt,Sohag,4.6,TikTok,Yes,7.0,6,Single,3,6
+22,Female,Graduate,Egypt,Suez,4.0,WhatsApp,Yes,7.7,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Red Sea,6.3,TikTok,Yes,7.5,6,Single,3,7
+24,Female,Graduate,Egypt,Aswan,5.5,TikTok,Yes,6.2,6,Single,3,7
+24,Female,Graduate,Egypt,Dakahlia,6.0,TikTok,Yes,5.7,7,Single,2,7
+24,Male,Graduate,Egypt,Fayoum,4.6,TikTok,No,7.7,6,Single,3,6
+21,Male,Graduate,Egypt,Assiut,4.6,Instagram,No,6.9,6,Single,2,5
+22,Female,Undergraduate,Egypt,Red Sea,6.8,Snapchat,Yes,7.0,5,In Relationship,4,8
+21,Male,Undergraduate,Egypt,Luxor,5.1,WhatsApp,Yes,6.4,5,Single,4,8
+20,Male,Graduate,Egypt,Alexandria,4.2,Instagram,No,8.1,7,In Relationship,2,5
+22,Female,Graduate,Egypt,Monufia,4.6,Instagram,No,7.1,7,Single,2,5
+19,Female,Undergraduate,Egypt,Monufia,4.4,Facebook,No,6.8,7,Single,3,5
+24,Male,Undergraduate,Egypt,Assiut,4.7,Facebook,No,8.8,8,Single,2,4
+21,Female,Undergraduate,Egypt,Sharqia,4.1,TikTok,No,7.1,7,Single,2,4
+19,Male,Graduate,Egypt,Suez,4.7,Instagram,Yes,6.8,6,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Aswan,4.7,Instagram,Yes,7.2,6,Single,3,7
+22,Female,Graduate,Egypt,Luxor,5.0,TikTok,Yes,6.2,5,Single,4,7
+20,Male,Graduate,Egypt,Ismailia,4.3,TikTok,Yes,7.6,5,Single,3,7
+21,Female,Graduate,Egypt,Red Sea,3.5,KakaoTalk,No,8.3,8,Single,1,4
+21,Female,Graduate,Egypt,Gharbia,5.0,TikTok,Yes,7.1,6,Single,4,8
+24,Female,Graduate,Egypt,Qena,3.8,Twitter,No,7.8,8,In Relationship,2,5
+19,Female,Graduate,Egypt,Monufia,5.7,Instagram,Yes,5.9,5,Single,4,8
+20,Male,Graduate,Egypt,Sharqia,3.7,LinkedIn,No,7.3,7,Single,2,5
+20,Female,High School,Egypt,Monufia,3.3,TikTok,No,7.9,8,In Relationship,2,4
+19,Male,Graduate,Egypt,Sharqia,4.8,KakaoTalk,Yes,6.5,6,Single,3,7
+20,Female,Undergraduate,Egypt,Giza,5.4,Snapchat,Yes,7.4,6,In Relationship,4,7
+20,Male,Undergraduate,Egypt,Suez,5.0,Facebook,Yes,5.2,6,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Sharqia,8.5,TikTok,Yes,3.8,4,In Relationship,5,9
+20,Female,Graduate,Egypt,Ismailia,6.8,TikTok,Yes,5.0,4,Single,4,9
+19,Male,Undergraduate,Egypt,Cairo,5.0,Facebook,Yes,6.5,7,Single,2,7
+20,Male,Graduate,Egypt,Port Said,5.2,Facebook,Yes,6.9,5,In Relationship,3,7
+23,Female,Graduate,Egypt,Aswan,2.9,Facebook,No,8.6,8,Single,1,3
+19,Female,Graduate,Egypt,Beheira,3.6,Facebook,No,7.5,8,In Relationship,1,4
+24,Female,Graduate,Egypt,Suez,4.4,Instagram,No,7.4,7,Complicated,2,5
+23,Male,Undergraduate,Egypt,Beheira,2.2,Instagram,No,9.3,8,In Relationship,0,3
+19,Male,Graduate,Egypt,Assiut,5.5,Snapchat,Yes,6.4,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Alexandria,4.7,Snapchat,Yes,6.3,5,Single,3,8
+19,Male,Undergraduate,Egypt,Dakahlia,3.9,KakaoTalk,No,8.3,7,Single,2,5
+19,Male,Graduate,Egypt,Sohag,4.1,Facebook,Yes,6.2,6,Single,3,7
+22,Female,Undergraduate,Egypt,Beheira,3.4,Twitter,No,7.8,7,In Relationship,2,4
+21,Male,Graduate,Egypt,Qalyubia,5.6,Instagram,Yes,6.7,5,Single,3,8
+20,Female,Undergraduate,Egypt,Ismailia,3.8,Instagram,Yes,8.0,7,In Relationship,2,6
+23,Male,Graduate,Egypt,Assiut,4.9,TikTok,Yes,7.3,6,In Relationship,3,7
+24,Male,Undergraduate,Egypt,Qalyubia,4.0,Instagram,No,7.4,7,In Relationship,2,6
+24,Male,Undergraduate,Egypt,Sharqia,4.7,TikTok,No,7.0,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Giza,6.7,Facebook,Yes,6.5,6,Single,4,8
+22,Female,Graduate,Egypt,Luxor,6.6,Instagram,Yes,6.6,5,Single,4,8
+19,Male,Graduate,Egypt,Dakahlia,3.8,Instagram,No,8.3,8,Single,2,4
+19,Male,Graduate,Egypt,Qalyubia,6.3,Instagram,Yes,5.4,5,In Relationship,4,8
+21,Female,Graduate,Egypt,Cairo,4.2,Facebook,Yes,6.3,6,Single,3,7
+20,Male,Graduate,Egypt,Cairo,4.6,Facebook,Yes,7.4,7,In Relationship,3,6
+21,Female,Undergraduate,Egypt,Suez,4.4,TikTok,Yes,5.5,6,Single,2,8
+19,Male,Undergraduate,Egypt,Fayoum,7.3,TikTok,Yes,4.8,4,In Relationship,5,9
+22,Male,Graduate,Egypt,Suez,5.3,Instagram,Yes,6.3,5,Complicated,4,8
+20,Male,Graduate,Egypt,Fayoum,8.3,TikTok,Yes,5.2,5,In Relationship,4,9
+20,Female,Graduate,Egypt,Sharqia,5.2,Instagram,Yes,6.4,5,Single,4,8
+24,Male,Graduate,Egypt,Port Said,4.5,Instagram,No,7.1,7,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Gharbia,3.1,Facebook,No,8.4,8,Single,0,4
+19,Female,Graduate,Egypt,Suez,4.3,YouTube,Yes,6.9,6,In Relationship,3,7
+24,Male,Undergraduate,Egypt,Beheira,4.5,Facebook,No,6.3,6,In Relationship,3,5
+19,Male,Graduate,Egypt,Red Sea,3.0,TikTok,No,8.2,8,In Relationship,2,4
+21,Male,Graduate,Egypt,Minya,3.8,Instagram,No,7.8,8,In Relationship,2,5
+18,Female,Graduate,Egypt,Qena,5.3,Facebook,Yes,5.9,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Qalyubia,6.4,TikTok,Yes,5.8,5,Single,4,8
+21,Male,Graduate,Egypt,Beheira,6.7,Facebook,Yes,6.5,5,Single,4,9
+21,Female,Undergraduate,Egypt,Giza,4.3,Instagram,No,8.9,6,In Relationship,3,5
+21,Male,Graduate,Egypt,Giza,4.8,WhatsApp,No,6.4,8,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Red Sea,4.7,Facebook,No,6.0,6,In Relationship,3,6
+20,Male,Graduate,Egypt,Assiut,2.9,TikTok,No,7.8,8,Single,1,4
+24,Male,Graduate,Egypt,Sharqia,3.5,Instagram,No,8.3,8,In Relationship,2,5
+20,Female,Graduate,Egypt,Giza,5.0,Instagram,Yes,7.9,6,In Relationship,4,8
+20,Female,Graduate,Egypt,Suez,6.9,WhatsApp,Yes,5.2,5,Single,4,8
+19,Female,Undergraduate,Egypt,Sharqia,5.6,LinkedIn,Yes,6.5,5,Single,4,8
+20,Male,Undergraduate,Egypt,Sohag,4.7,TikTok,Yes,7.4,6,Complicated,3,7
+24,Male,Graduate,Egypt,Ismailia,5.1,Instagram,Yes,6.3,6,Single,3,7
+21,Female,Graduate,Egypt,Dakahlia,3.7,Facebook,No,7.2,8,Single,1,5
+19,Male,Undergraduate,Egypt,Port Said,4.4,Instagram,Yes,8.4,7,Single,3,7
+23,Female,Undergraduate,Egypt,Beheira,2.4,Facebook,No,8.7,8,Single,1,3
+20,Female,Graduate,Egypt,Sohag,5.7,Instagram,No,6.4,7,Single,2,5
+19,Female,Undergraduate,Egypt,Suez,4.1,Instagram,Yes,7.8,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Gharbia,6.9,WhatsApp,Yes,4.4,6,Complicated,4,8
+22,Male,Graduate,Egypt,Fayoum,7.0,Facebook,Yes,4.4,6,Single,3,7
+20,Male,Graduate,Egypt,Gharbia,4.2,WhatsApp,No,7.6,8,Single,2,5
+22,Male,Undergraduate,Egypt,Beheira,5.5,Instagram,Yes,5.9,6,Single,2,7
+20,Female,Undergraduate,Egypt,Ismailia,5.4,Twitter,Yes,7.2,6,In Relationship,3,8
+19,Female,Graduate,Egypt,Aswan,3.7,WhatsApp,No,6.8,8,Complicated,1,4
+22,Female,Undergraduate,Egypt,Ismailia,4.5,TikTok,Yes,6.0,6,Single,2,7
+22,Female,Graduate,Egypt,Gharbia,4.2,Instagram,Yes,7.5,6,Single,3,7
+21,Male,Graduate,Egypt,Alexandria,4.5,Twitter,Yes,7.5,6,Complicated,3,7
+20,Female,Undergraduate,Egypt,Dakahlia,4.3,WhatsApp,No,7.5,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Dakahlia,6.9,Facebook,Yes,5.4,5,Complicated,4,8
+21,Male,Graduate,Egypt,Beheira,4.9,Instagram,Yes,7.4,5,Single,4,7
+20,Male,Graduate,Egypt,Qena,4.6,Twitter,Yes,7.2,6,Single,3,7
+24,Female,Graduate,Egypt,Sharqia,6.8,VKontakte,Yes,5.7,6,In Relationship,3,8
+19,Male,Graduate,Egypt,Assiut,4.0,TikTok,Yes,7.6,5,Single,4,7
+22,Female,Undergraduate,Egypt,Monufia,6.2,TikTok,Yes,5.9,4,In Relationship,4,9
+18,Male,Undergraduate,Egypt,Dakahlia,6.5,Facebook,Yes,5.1,6,Single,3,8
+24,Male,Undergraduate,Egypt,Qena,3.2,TikTok,No,8.1,7,In Relationship,2,4
+18,Female,Graduate,Egypt,Monufia,4.7,WhatsApp,Yes,6.4,7,In Relationship,2,6
+18,Female,Undergraduate,Egypt,Monufia,4.5,TikTok,Yes,7.4,5,Complicated,4,8
+21,Female,Graduate,Egypt,Minya,4.0,Instagram,Yes,7.4,6,Single,4,8
+20,Male,Undergraduate,Egypt,Giza,5.4,TikTok,Yes,7.4,7,Single,3,6
+19,Male,Graduate,Egypt,Red Sea,6.0,Instagram,Yes,5.5,5,In Relationship,3,8
+19,Male,Undergraduate,Egypt,Luxor,4.7,TikTok,Yes,7.6,6,Single,3,7
+19,Male,Graduate,Egypt,Suez,2.3,Facebook,No,9.0,7,Single,2,4
+21,Female,Graduate,Egypt,Gharbia,5.6,Facebook,Yes,5.7,6,Single,2,7
+21,Female,Undergraduate,Egypt,Suez,4.9,WhatsApp,Yes,7.9,7,Single,3,6
+21,Male,High School,Egypt,Gharbia,4.2,Instagram,No,7.7,7,Single,2,5
+20,Male,Undergraduate,Egypt,Gharbia,6.7,Twitter,Yes,5.4,6,Single,4,7
+20,Male,Graduate,Egypt,Qalyubia,3.0,LinkedIn,No,8.0,8,In Relationship,1,4
+19,Female,Graduate,Egypt,Red Sea,4.2,Instagram,No,7.9,7,Single,3,6
+19,Female,Graduate,Egypt,Aswan,5.7,TikTok,Yes,5.5,5,In Relationship,4,8
+21,Male,Undergraduate,Egypt,Qena,4.0,Instagram,No,8.3,7,Single,3,6
+20,Male,Undergraduate,Egypt,Beheira,4.1,Instagram,No,7.3,8,In Relationship,2,4
+21,Male,Graduate,Egypt,Sohag,4.0,Instagram,Yes,7.5,7,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Qena,4.6,Facebook,No,6.7,7,Single,3,5
+22,Female,Graduate,Egypt,Monufia,4.2,Instagram,No,8.1,7,Single,2,4
+21,Male,Undergraduate,Egypt,Sharqia,5.5,Facebook,Yes,7.1,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Giza,4.8,Instagram,Yes,5.9,5,Single,3,8
+21,Female,High School,Egypt,Suez,5.0,Facebook,Yes,6.6,6,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Port Said,5.2,WhatsApp,Yes,7.0,6,Single,3,6
+19,Female,Undergraduate,Egypt,Port Said,3.6,Facebook,No,8.4,7,Single,3,5
+22,Male,Graduate,Egypt,Beheira,5.0,WhatsApp,No,6.9,7,Single,2,5
+20,Male,Undergraduate,Egypt,Cairo,5.2,WhatsApp,No,6.3,6,In Relationship,2,5
+19,Female,Graduate,Egypt,Red Sea,6.3,TikTok,Yes,6.7,5,Single,4,9
+19,Female,Graduate,Egypt,Gharbia,6.4,TikTok,Yes,5.3,5,Complicated,4,8
+22,Male,Undergraduate,Egypt,Aswan,3.2,TikTok,No,8.1,8,Single,1,4
+21,Female,Graduate,Egypt,Red Sea,4.8,Twitter,Yes,7.0,5,Complicated,3,7
+22,Male,Undergraduate,Egypt,Suez,6.6,YouTube,No,5.0,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Monufia,4.3,Instagram,Yes,7.3,6,In Relationship,3,7
+22,Male,Graduate,Egypt,Gharbia,3.9,Twitter,Yes,7.8,6,In Relationship,2,7
+18,Male,Undergraduate,Egypt,Suez,7.5,Instagram,Yes,4.6,4,In Relationship,5,9
+22,Female,Undergraduate,Egypt,Ismailia,5.7,TikTok,Yes,6.8,6,Single,3,8
+20,Female,Graduate,Egypt,Red Sea,5.6,Instagram,Yes,6.8,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Red Sea,4.4,Facebook,Yes,5.9,6,In Relationship,3,8
+23,Male,Undergraduate,Egypt,Cairo,3.6,WhatsApp,No,6.9,7,Complicated,1,5
+22,Male,Undergraduate,Egypt,Ismailia,3.7,TikTok,No,8.4,8,In Relationship,0,3
+23,Male,High School,Egypt,Port Said,3.7,Instagram,No,7.9,8,Complicated,2,5
+19,Male,Undergraduate,Egypt,Ismailia,6.1,TikTok,Yes,5.0,5,Single,4,9
+22,Male,Undergraduate,Egypt,Monufia,5.8,TikTok,No,8.5,6,In Relationship,2,5
+22,Female,Graduate,Egypt,Fayoum,4.6,WhatsApp,Yes,7.4,6,Complicated,2,7
+19,Male,Undergraduate,Egypt,Assiut,5.6,Instagram,Yes,6.0,5,Single,4,8
+23,Female,Undergraduate,Egypt,Monufia,4.8,WeChat,No,7.2,6,Single,3,5
+19,Female,Undergraduate,Egypt,Minya,3.3,Twitter,No,8.0,7,Single,2,4
+21,Male,Undergraduate,Egypt,Beheira,5.6,Instagram,Yes,7.4,6,Single,3,7
+21,Female,Graduate,Egypt,Luxor,6.1,Instagram,Yes,5.0,4,In Relationship,5,9
+21,Female,Undergraduate,Egypt,Gharbia,5.4,TikTok,Yes,6.7,5,Single,4,8
+22,Male,Undergraduate,Egypt,Cairo,4.4,Facebook,Yes,8.2,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Qena,3.9,KakaoTalk,No,7.1,7,Single,2,6
+19,Male,Graduate,Egypt,Port Said,4.2,LINE,No,7.7,7,Single,3,4
+19,Male,Graduate,Egypt,Cairo,5.7,Instagram,Yes,7.4,7,Single,3,7
+19,Female,Graduate,Egypt,Giza,3.7,Snapchat,No,7.1,7,In Relationship,3,5
+20,Female,Graduate,Egypt,Red Sea,5.0,TikTok,Yes,6.0,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Dakahlia,6.0,Instagram,Yes,6.2,4,Single,4,8
+22,Female,Graduate,Egypt,Alexandria,4.2,Instagram,No,8.6,7,In Relationship,2,4
+21,Male,Graduate,Egypt,Beheira,3.2,WhatsApp,No,7.7,8,Single,2,5
+20,Male,Undergraduate,Egypt,Luxor,6.0,Instagram,Yes,7.4,6,In Relationship,4,7
+19,Female,Graduate,Egypt,Port Said,4.9,Instagram,Yes,7.9,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Suez,4.6,Instagram,No,6.8,7,Single,2,4
+19,Female,Undergraduate,Egypt,Assiut,6.8,TikTok,Yes,5.5,5,Single,4,9
+18,Male,Undergraduate,Egypt,Red Sea,5.1,Facebook,Yes,6.5,6,In Relationship,4,8
+20,Male,Graduate,Egypt,Aswan,4.4,VKontakte,Yes,7.9,6,In Relationship,3,6
+20,Male,Undergraduate,Egypt,Giza,3.6,TikTok,No,9.1,7,In Relationship,3,5
+23,Female,Undergraduate,Egypt,Qalyubia,4.8,Twitter,No,6.1,6,In Relationship,2,5
+22,Male,Graduate,Egypt,Assiut,8.0,Instagram,Yes,4.4,5,Single,4,8
+21,Male,Undergraduate,Egypt,Fayoum,5.6,Instagram,Yes,5.3,5,In Relationship,3,7
+22,Female,Graduate,Egypt,Cairo,4.9,TikTok,Yes,6.6,6,In Relationship,3,6
+22,Female,Undergraduate,Egypt,Giza,3.6,Instagram,Yes,8.8,7,Single,3,6
+21,Female,Undergraduate,Egypt,Luxor,5.6,Facebook,Yes,6.7,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Minya,5.5,Facebook,No,6.7,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Sharqia,3.1,Facebook,No,8.3,8,In Relationship,1,4
+22,Male,Graduate,Egypt,Qena,5.8,TikTok,Yes,6.5,5,Single,3,7
+21,Male,Graduate,Egypt,Minya,3.2,Facebook,No,8.3,8,Single,2,4
+21,Female,Undergraduate,Egypt,Giza,2.8,YouTube,No,8.8,8,Single,2,3
+24,Female,Graduate,Egypt,Sohag,4.7,TikTok,No,7.3,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Beheira,6.3,WeChat,Yes,6.4,6,Single,3,7
+22,Male,Undergraduate,Egypt,Dakahlia,4.1,KakaoTalk,No,6.7,8,Single,1,5
+20,Female,Graduate,Egypt,Qena,5.4,TikTok,Yes,5.8,5,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Beheira,4.5,Twitter,No,7.2,7,Single,2,5
+20,Male,Undergraduate,Egypt,Port Said,4.6,WhatsApp,Yes,7.6,6,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Ismailia,3.0,Instagram,No,9.5,7,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Suez,3.4,Instagram,No,8.5,8,Single,1,4
+22,Male,Undergraduate,Egypt,Sohag,6.5,WhatsApp,Yes,6.2,6,In Relationship,3,7
+19,Male,Graduate,Egypt,Luxor,4.4,TikTok,Yes,7.4,7,In Relationship,2,7
+24,Male,Undergraduate,Egypt,Giza,5.6,Facebook,Yes,6.7,5,Single,3,7
+21,Male,Undergraduate,Egypt,Minya,6.2,TikTok,Yes,4.3,4,Single,3,8
+19,Female,Undergraduate,Egypt,Gharbia,4.6,Instagram,No,7.8,7,Single,2,5
+21,Male,Graduate,Egypt,Alexandria,5.1,TikTok,Yes,7.8,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Sharqia,4.6,Instagram,No,6.0,6,Single,2,5
+22,Male,Undergraduate,Egypt,Luxor,2.8,WeChat,No,8.5,8,In Relationship,2,4
+19,Male,Graduate,Egypt,Qena,6.2,Instagram,Yes,5.1,5,In Relationship,4,9
+22,Female,Graduate,Egypt,Giza,5.7,Instagram,Yes,7.1,5,Single,4,8
+21,Male,Undergraduate,Egypt,Gharbia,7.1,Instagram,Yes,5.0,5,Single,3,8
+21,Female,Graduate,Egypt,Suez,4.7,Facebook,Yes,6.9,6,Single,3,6
+22,Male,Undergraduate,Egypt,Suez,2.7,TikTok,No,8.0,8,Single,1,4
+22,Female,Graduate,Egypt,Luxor,4.0,LINE,No,7.3,7,Single,3,5
+24,Male,Graduate,Egypt,Red Sea,6.9,Instagram,Yes,5.8,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Monufia,4.0,KakaoTalk,No,8.5,8,In Relationship,2,4
+19,Male,Graduate,Egypt,Gharbia,4.0,LINE,No,8.8,7,Single,2,5
+22,Female,Undergraduate,Egypt,Dakahlia,5.2,TikTok,Yes,6.1,6,Single,3,8
+21,Female,Graduate,Egypt,Minya,3.9,Instagram,No,6.1,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Aswan,4.6,Instagram,Yes,6.7,6,Single,3,7
+18,Female,Graduate,Egypt,Dakahlia,6.3,Instagram,Yes,5.4,5,Single,4,8
+20,Female,Graduate,Egypt,Aswan,8.5,Instagram,Yes,4.1,4,In Relationship,5,9
+21,Male,Graduate,Egypt,Ismailia,4.6,WeChat,No,7.4,7,Single,3,5
+19,Female,Undergraduate,Egypt,Cairo,4.0,TikTok,No,7.9,7,In Relationship,1,5
+21,Male,Graduate,Egypt,Sohag,2.4,KakaoTalk,No,8.4,8,In Relationship,0,4
+20,Male,Undergraduate,Egypt,Fayoum,3.6,VKontakte,No,8.2,8,Single,2,5
+21,Male,Graduate,Egypt,Giza,5.8,TikTok,Yes,5.5,5,In Relationship,4,7
+21,Male,Graduate,Egypt,Cairo,3.7,Facebook,No,8.7,7,In Relationship,3,5
+22,Male,Graduate,Egypt,Beheira,6.2,TikTok,Yes,6.5,5,Single,4,8
+21,Female,Graduate,Egypt,Gharbia,3.9,WeChat,No,7.0,8,Single,2,4
+20,Male,Undergraduate,Egypt,Monufia,4.1,WhatsApp,No,7.2,7,Single,2,5
+22,Female,Graduate,Egypt,Gharbia,5.9,Instagram,Yes,6.2,7,Single,3,7
+18,Female,Graduate,Egypt,Suez,5.7,Facebook,Yes,6.3,5,Single,4,8
+19,Female,Undergraduate,Egypt,Minya,5.8,TikTok,Yes,5.2,6,In Relationship,3,8
+21,Male,Undergraduate,Egypt,Qena,4.0,TikTok,No,7.7,8,Single,1,4
+21,Female,Graduate,Egypt,Dakahlia,4.9,Instagram,No,6.0,6,In Relationship,2,6
+21,Female,Graduate,Egypt,Minya,4.5,Facebook,Yes,5.8,5,Single,4,7
+20,Male,Undergraduate,Egypt,Assiut,4.5,Instagram,No,7.5,7,In Relationship,2,5
+18,Male,Undergraduate,Egypt,Dakahlia,7.3,WhatsApp,Yes,5.0,5,Single,4,8
+19,Female,Undergraduate,Egypt,Luxor,2.7,TikTok,No,9.4,8,Complicated,2,5
+20,Male,Graduate,Egypt,Gharbia,4.3,TikTok,Yes,7.3,7,In Relationship,3,7
+22,Male,Graduate,Egypt,Giza,5.4,TikTok,Yes,6.0,6,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Giza,3.2,TikTok,No,7.5,8,In Relationship,2,4
+21,Male,Graduate,Egypt,Alexandria,4.3,TikTok,Yes,7.5,7,Single,3,6
+21,Female,Graduate,Egypt,Minya,3.4,KakaoTalk,No,8.3,8,Single,1,4
+19,Female,Undergraduate,Egypt,Sharqia,6.0,TikTok,Yes,5.9,7,In Relationship,3,7
+22,Female,High School,Egypt,Giza,3.6,Instagram,Yes,7.1,7,Single,2,6
+20,Male,Undergraduate,Egypt,Giza,4.8,LINE,Yes,5.7,5,Single,4,7
+19,Female,Graduate,Egypt,Ismailia,4.6,TikTok,Yes,7.0,7,Single,3,7
+20,Male,Undergraduate,Egypt,Red Sea,4.7,Instagram,No,6.6,7,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Beheira,6.8,TikTok,Yes,6.3,5,Single,4,8
+22,Female,Undergraduate,Egypt,Sharqia,5.0,WeChat,No,7.0,6,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Minya,3.6,WhatsApp,No,8.6,8,In Relationship,1,4
+21,Female,Undergraduate,Egypt,Assiut,4.4,TikTok,Yes,5.5,7,In Relationship,2,6
+22,Male,Graduate,Egypt,Beheira,7.2,Facebook,Yes,6.1,5,Single,4,8
+23,Female,Graduate,Egypt,Ismailia,4.2,TikTok,Yes,7.4,7,Single,2,7
+22,Male,Undergraduate,Egypt,Sohag,4.2,Facebook,No,6.0,8,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Monufia,4.5,TikTok,Yes,7.2,7,Single,2,7
+19,Male,Undergraduate,Egypt,Alexandria,6.2,Instagram,Yes,5.7,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Red Sea,4.3,TikTok,No,6.5,8,Single,2,5
+21,Female,Undergraduate,Egypt,Suez,6.4,TikTok,Yes,6.1,4,Complicated,4,8
+20,Female,Graduate,Egypt,Suez,3.1,LinkedIn,No,8.8,7,Single,3,5
+20,Male,Graduate,Egypt,Gharbia,4.9,TikTok,Yes,7.8,6,In Relationship,3,6
+21,Female,High School,Egypt,Minya,3.1,Twitter,No,8.6,7,In Relationship,2,5
+20,Female,Undergraduate,Egypt,Monufia,4.0,TikTok,No,7.2,7,In Relationship,3,5
+19,Female,Undergraduate,Egypt,Qena,4.3,TikTok,No,8.0,8,Single,2,5
+21,Male,Graduate,Egypt,Luxor,3.9,TikTok,Yes,7.3,7,Single,3,7
+24,Male,Graduate,Egypt,Alexandria,6.6,TikTok,Yes,6.7,5,Single,3,8
+23,Male,Graduate,Egypt,Suez,2.3,YouTube,No,9.5,8,Single,1,3
+21,Female,High School,Egypt,Sohag,4.2,Instagram,No,8.6,6,Single,3,5
+20,Female,Undergraduate,Egypt,Giza,8.3,LINE,Yes,5.8,5,In Relationship,4,9
+19,Female,Undergraduate,Egypt,Cairo,7.3,TikTok,Yes,5.2,5,Single,4,9
+21,Female,Undergraduate,Egypt,Port Said,4.0,Instagram,No,7.2,8,Complicated,1,4
+19,Female,Undergraduate,Egypt,Luxor,4.8,WhatsApp,Yes,6.5,5,Single,3,7
+19,Male,Graduate,Egypt,Gharbia,3.4,Instagram,No,8.4,8,Single,2,4
+23,Female,Undergraduate,Egypt,Assiut,3.5,KakaoTalk,No,7.3,8,Single,2,5
+22,Male,Undergraduate,Egypt,Dakahlia,6.0,Instagram,Yes,6.4,5,In Relationship,3,7
+21,Female,Graduate,Egypt,Assiut,3.4,Instagram,No,7.2,7,In Relationship,1,4
+23,Female,Undergraduate,Egypt,Minya,3.1,Instagram,No,8.0,8,Single,2,4
+20,Male,Undergraduate,Egypt,Minya,4.9,Instagram,Yes,5.8,7,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Gharbia,6.8,TikTok,Yes,5.7,5,In Relationship,4,9
+19,Female,Undergraduate,Egypt,Ismailia,7.1,Facebook,Yes,4.9,4,Single,5,9
+21,Male,Undergraduate,Egypt,Red Sea,5.1,LINE,Yes,5.8,7,Single,2,7
+24,Male,Undergraduate,Egypt,Qalyubia,4.5,Instagram,Yes,7.6,6,Single,4,7
+21,Male,Graduate,Egypt,Beheira,2.9,TikTok,No,8.4,7,In Relationship,2,5
+20,Female,Graduate,Egypt,Qena,3.1,Instagram,Yes,8.2,6,Single,3,7
+19,Male,Undergraduate,Egypt,Cairo,8.1,WhatsApp,Yes,4.6,4,In Relationship,5,9
+22,Male,Graduate,Egypt,Qena,3.8,TikTok,No,7.9,7,Single,1,4
+19,Female,Graduate,Egypt,Fayoum,4.5,Twitter,Yes,6.8,7,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Minya,4.5,Facebook,No,6.8,6,Single,2,5
+20,Female,Graduate,Egypt,Red Sea,4.1,Instagram,No,7.1,6,In Relationship,2,5
+22,Male,Undergraduate,Egypt,Sharqia,5.8,Instagram,Yes,5.8,6,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Luxor,7.3,Facebook,Yes,5.1,5,Single,4,9
+20,Male,Graduate,Egypt,Port Said,3.6,WhatsApp,Yes,7.3,7,In Relationship,2,7
+19,Male,Graduate,Egypt,Minya,3.0,Instagram,No,9.3,7,In Relationship,2,4
+20,Male,Graduate,Egypt,Sharqia,4.4,Instagram,No,8.6,8,Single,2,5
+19,Female,Undergraduate,Egypt,Dakahlia,5.1,TikTok,Yes,7.9,6,In Relationship,2,7
+20,Male,Graduate,Egypt,Suez,6.0,LinkedIn,Yes,6.0,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Giza,4.6,Snapchat,No,7.2,7,Single,3,5
+22,Male,Undergraduate,Egypt,Red Sea,4.6,Instagram,Yes,7.4,6,Single,3,7
+22,Female,Graduate,Egypt,Luxor,4.6,Facebook,Yes,7.1,6,Single,3,7
+22,Female,Graduate,Egypt,Dakahlia,4.7,TikTok,Yes,7.8,6,Single,3,7
+19,Male,Undergraduate,Egypt,Port Said,5.4,Instagram,Yes,7.1,6,Single,3,8
+21,Female,Graduate,Egypt,Beheira,3.7,Instagram,No,7.9,8,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Giza,4.6,Instagram,Yes,5.6,5,Single,4,8
+18,Male,Graduate,Egypt,Sohag,3.0,Instagram,Yes,8.5,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Ismailia,3.8,Instagram,Yes,7.9,7,In Relationship,2,6
+22,Male,Graduate,Egypt,Monufia,3.2,WhatsApp,No,8.4,8,Single,2,5
+20,Female,Undergraduate,Egypt,Dakahlia,3.1,Twitter,No,7.9,8,Single,1,4
+19,Male,Undergraduate,Egypt,Cairo,4.6,TikTok,Yes,7.5,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Qena,4.7,Instagram,No,6.6,7,In Relationship,3,5
+19,Female,Undergraduate,Egypt,Monufia,6.4,Instagram,Yes,6.6,5,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Dakahlia,6.0,Instagram,Yes,6.9,6,Single,4,7
+21,Male,Graduate,Egypt,Qalyubia,6.1,Instagram,Yes,6.1,6,Single,2,6
+19,Female,Undergraduate,Egypt,Qalyubia,5.7,WhatsApp,Yes,6.1,6,In Relationship,3,6
+22,Female,Undergraduate,Egypt,Gharbia,4.7,Instagram,No,7.6,7,Single,3,5
+19,Male,Graduate,Egypt,Giza,5.7,Instagram,Yes,6.0,6,In Relationship,4,8
+21,Female,Graduate,Egypt,Assiut,5.8,VKontakte,Yes,5.6,5,Complicated,4,7
+22,Female,Graduate,Egypt,Minya,6.2,TikTok,Yes,5.9,5,Single,4,8
+20,Male,Graduate,Egypt,Luxor,3.4,Snapchat,No,8.1,8,Single,2,4
+20,Male,High School,Egypt,Port Said,5.6,TikTok,Yes,6.1,5,In Relationship,3,7
+21,Female,High School,Egypt,Monufia,2.2,WeChat,No,8.9,8,Single,1,4
+20,Male,Graduate,Egypt,Suez,3.8,TikTok,No,8.4,8,Single,2,5
+20,Male,Undergraduate,Egypt,Sohag,6.7,TikTok,Yes,5.9,5,Single,4,8
+20,Male,Undergraduate,Egypt,Ismailia,2.9,Instagram,No,7.4,8,Single,1,5
+20,Female,Graduate,Egypt,Luxor,4.8,WeChat,Yes,7.6,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Port Said,4.3,KakaoTalk,Yes,8.1,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Cairo,6.2,LINE,Yes,6.4,5,Single,4,8
+23,Male,Undergraduate,Egypt,Gharbia,2.7,TikTok,No,8.7,8,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Beheira,6.3,Facebook,Yes,5.4,5,In Relationship,4,9
+19,Female,Graduate,Egypt,Red Sea,5.1,Instagram,Yes,6.2,6,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Beheira,4.4,Instagram,Yes,8.2,6,In Relationship,4,7
+20,Male,Graduate,Egypt,Qena,5.4,WhatsApp,Yes,6.4,5,In Relationship,4,7
+22,Female,Graduate,Egypt,Minya,3.1,Facebook,No,8.3,7,Complicated,2,5
+19,Female,Graduate,Egypt,Suez,3.9,Instagram,Yes,5.7,7,Single,3,7
+19,Female,Graduate,Egypt,Monufia,6.3,TikTok,Yes,5.8,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Luxor,6.3,Instagram,Yes,5.5,6,Single,3,7
+22,Female,Graduate,Egypt,Fayoum,3.5,TikTok,Yes,7.4,6,Single,3,6
+20,Female,Undergraduate,Egypt,Port Said,3.9,TikTok,Yes,6.9,6,Single,3,7
+21,Male,Graduate,Egypt,Assiut,5.2,TikTok,No,7.0,7,Single,3,5
+23,Male,Graduate,Egypt,Ismailia,3.9,Instagram,Yes,7.1,6,Single,2,6
+22,Male,Graduate,Egypt,Sharqia,4.5,TikTok,Yes,8.0,5,In Relationship,3,7
+20,Male,Graduate,Egypt,Monufia,4.3,KakaoTalk,Yes,7.0,6,Single,3,8
+21,Female,Undergraduate,Egypt,Qena,3.1,TikTok,No,9.1,8,In Relationship,2,3
+22,Female,Undergraduate,Egypt,Gharbia,5.7,Instagram,Yes,6.9,5,Single,3,7
+20,Female,Undergraduate,Egypt,Assiut,3.3,Instagram,Yes,8.2,6,In Relationship,2,6
+19,Male,Graduate,Egypt,Alexandria,6.3,Instagram,Yes,6.1,5,In Relationship,3,8
+21,Male,Undergraduate,Egypt,Giza,7.2,WhatsApp,Yes,5.7,5,Complicated,4,9
+21,Male,Undergraduate,Egypt,Monufia,4.9,WhatsApp,Yes,6.7,6,Single,3,7
+20,Male,Graduate,Egypt,Port Said,4.8,YouTube,Yes,6.8,5,Single,3,8
+20,Female,Undergraduate,Egypt,Suez,6.8,KakaoTalk,Yes,5.8,6,Single,4,8
+22,Male,Undergraduate,Egypt,Suez,5.7,KakaoTalk,Yes,6.3,5,In Relationship,4,7
+21,Female,High School,Egypt,Sohag,3.2,Twitter,No,7.8,7,Single,2,4
+21,Female,Graduate,Egypt,Sohag,4.2,Instagram,No,7.2,7,Single,2,5
+23,Male,High School,Egypt,Giza,3.5,WhatsApp,No,9.2,8,Complicated,2,5
+19,Male,Undergraduate,Egypt,Cairo,2.8,TikTok,No,8.6,8,Single,1,4
+23,Male,Undergraduate,Egypt,Assiut,4.2,Facebook,No,5.5,8,In Relationship,2,4
+19,Male,Undergraduate,Egypt,Beheira,2.9,Instagram,No,8.0,8,Single,2,5
+20,Male,Graduate,Egypt,Gharbia,4.5,TikTok,No,8.4,7,Single,2,5
+19,Male,Undergraduate,Egypt,Sohag,4.8,Instagram,Yes,5.4,5,In Relationship,3,7
+23,Male,Graduate,Egypt,Qalyubia,4.0,LinkedIn,Yes,6.7,8,Single,2,6
+19,Male,Undergraduate,Egypt,Gharbia,4.6,Instagram,No,7.3,7,In Relationship,3,5
+21,Female,Graduate,Egypt,Suez,4.9,TikTok,Yes,7.2,6,Single,3,7
+22,Male,Graduate,Egypt,Gharbia,4.2,TikTok,Yes,7.8,6,Single,3,7
+20,Female,Undergraduate,Egypt,Gharbia,5.3,Instagram,Yes,7.8,5,In Relationship,4,8
+23,Female,Undergraduate,Egypt,Ismailia,4.5,Instagram,Yes,7.5,7,In Relationship,2,6
+20,Female,Graduate,Egypt,Giza,5.3,Instagram,Yes,6.5,5,In Relationship,3,7
+24,Female,Undergraduate,Egypt,Qalyubia,5.9,Facebook,Yes,6.7,6,Single,3,7
+22,Male,Undergraduate,Egypt,Aswan,3.3,Facebook,No,8.6,8,Single,1,3
+19,Male,Graduate,Egypt,Giza,6.0,LINE,Yes,5.3,5,In Relationship,3,8
+19,Female,Graduate,Egypt,Red Sea,2.9,LinkedIn,No,8.8,7,In Relationship,2,5
+22,Male,Undergraduate,Egypt,Sharqia,3.8,Facebook,No,8.3,7,In Relationship,2,5
+24,Female,Undergraduate,Egypt,Giza,5.7,TikTok,No,7.1,8,Single,3,5
+24,Male,Graduate,Egypt,Fayoum,3.8,Instagram,No,7.2,6,Single,2,4
+22,Male,Undergraduate,Egypt,Alexandria,6.7,Instagram,Yes,4.4,6,In Relationship,3,7
+21,Male,High School,Egypt,Gharbia,5.7,Instagram,No,5.9,6,Single,3,6
+21,Male,Undergraduate,Egypt,Beheira,4.0,Twitter,No,8.2,6,In Relationship,3,5
+21,Female,Undergraduate,Egypt,Fayoum,5.1,Instagram,Yes,6.5,4,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Dakahlia,4.7,Instagram,No,6.3,7,In Relationship,1,5
+23,Female,Graduate,Egypt,Port Said,3.5,Facebook,No,8.0,7,Single,2,5
+20,Female,Graduate,Egypt,Sharqia,6.1,VKontakte,Yes,5.9,5,Single,4,8
+19,Female,Graduate,Egypt,Giza,7.1,Instagram,Yes,5.1,5,In Relationship,4,9
+20,Female,Graduate,Egypt,Gharbia,4.5,Facebook,No,6.2,7,In Relationship,2,6
+20,Female,Undergraduate,Egypt,Port Said,4.6,Facebook,Yes,7.2,5,Single,4,7
+23,Male,Undergraduate,Egypt,Qalyubia,4.5,Instagram,Yes,7.3,6,Single,3,6
+21,Female,Graduate,Egypt,Dakahlia,3.8,Instagram,No,8.1,7,In Relationship,2,4
+22,Female,Undergraduate,Egypt,Assiut,5.4,Instagram,Yes,7.8,5,Single,4,8
+20,Male,Graduate,Egypt,Alexandria,5.6,WeChat,Yes,6.3,5,Single,3,8
+21,Female,Graduate,Egypt,Fayoum,4.5,Instagram,Yes,7.4,6,Single,3,6
+20,Female,Undergraduate,Egypt,Alexandria,3.6,Instagram,Yes,7.0,7,In Relationship,2,6
+24,Male,Graduate,Egypt,Qena,5.2,TikTok,No,6.3,6,In Relationship,3,6
+22,Female,Undergraduate,Egypt,Cairo,4.9,Twitter,Yes,5.0,6,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Monufia,2.3,Instagram,No,8.5,8,Complicated,1,3
+23,Male,Undergraduate,Egypt,Sohag,4.6,Snapchat,No,8.6,7,Single,2,4
+19,Female,Undergraduate,Egypt,Qena,4.1,Instagram,No,8.3,7,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Aswan,4.7,KakaoTalk,No,8.0,7,Single,2,5
+19,Male,Graduate,Egypt,Fayoum,2.1,TikTok,No,8.8,8,In Relationship,0,4
+21,Male,Graduate,Egypt,Aswan,4.3,Facebook,Yes,5.9,6,Single,3,7
+19,Male,Graduate,Egypt,Beheira,3.1,WhatsApp,No,8.4,8,In Relationship,2,4
+22,Male,Undergraduate,Egypt,Cairo,6.2,Instagram,Yes,6.2,6,Single,4,8
+19,Male,Undergraduate,Egypt,Monufia,4.8,TikTok,No,7.8,7,In Relationship,2,5
+23,Female,Graduate,Egypt,Aswan,4.0,WhatsApp,Yes,6.9,5,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Qalyubia,5.8,Facebook,Yes,5.2,5,Single,3,7
+23,Female,Graduate,Egypt,Port Said,4.1,Facebook,No,7.8,8,Single,2,4
+20,Male,Undergraduate,Egypt,Minya,4.2,Instagram,No,7.9,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Beheira,4.7,Instagram,Yes,7.8,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Red Sea,7.0,Facebook,Yes,5.5,4,In Relationship,4,9
+20,Male,Graduate,Egypt,Monufia,2.8,Instagram,Yes,9.2,6,Single,3,7
+22,Female,Undergraduate,Egypt,Dakahlia,4.5,LinkedIn,Yes,7.7,6,In Relationship,3,6
+22,Male,Undergraduate,Egypt,Cairo,4.6,Twitter,Yes,6.6,6,Single,3,7
+20,Male,Graduate,Egypt,Giza,5.8,WhatsApp,Yes,5.8,7,In Relationship,3,6
+21,Female,Undergraduate,Egypt,Gharbia,4.1,Instagram,No,8.5,7,In Relationship,2,5
+24,Female,Graduate,Egypt,Monufia,5.0,Facebook,Yes,6.8,6,Single,3,7
+19,Female,Graduate,Egypt,Qena,6.9,Instagram,Yes,4.5,4,Single,4,9
+21,Female,Graduate,Egypt,Alexandria,4.2,TikTok,Yes,7.0,6,Single,3,7
+20,Female,Undergraduate,Egypt,Ismailia,5.7,Instagram,Yes,5.2,5,Single,4,8
+20,Female,Undergraduate,Egypt,Alexandria,3.7,YouTube,No,8.4,7,Single,2,5
+22,Male,Undergraduate,Egypt,Fayoum,3.8,Facebook,No,7.9,8,Single,1,4
+19,Male,Graduate,Egypt,Aswan,5.7,Instagram,Yes,6.3,5,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Dakahlia,7.0,TikTok,Yes,5.7,4,In Relationship,5,9
+20,Female,Graduate,Egypt,Suez,6.6,LinkedIn,Yes,6.6,5,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Luxor,5.5,Facebook,Yes,6.9,6,In Relationship,4,7
+22,Female,Undergraduate,Egypt,Beheira,7.2,TikTok,Yes,4.0,5,In Relationship,2,8
+21,Female,Undergraduate,Egypt,Sohag,5.8,Instagram,Yes,6.0,6,Single,3,8
+20,Female,High School,Egypt,Dakahlia,4.7,Facebook,No,6.5,8,Single,1,5
+24,Male,Undergraduate,Egypt,Luxor,6.5,TikTok,Yes,6.0,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Port Said,5.7,Instagram,Yes,5.1,6,Single,3,8
+22,Male,Graduate,Egypt,Cairo,2.6,Instagram,No,7.3,7,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Qena,5.4,Facebook,Yes,5.3,7,Single,3,6
+21,Female,Undergraduate,Egypt,Suez,7.8,TikTok,Yes,4.4,5,Single,4,8
+19,Male,Undergraduate,Egypt,Suez,4.6,Instagram,Yes,5.9,6,In Relationship,4,7
+21,Male,Graduate,Egypt,Sohag,4.7,TikTok,Yes,7.8,6,Single,3,6
+23,Female,Undergraduate,Egypt,Beheira,3.4,TikTok,No,8.5,8,Single,2,4
+24,Male,Graduate,Egypt,Beheira,4.0,LINE,No,8.5,8,Single,2,4
+22,Male,Graduate,Egypt,Fayoum,6.5,TikTok,Yes,6.4,5,In Relationship,4,9
+22,Female,Graduate,Egypt,Giza,5.3,TikTok,Yes,5.8,6,Single,3,7
+19,Male,Undergraduate,Egypt,Luxor,4.9,Instagram,Yes,5.9,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Suez,5.1,Instagram,Yes,4.9,6,In Relationship,4,7
+20,Male,Graduate,Egypt,Dakahlia,5.5,TikTok,Yes,6.4,6,In Relationship,4,7
+24,Male,Undergraduate,Egypt,Gharbia,3.9,LinkedIn,No,7.3,7,Single,2,5
+19,Female,Graduate,Egypt,Luxor,7.5,Instagram,Yes,4.3,5,Single,4,9
+22,Male,Undergraduate,Egypt,Sharqia,5.5,Instagram,Yes,6.5,6,In Relationship,4,7
+20,Female,Undergraduate,Egypt,Suez,4.2,TikTok,Yes,6.2,7,Single,2,6
+19,Male,Graduate,Egypt,Dakahlia,4.5,Instagram,Yes,6.7,6,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Assiut,4.2,Instagram,No,7.9,8,In Relationship,2,4
+22,Male,High School,Egypt,Sharqia,3.1,TikTok,No,8.4,7,In Relationship,2,6
+19,Male,Undergraduate,Egypt,Sharqia,5.3,KakaoTalk,Yes,6.0,7,In Relationship,3,6
+21,Female,Undergraduate,Egypt,Cairo,5.8,WhatsApp,No,6.8,7,Single,2,5
+22,Female,Graduate,Egypt,Minya,4.9,Facebook,No,8.0,7,Single,3,5
+19,Male,Undergraduate,Egypt,Fayoum,4.0,Facebook,No,7.1,7,In Relationship,2,5
+24,Female,Undergraduate,Egypt,Gharbia,5.9,Facebook,Yes,5.9,5,Single,4,7
+21,Female,Graduate,Egypt,Giza,3.2,TikTok,Yes,7.9,6,Single,3,6
+19,Male,High School,Egypt,Ismailia,3.0,Facebook,No,8.6,8,Single,1,4
+20,Male,Graduate,Egypt,Monufia,3.5,WhatsApp,No,7.7,8,Single,2,5
+21,Female,Undergraduate,Egypt,Minya,5.2,TikTok,Yes,6.4,6,Single,3,8
+19,Female,Graduate,Egypt,Cairo,3.9,TikTok,No,7.3,7,Single,2,5
+18,Female,Undergraduate,Egypt,Dakahlia,5.2,TikTok,No,7.6,6,Single,3,5
+23,Female,Graduate,Egypt,Qalyubia,3.7,YouTube,No,7.8,7,Single,2,4
+20,Male,Graduate,Egypt,Sharqia,4.5,Instagram,Yes,7.2,5,Single,4,8
+22,Male,Graduate,Egypt,Ismailia,4.4,WhatsApp,Yes,6.7,6,Single,3,8
+21,Male,Graduate,Egypt,Assiut,5.7,WhatsApp,Yes,6.1,6,Single,3,7
+22,Female,Graduate,Egypt,Suez,3.2,Facebook,No,7.7,8,Single,1,3
+20,Female,Graduate,Egypt,Monufia,5.1,TikTok,Yes,7.0,5,In Relationship,4,8
+23,Female,Graduate,Egypt,Luxor,4.8,Facebook,No,6.1,7,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Qalyubia,3.0,WhatsApp,No,8.1,7,In Relationship,2,4
+19,Female,Undergraduate,Egypt,Giza,5.2,Facebook,Yes,5.2,5,In Relationship,3,8
+19,Male,Undergraduate,Egypt,Fayoum,6.7,Facebook,Yes,6.2,5,Single,4,8
+20,Male,Undergraduate,Egypt,Ismailia,2.9,Instagram,No,8.7,7,In Relationship,2,5
+23,Male,Graduate,Egypt,Dakahlia,2.7,Instagram,No,7.1,8,In Relationship,1,4
+21,Female,Graduate,Egypt,Gharbia,5.5,Instagram,Yes,7.4,7,Single,3,7
+19,Female,Graduate,Egypt,Fayoum,3.0,TikTok,Yes,8.8,8,Single,3,6
+20,Female,Undergraduate,Egypt,Aswan,4.7,TikTok,Yes,6.5,6,Single,3,7
+21,Female,Undergraduate,Egypt,Minya,3.1,Instagram,No,8.7,8,In Relationship,2,4
+22,Male,Undergraduate,Egypt,Aswan,4.0,WhatsApp,No,8.3,8,In Relationship,2,5
+20,Male,Graduate,Egypt,Gharbia,4.8,Facebook,Yes,5.8,5,In Relationship,3,8
+24,Male,Graduate,Egypt,Dakahlia,5.1,TikTok,Yes,6.7,5,Single,4,8
+19,Male,Graduate,Egypt,Fayoum,5.6,Instagram,Yes,7.5,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Port Said,5.2,Instagram,Yes,6.9,7,In Relationship,2,7
+20,Male,Undergraduate,Egypt,Minya,5.4,WhatsApp,Yes,6.3,6,Single,3,7
+24,Male,Undergraduate,Egypt,Giza,3.3,Facebook,No,8.6,8,In Relationship,1,3
+22,Female,Undergraduate,Egypt,Assiut,5.2,Facebook,Yes,7.5,7,In Relationship,2,7
+20,Female,Undergraduate,Egypt,Qalyubia,4.4,Facebook,Yes,7.2,7,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Aswan,5.4,Facebook,No,7.9,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Alexandria,4.7,Facebook,No,7.0,8,In Relationship,2,5
+19,Female,Graduate,Egypt,Luxor,5.5,TikTok,Yes,6.8,5,Single,4,7
+22,Male,Graduate,Egypt,Sharqia,5.3,Facebook,Yes,6.4,5,In Relationship,4,7
+19,Female,Graduate,Egypt,Assiut,2.6,Instagram,No,7.3,8,In Relationship,2,4
+18,Male,Graduate,Egypt,Beheira,4.4,VKontakte,No,7.8,6,Single,3,5
+22,Male,Undergraduate,Egypt,Fayoum,6.8,Instagram,Yes,5.4,5,Single,3,7
+22,Female,Undergraduate,Egypt,Cairo,6.9,LINE,Yes,6.8,4,Single,4,8
+20,Female,Undergraduate,Egypt,Minya,4.6,Twitter,Yes,7.1,6,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Sohag,3.4,Instagram,No,9.1,7,Single,2,4
+19,Female,Undergraduate,Egypt,Assiut,6.5,TikTok,Yes,6.8,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Beheira,5.9,WhatsApp,Yes,6.2,6,Single,4,7
+22,Male,Graduate,Egypt,Ismailia,5.2,TikTok,Yes,5.5,6,Single,2,7
+19,Male,Undergraduate,Egypt,Suez,7.0,Facebook,Yes,5.7,5,Single,4,8
+21,Male,Undergraduate,Egypt,Luxor,3.9,Instagram,Yes,7.5,6,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Monufia,5.0,Instagram,Yes,6.7,6,In Relationship,4,7
+20,Female,Graduate,Egypt,Qalyubia,4.9,Instagram,No,5.8,6,In Relationship,2,5
+22,Male,Undergraduate,Egypt,Giza,4.6,WhatsApp,Yes,5.9,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Fayoum,6.8,Instagram,Yes,6.5,6,Single,3,8
+20,Male,Graduate,Egypt,Giza,5.9,Instagram,Yes,6.2,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Cairo,3.2,Instagram,No,8.8,7,Single,2,5
+23,Female,Graduate,Egypt,Luxor,3.6,TikTok,No,7.8,8,Single,1,4
+21,Female,Graduate,Egypt,Giza,6.5,WeChat,Yes,6.2,6,In Relationship,4,8
+21,Female,Graduate,Egypt,Gharbia,1.5,WhatsApp,No,9.6,8,Single,2,3
+22,Female,Graduate,Egypt,Fayoum,5.8,Instagram,Yes,5.6,5,Single,4,8
+20,Male,Graduate,Egypt,Ismailia,3.8,Instagram,No,8.1,7,Single,2,5
+19,Male,Graduate,Egypt,Alexandria,3.8,TikTok,Yes,6.9,6,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Aswan,3.5,Instagram,No,8.5,7,Single,2,5
+24,Male,Graduate,Egypt,Red Sea,4.0,Instagram,No,7.4,8,Single,2,4
+21,Female,Graduate,Egypt,Alexandria,4.2,Facebook,Yes,8.1,5,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Port Said,2.8,LinkedIn,No,9.2,6,Single,2,5
+20,Male,Graduate,Egypt,Qalyubia,4.5,WhatsApp,Yes,6.5,6,Single,4,7
+21,Female,Graduate,Egypt,Qena,3.6,TikTok,No,6.6,7,Single,2,5
+21,Female,High School,Egypt,Qalyubia,6.5,Facebook,Yes,5.2,5,In Relationship,3,8
+18,Female,Undergraduate,Egypt,Ismailia,5.0,Instagram,Yes,8.1,6,In Relationship,3,7
+23,Female,Graduate,Egypt,Dakahlia,3.7,WhatsApp,No,8.1,8,Single,2,4
+19,Female,Graduate,Egypt,Suez,3.3,Facebook,No,8.0,8,In Relationship,2,4
+19,Female,Graduate,Egypt,Cairo,6.1,TikTok,Yes,6.5,4,In Relationship,5,9
+21,Male,Graduate,Egypt,Qalyubia,4.9,Instagram,Yes,6.6,4,Single,4,9
+21,Female,Graduate,Egypt,Luxor,7.2,TikTok,Yes,4.6,4,Single,5,9
+19,Male,Graduate,Egypt,Luxor,4.8,Facebook,No,7.2,6,Single,2,6
+20,Female,Graduate,Egypt,Red Sea,4.5,TikTok,Yes,7.1,5,Single,3,7
+20,Female,Undergraduate,Egypt,Minya,4.9,Instagram,No,6.1,7,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Assiut,3.0,Instagram,Yes,8.0,6,Single,3,6
+19,Female,Graduate,Egypt,Beheira,4.9,Instagram,Yes,6.1,6,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Qalyubia,4.9,KakaoTalk,Yes,6.5,6,Single,2,7
+20,Male,Undergraduate,Egypt,Gharbia,4.0,Facebook,Yes,7.7,7,In Relationship,2,6
+22,Male,Undergraduate,Egypt,Monufia,6.9,TikTok,Yes,6.9,5,In Relationship,5,9
+20,Male,Graduate,Egypt,Aswan,4.1,VKontakte,No,8.5,8,Single,2,5
+22,Female,Graduate,Egypt,Qena,4.7,Instagram,Yes,5.7,6,Single,4,7
+20,Male,Undergraduate,Egypt,Gharbia,3.8,WhatsApp,No,8.5,8,Complicated,2,4
+21,Female,Undergraduate,Egypt,Cairo,4.9,TikTok,Yes,6.0,6,Single,3,6
+23,Female,Undergraduate,Egypt,Qalyubia,4.4,WhatsApp,No,7.2,7,Single,2,4
+22,Male,Graduate,Egypt,Suez,4.6,Instagram,Yes,7.6,7,Single,3,7
+22,Male,Undergraduate,Egypt,Port Said,4.8,LINE,No,6.6,7,Single,2,5
+23,Female,Graduate,Egypt,Red Sea,4.5,Facebook,No,8.0,8,Single,3,5
+19,Female,Undergraduate,Egypt,Fayoum,5.5,Facebook,Yes,7.5,4,In Relationship,4,9
+22,Male,Graduate,Egypt,Sharqia,4.7,KakaoTalk,Yes,6.9,5,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Dakahlia,4.6,WhatsApp,No,8.3,7,Single,3,5
+21,Male,Graduate,Egypt,Sohag,6.8,Facebook,Yes,5.8,6,In Relationship,3,8
+19,Male,Undergraduate,Egypt,Dakahlia,3.9,Instagram,Yes,7.9,6,Single,3,6
+19,Female,Graduate,Egypt,Cairo,7.1,WeChat,Yes,4.6,5,In Relationship,4,9
+20,Male,Graduate,Egypt,Minya,5.9,VKontakte,Yes,6.3,6,Single,3,7
+22,Female,Graduate,Egypt,Red Sea,4.9,LINE,No,6.8,6,In Relationship,2,5
+19,Male,Graduate,Egypt,Sohag,5.7,LinkedIn,Yes,6.5,6,Single,3,7
+20,Male,Graduate,Egypt,Luxor,4.1,Instagram,No,8.0,7,In Relationship,3,5
+24,Female,Graduate,Egypt,Dakahlia,5.3,Snapchat,Yes,6.2,4,In Relationship,3,8
+22,Male,Graduate,Egypt,Dakahlia,4.1,LINE,No,7.9,7,Single,2,4
+22,Male,Graduate,Egypt,Aswan,5.6,TikTok,Yes,6.8,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Assiut,5.3,Instagram,Yes,7.6,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Giza,5.6,Instagram,Yes,7.1,5,Single,4,8
+20,Female,Graduate,Egypt,Suez,5.0,Instagram,Yes,6.7,6,Single,3,7
+21,Male,Graduate,Egypt,Qalyubia,5.8,KakaoTalk,Yes,4.8,5,Single,4,8
+22,Female,Undergraduate,Egypt,Monufia,3.5,TikTok,No,8.9,8,In Relationship,2,3
+18,Female,Undergraduate,Egypt,Dakahlia,5.4,TikTok,Yes,6.6,6,Single,4,8
+21,Female,High School,Egypt,Assiut,5.6,Instagram,Yes,6.0,5,In Relationship,3,8
+22,Male,Graduate,Egypt,Cairo,3.8,Facebook,No,8.3,8,Single,2,4
+20,Male,Graduate,Egypt,Sharqia,7.0,Instagram,Yes,6.3,6,Single,4,7
+21,Male,Undergraduate,Egypt,Port Said,4.8,Instagram,No,7.8,8,Single,2,5
+19,Female,Graduate,Egypt,Red Sea,6.1,Snapchat,Yes,5.9,5,Single,3,8
+20,Male,Graduate,Egypt,Giza,8.0,Instagram,Yes,5.3,4,In Relationship,5,9
+20,Male,Undergraduate,Egypt,Port Said,4.9,TikTok,Yes,6.0,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Giza,6.9,Instagram,Yes,5.9,5,Single,3,8
+21,Female,Undergraduate,Egypt,Port Said,5.7,Instagram,Yes,6.7,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Dakahlia,5.9,TikTok,Yes,7.7,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Qalyubia,3.2,Instagram,No,8.3,7,In Relationship,2,5
+20,Female,Undergraduate,Egypt,Fayoum,4.9,TikTok,Yes,7.8,6,Single,3,6
+19,Male,Undergraduate,Egypt,Port Said,6.1,TikTok,Yes,6.1,6,Single,3,7
+21,Male,Undergraduate,Egypt,Ismailia,3.8,Instagram,No,8.7,7,Single,2,5
+21,Female,Undergraduate,Egypt,Red Sea,5.1,WeChat,Yes,7.4,6,In Relationship,3,7
+22,Female,Graduate,Egypt,Aswan,4.5,Instagram,No,8.7,7,Single,3,5
+21,Male,Undergraduate,Egypt,Gharbia,2.6,Instagram,No,8.8,8,Complicated,2,3
+22,Female,Undergraduate,Egypt,Luxor,7.5,Instagram,Yes,3.8,5,Single,4,9
+21,Male,Undergraduate,Egypt,Sharqia,5.5,TikTok,Yes,6.7,7,In Relationship,3,6
+23,Male,Undergraduate,Egypt,Ismailia,4.8,Instagram,No,6.3,6,Single,2,5
+20,Male,Undergraduate,Egypt,Red Sea,7.8,TikTok,Yes,4.2,4,In Relationship,5,9
+19,Male,Undergraduate,Egypt,Monufia,7.2,WhatsApp,Yes,3.9,4,In Relationship,4,9
+21,Female,Graduate,Egypt,Cairo,4.6,Instagram,Yes,6.1,6,In Relationship,3,8
+21,Male,Graduate,Egypt,Minya,6.4,Facebook,Yes,5.5,6,Single,3,7
+21,Male,Undergraduate,Egypt,Suez,5.5,TikTok,Yes,6.6,6,Single,3,7
+20,Female,Graduate,Egypt,Red Sea,5.3,Facebook,Yes,5.6,5,Complicated,3,8
+22,Female,Undergraduate,Egypt,Assiut,4.8,Snapchat,Yes,7.8,6,Single,4,7
+19,Male,Undergraduate,Egypt,Port Said,4.5,Instagram,Yes,8.3,6,In Relationship,3,6
+20,Male,Graduate,Egypt,Cairo,5.2,YouTube,Yes,6.5,5,In Relationship,3,8
+20,Male,Graduate,Egypt,Aswan,3.7,TikTok,No,8.7,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Qalyubia,4.3,Instagram,No,8.3,7,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Aswan,4.7,TikTok,Yes,7.2,6,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Fayoum,4.6,WhatsApp,Yes,6.5,5,Complicated,4,8
+22,Female,Graduate,Egypt,Port Said,4.2,TikTok,No,6.7,8,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Qalyubia,8.5,Instagram,Yes,3.8,4,Complicated,5,9
+20,Male,Graduate,Egypt,Aswan,6.9,KakaoTalk,Yes,4.5,5,Single,4,8
+20,Female,Undergraduate,Egypt,Luxor,4.2,LINE,No,8.3,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Qena,3.3,Instagram,No,8.3,7,Single,1,4
+20,Male,Undergraduate,Egypt,Fayoum,5.5,WhatsApp,Yes,7.4,7,Single,2,7
+22,Male,Undergraduate,Egypt,Red Sea,6.5,Instagram,Yes,5.8,5,Single,4,8
+22,Female,High School,Egypt,Monufia,4.6,Instagram,Yes,7.1,6,Single,3,7
+20,Male,High School,Egypt,Qalyubia,6.5,Facebook,Yes,6.5,5,Single,4,7
+22,Male,Undergraduate,Egypt,Monufia,4.6,Instagram,No,6.2,7,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Minya,5.7,Instagram,Yes,6.6,6,In Relationship,4,7
+23,Male,Graduate,Egypt,Suez,4.3,TikTok,No,7.5,7,In Relationship,3,5
+20,Female,Graduate,Egypt,Aswan,6.8,LinkedIn,Yes,6.0,6,Single,4,8
+21,Female,Graduate,Egypt,Ismailia,4.5,Facebook,Yes,7.5,7,In Relationship,3,6
+21,Male,High School,Egypt,Suez,4.8,Instagram,No,6.4,7,Single,2,5
+20,Male,Undergraduate,Egypt,Alexandria,3.9,Facebook,Yes,7.4,7,Single,2,6
+19,Female,Graduate,Egypt,Minya,6.8,Facebook,Yes,6.6,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Monufia,5.7,TikTok,Yes,5.4,6,In Relationship,4,8
+21,Male,Graduate,Egypt,Red Sea,6.8,TikTok,Yes,5.7,4,In Relationship,4,9
+20,Female,Undergraduate,Egypt,Aswan,4.3,TikTok,Yes,6.8,7,In Relationship,3,6
+21,Male,Undergraduate,Egypt,Dakahlia,6.1,Instagram,Yes,6.8,6,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Qalyubia,3.6,Instagram,No,8.4,8,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Fayoum,4.7,Instagram,Yes,6.7,5,Single,3,8
+21,Female,Graduate,Egypt,Sohag,5.9,VKontakte,Yes,5.2,5,Single,4,8
+21,Male,Undergraduate,Egypt,Cairo,6.3,Instagram,Yes,7.1,6,In Relationship,4,7
+23,Female,Graduate,Egypt,Ismailia,7.0,TikTok,Yes,4.9,4,Single,4,9
+19,Male,Graduate,Egypt,Minya,6.6,Instagram,Yes,6.7,7,In Relationship,3,7
+19,Male,Graduate,Egypt,Red Sea,2.9,Instagram,No,8.7,8,Single,2,4
+20,Female,Graduate,Egypt,Assiut,5.8,Twitter,Yes,7.2,6,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Cairo,2.3,Instagram,No,8.7,7,In Relationship,2,5
+22,Female,Graduate,Egypt,Cairo,5.0,Instagram,No,6.4,7,In Relationship,2,5
+23,Female,Undergraduate,Egypt,Aswan,4.4,TikTok,No,8.5,7,In Relationship,3,4
+19,Male,Undergraduate,Egypt,Sharqia,4.7,Twitter,Yes,6.8,7,Single,2,6
+22,Female,Graduate,Egypt,Monufia,5.7,Instagram,Yes,5.8,6,Single,3,7
+20,Female,High School,Egypt,Assiut,3.8,Twitter,No,6.6,8,In Relationship,1,3
+23,Female,Graduate,Egypt,Qalyubia,2.9,Facebook,No,8.5,8,Single,2,4
+22,Male,Graduate,Egypt,Qena,4.9,Facebook,Yes,6.6,6,In Relationship,2,6
+24,Female,Undergraduate,Egypt,Alexandria,3.6,Instagram,No,7.8,7,Single,2,5
+22,Female,Graduate,Egypt,Sharqia,4.5,Facebook,Yes,6.7,6,Single,3,7
+20,Female,Undergraduate,Egypt,Ismailia,5.6,WhatsApp,Yes,5.9,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Port Said,2.3,TikTok,No,9.5,8,Single,1,3
+22,Female,Undergraduate,Egypt,Giza,4.8,Instagram,No,7.1,6,In Relationship,2,5
+20,Female,Undergraduate,Egypt,Ismailia,4.7,Facebook,Yes,6.3,6,In Relationship,3,6
+21,Female,Graduate,Egypt,Red Sea,5.9,TikTok,Yes,7.2,7,Complicated,3,7
+22,Male,Undergraduate,Egypt,Ismailia,4.9,LinkedIn,No,8.0,8,In Relationship,2,4
+19,Male,Undergraduate,Egypt,Red Sea,4.7,Snapchat,Yes,6.6,6,Single,3,7
+21,Female,Undergraduate,Egypt,Dakahlia,4.3,Instagram,No,7.9,8,Single,2,4
+19,Male,Graduate,Egypt,Dakahlia,6.8,TikTok,Yes,5.3,5,In Relationship,4,9
+22,Female,Undergraduate,Egypt,Luxor,7.7,Facebook,Yes,3.9,4,Single,4,9
+20,Female,Undergraduate,Egypt,Sharqia,3.4,Instagram,No,7.6,6,Single,2,5
+22,Male,Undergraduate,Egypt,Sharqia,2.4,TikTok,No,8.8,8,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Suez,7.4,Facebook,Yes,5.3,5,Single,5,9
+21,Female,Graduate,Egypt,Qena,3.1,Instagram,No,7.4,8,In Relationship,2,4
+22,Female,Undergraduate,Egypt,Gharbia,5.0,Instagram,Yes,5.9,6,Single,3,7
+20,Male,Undergraduate,Egypt,Qalyubia,5.6,WhatsApp,Yes,5.7,5,Single,4,8
+22,Female,Undergraduate,Egypt,Dakahlia,4.2,Instagram,No,7.7,8,Single,2,5
+19,Female,Undergraduate,Egypt,Port Said,3.8,Facebook,Yes,7.5,6,In Relationship,3,7
+20,Male,Graduate,Egypt,Beheira,4.2,Facebook,Yes,7.2,6,Single,3,7
+19,Male,Graduate,Egypt,Port Said,6.7,YouTube,Yes,6.9,5,Single,3,8
+22,Female,Graduate,Egypt,Luxor,4.7,Facebook,Yes,6.8,6,In Relationship,3,6
+19,Female,Graduate,Egypt,Sohag,7.2,Instagram,Yes,5.3,5,Single,4,8
+20,Male,Graduate,Egypt,Qena,6.8,Facebook,Yes,5.4,5,Single,4,8
+20,Female,High School,Egypt,Assiut,4.1,Instagram,Yes,6.8,6,Single,3,7
+22,Male,Undergraduate,Egypt,Ismailia,5.8,TikTok,Yes,6.4,5,Single,4,7
+20,Male,Undergraduate,Egypt,Port Said,5.6,Facebook,Yes,5.1,7,Single,3,7
+21,Female,Undergraduate,Egypt,Suez,4.8,Twitter,Yes,6.1,6,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Suez,4.6,Twitter,Yes,6.6,7,In Relationship,2,6
+20,Male,Graduate,Egypt,Luxor,5.2,TikTok,Yes,6.0,6,In Relationship,4,8
+21,Male,Undergraduate,Egypt,Red Sea,5.8,TikTok,Yes,5.4,4,Single,5,9
+20,Female,Undergraduate,Egypt,Giza,4.9,Instagram,Yes,8.6,7,Single,3,7
+20,Male,Undergraduate,Egypt,Dakahlia,3.6,Twitter,No,8.1,6,Single,3,5
+22,Male,Undergraduate,Egypt,Beheira,5.8,Instagram,Yes,6.5,7,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Sharqia,5.8,LINE,Yes,7.1,5,In Relationship,4,8
+22,Male,Undergraduate,Egypt,Suez,6.8,WhatsApp,Yes,6.6,5,Single,3,8
+20,Female,Graduate,Egypt,Qalyubia,4.6,Instagram,Yes,6.8,5,Single,4,7
+20,Female,Graduate,Egypt,Gharbia,4.3,Instagram,No,6.5,7,Single,2,6
+22,Female,Undergraduate,Egypt,Minya,4.6,Facebook,Yes,6.1,7,Single,3,7
+21,Female,Undergraduate,Egypt,Red Sea,4.1,Instagram,Yes,6.4,6,Single,3,7
+20,Female,Graduate,Egypt,Aswan,2.2,TikTok,No,8.4,8,Single,1,3
+24,Male,Graduate,Egypt,Red Sea,4.1,Instagram,No,6.9,7,In Relationship,3,5
+23,Male,Graduate,Egypt,Gharbia,4.7,Instagram,Yes,6.0,5,Single,3,7
+20,Female,Graduate,Egypt,Dakahlia,6.7,TikTok,Yes,6.4,5,Single,4,8
+18,Female,Graduate,Egypt,Suez,4.1,Facebook,Yes,6.8,6,Single,2,6
+22,Male,Undergraduate,Egypt,Minya,2.8,Facebook,Yes,8.6,6,Single,3,7
+22,Male,Undergraduate,Egypt,Qalyubia,3.0,VKontakte,No,8.5,7,Single,1,5
+21,Male,Undergraduate,Egypt,Cairo,4.2,TikTok,No,7.2,7,Single,2,5
+22,Female,Graduate,Egypt,Suez,4.1,WhatsApp,Yes,7.1,6,In Relationship,2,7
+24,Female,Graduate,Egypt,Alexandria,5.7,TikTok,Yes,6.5,5,Single,3,7
+22,Female,Graduate,Egypt,Luxor,7.0,LinkedIn,Yes,6.1,6,In Relationship,4,7
+21,Male,Undergraduate,Egypt,Port Said,4.6,KakaoTalk,Yes,6.8,7,Single,3,7
+21,Female,Graduate,Egypt,Aswan,6.4,Instagram,Yes,6.0,4,In Relationship,4,9
+20,Male,Graduate,Egypt,Beheira,3.8,TikTok,No,6.7,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Suez,4.3,TikTok,Yes,6.8,7,Single,3,6
+22,Male,High School,Egypt,Qalyubia,5.2,Facebook,Yes,5.5,6,In Relationship,3,7
+22,Male,Graduate,Egypt,Port Said,5.0,Instagram,Yes,7.4,5,Single,3,8
+20,Male,Graduate,Egypt,Aswan,2.8,Facebook,No,8.4,7,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Aswan,4.6,Facebook,Yes,7.7,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Aswan,6.9,VKontakte,Yes,5.3,5,Single,4,9
+21,Male,Graduate,Egypt,Monufia,8.2,Instagram,Yes,4.7,5,In Relationship,4,9
+19,Female,Undergraduate,Egypt,Suez,3.8,Facebook,No,7.5,8,In Relationship,1,5
+21,Female,Undergraduate,Egypt,Assiut,5.0,Instagram,No,8.2,7,Single,3,5
+19,Male,High School,Egypt,Minya,3.9,Instagram,No,7.5,6,Single,2,5
+19,Female,Undergraduate,Egypt,Alexandria,7.0,Instagram,Yes,6.6,5,Single,4,9
+24,Female,Undergraduate,Egypt,Dakahlia,5.9,Instagram,Yes,5.1,5,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Port Said,3.5,Instagram,No,7.6,8,In Relationship,2,4
+22,Male,Graduate,Egypt,Qalyubia,6.7,TikTok,Yes,4.3,5,Single,4,8
+24,Male,Undergraduate,Egypt,Alexandria,4.9,LinkedIn,Yes,6.6,6,Single,3,7
+19,Female,Undergraduate,Egypt,Minya,5.5,Snapchat,Yes,6.9,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Dakahlia,6.7,Facebook,Yes,5.3,4,In Relationship,4,9
+20,Male,Graduate,Egypt,Suez,4.5,TikTok,No,7.9,6,Single,4,6
+22,Female,Undergraduate,Egypt,Fayoum,6.7,TikTok,Yes,6.1,5,Single,4,7
+20,Male,Graduate,Egypt,Beheira,3.6,TikTok,No,8.3,8,Complicated,1,4
+20,Male,Undergraduate,Egypt,Qalyubia,6.6,TikTok,Yes,6.3,5,Complicated,4,8
+20,Male,Graduate,Egypt,Port Said,4.7,TikTok,Yes,7.1,7,Complicated,4,7
+22,Female,Undergraduate,Egypt,Red Sea,6.0,Twitter,Yes,5.9,6,Single,3,7
+21,Male,Undergraduate,Egypt,Giza,5.7,Instagram,Yes,6.5,6,In Relationship,3,8
+21,Male,Undergraduate,Egypt,Dakahlia,6.6,Facebook,Yes,6.5,5,Single,4,8
+21,Female,Graduate,Egypt,Red Sea,5.8,Facebook,Yes,5.1,6,Single,2,7
+23,Female,Graduate,Egypt,Ismailia,5.0,TikTok,Yes,5.4,6,In Relationship,4,7
+19,Male,Undergraduate,Egypt,Qalyubia,5.3,Instagram,Yes,6.6,6,Complicated,2,7
+22,Female,Graduate,Egypt,Luxor,4.9,Twitter,No,7.3,7,Complicated,3,5
+22,Female,Undergraduate,Egypt,Monufia,4.8,WhatsApp,No,6.8,6,Single,3,6
+19,Female,Graduate,Egypt,Gharbia,4.9,WhatsApp,Yes,7.2,7,Single,3,7
+19,Male,Undergraduate,Egypt,Qalyubia,5.3,Facebook,No,6.5,7,Single,3,5
+21,Male,Undergraduate,Egypt,Monufia,4.8,Facebook,No,7.8,6,Single,2,5
+22,Male,Graduate,Egypt,Minya,3.8,Instagram,No,7.8,7,Single,2,5
+24,Female,Graduate,Egypt,Luxor,6.1,YouTube,Yes,5.1,5,Single,4,8
+20,Male,Graduate,Egypt,Luxor,4.3,Instagram,Yes,7.8,5,In Relationship,3,7
+19,Male,Graduate,Egypt,Ismailia,5.0,TikTok,No,6.6,8,Single,1,4
+21,Female,Undergraduate,Egypt,Red Sea,4.6,TikTok,Yes,8.2,7,Single,3,7
+20,Male,Graduate,Egypt,Ismailia,4.8,Instagram,Yes,7.4,7,In Relationship,3,7
+22,Male,Graduate,Egypt,Monufia,4.8,WhatsApp,Yes,6.7,6,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Dakahlia,5.0,TikTok,Yes,6.3,7,Single,2,7
+21,Female,Undergraduate,Egypt,Assiut,2.3,Facebook,No,8.0,8,In Relationship,1,4
+19,Male,Undergraduate,Egypt,Gharbia,5.5,Facebook,Yes,7.3,7,Single,3,7
+20,Male,Undergraduate,Egypt,Aswan,2.4,LINE,No,8.7,8,In Relationship,0,2
+20,Female,Undergraduate,Egypt,Beheira,2.8,Snapchat,Yes,8.8,7,Single,3,7
+21,Male,Undergraduate,Egypt,Beheira,3.6,TikTok,No,7.5,8,Single,1,5
+22,Male,Graduate,Egypt,Beheira,8.3,TikTok,Yes,5.4,4,Single,5,9
+22,Female,Graduate,Egypt,Dakahlia,4.7,LinkedIn,No,8.0,7,Single,2,4
+22,Male,Graduate,Egypt,Monufia,4.4,Facebook,No,7.8,7,In Relationship,3,5
+21,Male,Graduate,Egypt,Assiut,3.8,Instagram,Yes,6.6,6,In Relationship,3,6
+22,Male,Undergraduate,Egypt,Luxor,4.7,TikTok,Yes,7.5,7,In Relationship,2,6
+21,Male,Undergraduate,Egypt,Ismailia,2.8,Facebook,No,7.5,8,Single,1,4
+19,Female,Undergraduate,Egypt,Sharqia,4.1,Instagram,No,7.0,7,Single,2,5
+20,Male,Undergraduate,Egypt,Monufia,5.5,VKontakte,Yes,7.4,5,Single,4,7
+23,Male,Graduate,Egypt,Suez,5.0,Twitter,Yes,5.9,6,Single,3,6
+22,Female,Graduate,Egypt,Dakahlia,2.9,TikTok,No,7.4,6,Single,2,5
+19,Female,Graduate,Egypt,Gharbia,3.7,Instagram,No,8.4,8,In Relationship,2,4
+22,Female,Graduate,Egypt,Aswan,4.5,Facebook,Yes,7.8,6,Complicated,3,8
+21,Female,Graduate,Egypt,Ismailia,5.5,Facebook,Yes,6.8,5,Single,3,7
+22,Female,Undergraduate,Egypt,Dakahlia,2.9,Facebook,No,9.2,8,Single,2,4
+21,Male,Graduate,Egypt,Port Said,6.2,WhatsApp,Yes,5.8,6,Single,3,7
+22,Male,Graduate,Egypt,Luxor,5.5,Instagram,No,5.8,7,Single,2,5
+23,Male,Graduate,Egypt,Assiut,5.8,Facebook,Yes,6.0,6,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Qena,5.4,Instagram,Yes,5.8,6,In Relationship,4,7
+19,Male,Undergraduate,Egypt,Giza,6.9,Instagram,Yes,6.7,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Giza,3.5,TikTok,Yes,8.6,6,In Relationship,3,6
+20,Male,Graduate,Egypt,Sharqia,6.9,TikTok,Yes,5.6,7,Single,3,8
+22,Female,Undergraduate,Egypt,Dakahlia,4.7,TikTok,Yes,5.8,6,Complicated,2,7
+19,Female,Graduate,Egypt,Monufia,3.7,Instagram,No,8.4,8,Single,2,5
+19,Female,Undergraduate,Egypt,Monufia,3.3,LinkedIn,No,8.7,8,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Suez,2.9,LinkedIn,No,8.3,8,Single,0,4
+19,Male,Undergraduate,Egypt,Gharbia,7.1,Facebook,Yes,4.7,4,In Relationship,4,9
+20,Male,Graduate,Egypt,Sharqia,3.7,Instagram,No,7.9,8,Single,2,5
+21,Male,Undergraduate,Egypt,Giza,6.5,Instagram,Yes,6.5,5,Single,4,8
+20,Female,Undergraduate,Egypt,Port Said,3.4,Twitter,No,7.7,8,Single,2,4
+20,Female,Undergraduate,Egypt,Assiut,4.7,WhatsApp,No,7.9,6,Single,3,5
+21,Male,Graduate,Egypt,Fayoum,4.5,WhatsApp,Yes,7.7,5,Single,4,7
+22,Female,High School,Egypt,Port Said,6.8,LINE,Yes,5.2,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Dakahlia,4.8,Instagram,Yes,7.0,5,Single,3,7
+22,Male,Graduate,Egypt,Aswan,3.3,Twitter,No,8.0,8,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Sohag,5.2,Instagram,Yes,6.1,7,Single,2,7
+20,Female,Undergraduate,Egypt,Giza,4.5,LinkedIn,Yes,8.1,5,Single,3,6
+22,Female,Undergraduate,Egypt,Red Sea,6.2,Instagram,Yes,5.2,5,Single,4,8
+19,Male,Graduate,Egypt,Alexandria,3.4,Facebook,No,8.1,7,Single,2,5
+18,Male,Graduate,Egypt,Suez,6.5,TikTok,Yes,4.8,5,In Relationship,4,9
+20,Male,Undergraduate,Egypt,Sharqia,2.2,Snapchat,No,9.5,8,Single,1,3
+19,Male,Graduate,Egypt,Luxor,6.8,WhatsApp,Yes,6.8,5,Single,4,8
+20,Male,Graduate,Egypt,Alexandria,4.4,TikTok,No,7.3,8,In Relationship,2,5
+19,Male,Graduate,Egypt,Red Sea,3.9,Facebook,Yes,7.2,7,Single,3,8
+21,Male,Undergraduate,Egypt,Suez,5.9,Instagram,Yes,6.2,5,Single,3,8
+19,Female,Graduate,Egypt,Beheira,4.3,Instagram,Yes,7.8,6,Single,4,6
+20,Female,Graduate,Egypt,Gharbia,2.8,WhatsApp,No,8.4,7,In Relationship,2,5
+22,Male,Graduate,Egypt,Assiut,5.9,Instagram,Yes,5.9,6,Single,3,7
+20,Male,High School,Egypt,Suez,6.3,YouTube,Yes,5.6,5,Single,4,8
+20,Male,Graduate,Egypt,Sharqia,5.2,Facebook,Yes,7.0,6,Single,3,7
+21,Male,Graduate,Egypt,Alexandria,4.1,TikTok,No,7.8,7,Single,2,5
+21,Female,Undergraduate,Egypt,Dakahlia,5.8,VKontakte,Yes,5.9,6,Single,4,8
+22,Male,Undergraduate,Egypt,Beheira,5.7,Twitter,No,7.5,6,Single,3,5
+21,Male,Undergraduate,Egypt,Minya,5.3,TikTok,Yes,5.9,7,In Relationship,3,7
+21,Female,Graduate,Egypt,Ismailia,3.7,Twitter,No,7.6,8,Single,2,4
+22,Male,Graduate,Egypt,Assiut,4.6,Facebook,Yes,7.9,6,Single,2,6
+19,Male,Undergraduate,Egypt,Minya,4.2,TikTok,Yes,8.7,7,In Relationship,3,7
+19,Male,Graduate,Egypt,Luxor,3.9,TikTok,No,7.3,8,Single,2,4
+22,Female,Graduate,Egypt,Fayoum,5.5,Instagram,Yes,6.7,7,In Relationship,3,7
+20,Male,Graduate,Egypt,Sohag,4.8,Facebook,Yes,8.1,7,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Sohag,4.6,Instagram,Yes,8.4,6,Complicated,3,7
+19,Male,Undergraduate,Egypt,Port Said,5.5,Instagram,Yes,5.8,6,Single,4,6
+21,Female,Graduate,Egypt,Monufia,3.6,LinkedIn,No,8.5,7,In Relationship,2,4
+22,Female,Undergraduate,Egypt,Alexandria,5.3,TikTok,No,7.5,6,Single,3,5
+20,Female,Undergraduate,Egypt,Cairo,5.8,Facebook,Yes,5.8,5,Single,4,8
+20,Male,Graduate,Egypt,Dakahlia,3.8,Instagram,No,7.6,7,Single,2,4
+22,Male,Graduate,Egypt,Giza,4.1,Instagram,No,8.0,8,Single,1,4
+20,Female,Graduate,Egypt,Giza,6.3,Facebook,Yes,4.9,5,Complicated,4,9
+21,Male,Graduate,Egypt,Minya,3.2,TikTok,No,8.3,7,Complicated,3,4
+20,Male,Undergraduate,Egypt,Fayoum,4.0,Instagram,No,8.9,7,In Relationship,3,5
+20,Male,High School,Egypt,Monufia,4.0,TikTok,No,7.9,8,Single,2,5
+20,Male,Undergraduate,Egypt,Cairo,5.8,TikTok,Yes,6.2,5,Single,3,8
+21,Female,Undergraduate,Egypt,Giza,5.8,WhatsApp,Yes,5.1,5,In Relationship,3,8
+21,Female,Graduate,Egypt,Ismailia,3.3,Facebook,Yes,7.9,7,Single,2,6
+19,Female,Undergraduate,Egypt,Dakahlia,6.4,Facebook,Yes,5.8,5,Single,4,8
+20,Female,Graduate,Egypt,Qalyubia,4.4,Instagram,No,7.5,7,Single,3,5
+22,Male,Undergraduate,Egypt,Monufia,6.6,Instagram,Yes,6.2,5,Single,4,8
+22,Female,High School,Egypt,Dakahlia,4.9,Instagram,No,7.7,8,In Relationship,2,5
+20,Female,Graduate,Egypt,Qena,5.1,TikTok,Yes,7.5,6,In Relationship,3,8
+20,Female,Undergraduate,Egypt,Suez,6.7,Instagram,Yes,5.1,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Aswan,3.7,KakaoTalk,No,7.9,7,Single,1,5
+21,Male,Graduate,Egypt,Red Sea,4.2,Instagram,Yes,7.2,6,Single,3,7
+22,Female,Graduate,Egypt,Gharbia,3.8,TikTok,No,7.1,8,In Relationship,2,4
+22,Male,Graduate,Egypt,Beheira,3.8,LinkedIn,No,7.5,7,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Sharqia,4.2,TikTok,No,8.8,7,Single,2,4
+19,Female,Graduate,Egypt,Monufia,4.6,Snapchat,Yes,7.2,7,Single,2,7
+22,Female,Undergraduate,Egypt,Minya,5.1,LINE,Yes,5.9,7,Single,2,7
+20,Female,Graduate,Egypt,Red Sea,5.6,Facebook,Yes,6.2,6,Single,3,8
+24,Female,Undergraduate,Egypt,Fayoum,4.8,Instagram,Yes,5.9,6,Single,3,7
+24,Male,Graduate,Egypt,Fayoum,4.2,Instagram,No,7.2,7,Single,1,5
+20,Female,Graduate,Egypt,Assiut,6.4,Instagram,Yes,6.4,5,Single,4,8
+23,Male,Undergraduate,Egypt,Suez,5.1,Instagram,Yes,6.7,7,Single,3,7
+19,Male,Graduate,Egypt,Port Said,4.5,TikTok,Yes,6.8,6,Single,3,7
+20,Female,High School,Egypt,Assiut,8.5,Instagram,Yes,4.0,5,In Relationship,5,9
+19,Male,Graduate,Egypt,Red Sea,4.0,Facebook,No,7.5,7,In Relationship,2,5
+22,Male,High School,Egypt,Port Said,4.1,Facebook,Yes,6.6,6,Complicated,3,7
+18,Male,Undergraduate,Egypt,Aswan,5.8,Instagram,Yes,5.4,5,In Relationship,4,9
+21,Female,Undergraduate,Egypt,Giza,6.2,TikTok,Yes,5.5,5,Single,4,8
+22,Male,Graduate,Egypt,Giza,6.5,Instagram,Yes,7.2,5,Single,4,7
+23,Female,Undergraduate,Egypt,Luxor,7.9,Instagram,Yes,5.2,5,Single,4,8
+19,Male,High School,Egypt,Minya,6.8,Instagram,Yes,7.2,6,Single,3,7
+20,Male,Graduate,Egypt,Fayoum,5.5,Facebook,Yes,6.2,5,Single,4,8
+20,Female,Graduate,Egypt,Giza,3.9,Instagram,Yes,7.9,7,Single,3,7
+22,Male,Graduate,Egypt,Fayoum,4.8,Instagram,Yes,6.2,6,Single,2,7
+21,Female,Undergraduate,Egypt,Ismailia,4.9,TikTok,Yes,5.7,6,Single,3,8
+20,Male,Graduate,Egypt,Qena,4.7,TikTok,Yes,6.7,6,In Relationship,3,6
+19,Male,Undergraduate,Egypt,Minya,2.5,Instagram,No,9.0,8,Single,1,4
+21,Male,Graduate,Egypt,Sharqia,5.9,Facebook,Yes,4.9,6,Complicated,3,7
+20,Male,Undergraduate,Egypt,Dakahlia,4.9,Facebook,No,6.8,6,Complicated,3,6
+22,Male,Graduate,Egypt,Ismailia,3.2,Instagram,No,8.1,8,Complicated,1,4
+23,Female,Graduate,Egypt,Beheira,4.2,Instagram,Yes,8.5,5,Single,3,7
+22,Female,Graduate,Egypt,Cairo,3.6,WhatsApp,No,8.7,8,Single,1,4
+20,Female,Graduate,Egypt,Cairo,7.7,Facebook,Yes,4.0,5,In Relationship,4,9
+19,Female,Undergraduate,Egypt,Gharbia,4.8,Twitter,Yes,7.5,7,Single,3,7
+22,Female,Graduate,Egypt,Aswan,6.6,TikTok,Yes,6.2,6,In Relationship,3,7
+18,Female,Graduate,Egypt,Sharqia,4.9,Instagram,Yes,6.8,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Luxor,4.5,TikTok,Yes,6.1,7,In Relationship,2,7
+20,Female,Graduate,Egypt,Monufia,4.8,Facebook,Yes,7.4,6,Single,3,7
+21,Female,Undergraduate,Egypt,Sharqia,6.6,Facebook,Yes,6.1,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Giza,4.3,Instagram,Yes,7.1,6,Single,4,7
+23,Female,Graduate,Egypt,Assiut,3.0,Facebook,No,7.5,8,Single,2,5
+20,Male,Graduate,Egypt,Qalyubia,3.5,TikTok,No,8.1,8,In Relationship,1,4
+21,Male,Graduate,Egypt,Gharbia,6.6,TikTok,Yes,6.6,5,Single,3,7
+20,Female,Graduate,Egypt,Giza,6.8,Instagram,Yes,6.5,5,In Relationship,4,9
+21,Female,Undergraduate,Egypt,Giza,4.7,Facebook,No,5.9,6,In Relationship,3,5
+20,Female,Graduate,Egypt,Giza,6.9,WeChat,Yes,5.4,4,Complicated,5,9
+22,Male,Undergraduate,Egypt,Qena,7.4,Facebook,Yes,5.0,5,In Relationship,4,7
+19,Male,Graduate,Egypt,Sharqia,6.2,Instagram,Yes,6.0,5,Single,4,8
+19,Female,Undergraduate,Egypt,Luxor,4.1,LINE,Yes,6.9,5,In Relationship,4,8
+21,Male,Undergraduate,Egypt,Aswan,3.4,TikTok,No,8.7,8,Single,2,5
+21,Male,Graduate,Egypt,Qalyubia,3.8,TikTok,No,7.2,7,In Relationship,2,5
+22,Male,Graduate,Egypt,Giza,4.6,Instagram,Yes,6.8,7,In Relationship,2,7
+20,Female,High School,Egypt,Qalyubia,6.5,Instagram,Yes,6.8,6,Single,3,7
+22,Female,Graduate,Egypt,Monufia,4.5,Instagram,Yes,7.4,7,Single,3,7
+20,Male,Graduate,Egypt,Port Said,5.5,Instagram,Yes,6.8,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Beheira,5.0,TikTok,No,5.9,7,Single,2,5
+19,Female,Undergraduate,Egypt,Port Said,4.3,Facebook,Yes,7.5,8,Single,2,6
+19,Male,Undergraduate,Egypt,Dakahlia,6.8,TikTok,Yes,5.0,4,Single,5,9
+22,Male,Undergraduate,Egypt,Fayoum,6.9,Instagram,Yes,4.8,5,In Relationship,4,8
+21,Female,Graduate,Egypt,Sohag,6.8,Facebook,Yes,6.0,5,Single,4,7
+21,Male,Graduate,Egypt,Alexandria,3.5,Facebook,No,8.1,7,Single,2,4
+22,Male,Undergraduate,Egypt,Cairo,6.4,TikTok,Yes,5.8,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Alexandria,6.1,LinkedIn,Yes,7.7,5,Single,4,7
+20,Female,Undergraduate,Egypt,Red Sea,2.5,Instagram,No,9.2,8,Single,2,5
+20,Female,Graduate,Egypt,Qalyubia,4.8,Twitter,Yes,7.3,6,Single,2,6
+22,Male,Graduate,Egypt,Giza,5.8,Instagram,Yes,6.2,4,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Sharqia,3.9,Instagram,Yes,5.8,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Cairo,4.7,Instagram,Yes,7.0,7,In Relationship,3,7
+23,Female,Undergraduate,Egypt,Qena,4.7,WhatsApp,No,7.6,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Beheira,5.5,WhatsApp,Yes,6.7,5,Complicated,4,8
+21,Female,Undergraduate,Egypt,Red Sea,5.0,Instagram,No,5.8,6,In Relationship,3,6
+20,Male,Undergraduate,Egypt,Cairo,4.5,YouTube,Yes,7.3,7,Single,2,6
+19,Female,Undergraduate,Egypt,Qalyubia,6.1,Instagram,Yes,5.4,5,Single,4,8
+23,Male,Graduate,Egypt,Sharqia,7.4,Instagram,Yes,5.2,5,In Relationship,4,9
+19,Male,Graduate,Egypt,Ismailia,8.2,LINE,Yes,4.6,4,In Relationship,5,9
+20,Female,Undergraduate,Egypt,Minya,3.7,Instagram,Yes,7.7,6,Single,4,7
+21,Female,Graduate,Egypt,Ismailia,2.5,Instagram,No,7.9,8,Single,1,4
+21,Female,Undergraduate,Egypt,Beheira,4.6,TikTok,No,8.2,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Giza,7.4,YouTube,Yes,5.1,5,Single,4,9
+21,Female,Undergraduate,Egypt,Assiut,4.2,Instagram,No,7.2,8,Single,1,3
+19,Male,Undergraduate,Egypt,Assiut,5.8,LINE,Yes,6.1,7,Single,3,7
+22,Male,Undergraduate,Egypt,Fayoum,6.1,Instagram,Yes,6.8,6,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Beheira,4.9,Instagram,Yes,6.5,7,Single,2,6
+20,Female,Undergraduate,Egypt,Assiut,5.4,WhatsApp,Yes,6.5,5,Single,4,7
+19,Female,Undergraduate,Egypt,Gharbia,6.0,LINE,Yes,5.6,4,Single,5,9
+22,Male,Graduate,Egypt,Assiut,4.9,Facebook,Yes,7.3,6,Single,3,7
+19,Male,Undergraduate,Egypt,Red Sea,5.1,WhatsApp,Yes,6.8,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Suez,3.0,LINE,No,9.2,8,Single,1,3
+19,Male,Undergraduate,Egypt,Sharqia,3.9,Instagram,Yes,7.3,6,Complicated,3,7
+21,Female,Graduate,Egypt,Aswan,6.3,Instagram,Yes,6.3,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Fayoum,5.8,Instagram,Yes,5.6,5,Single,4,7
+19,Female,Undergraduate,Egypt,Gharbia,6.4,TikTok,Yes,5.2,6,In Relationship,4,7
+24,Female,Undergraduate,Egypt,Qena,3.6,TikTok,No,8.1,8,Single,2,5
+20,Male,Undergraduate,Egypt,Giza,7.1,Instagram,Yes,6.4,5,Single,4,8
+20,Male,Undergraduate,Egypt,Qalyubia,4.7,WhatsApp,Yes,6.2,6,Single,3,8
+20,Male,Graduate,Egypt,Suez,6.5,Instagram,Yes,7.3,6,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Cairo,4.4,Instagram,Yes,6.5,5,In Relationship,4,8
+22,Female,Graduate,Egypt,Giza,3.8,Instagram,No,7.8,8,Single,2,5
+22,Male,Graduate,Egypt,Gharbia,2.4,Instagram,No,7.9,8,In Relationship,1,4
+23,Female,Graduate,Egypt,Aswan,4.9,Instagram,No,5.9,7,Single,2,5
+22,Male,Graduate,Egypt,Monufia,5.2,Instagram,No,7.4,7,In Relationship,2,5
+19,Male,Graduate,Egypt,Sharqia,4.4,TikTok,Yes,8.5,7,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Qalyubia,4.0,Instagram,No,8.0,7,Single,2,5
+20,Male,Graduate,Egypt,Sharqia,6.8,Facebook,Yes,5.6,5,Single,4,8
+21,Male,Undergraduate,Egypt,Assiut,6.7,Instagram,Yes,5.7,5,Single,4,8
+24,Male,Graduate,Egypt,Minya,2.6,Instagram,No,8.6,8,In Relationship,1,3
+24,Male,Undergraduate,Egypt,Assiut,3.7,Instagram,No,8.4,7,In Relationship,2,5
+23,Male,Graduate,Egypt,Assiut,5.6,Instagram,Yes,6.7,6,Single,3,7
+24,Male,Graduate,Egypt,Assiut,3.7,Instagram,No,7.4,7,In Relationship,2,5
+18,Female,Graduate,Egypt,Fayoum,6.1,YouTube,Yes,5.9,6,In Relationship,4,8
+20,Male,Graduate,Egypt,Beheira,2.4,Instagram,Yes,8.5,8,In Relationship,2,6
+19,Male,Undergraduate,Egypt,Minya,7.2,TikTok,Yes,5.4,4,Single,5,9
+19,Female,High School,Egypt,Ismailia,4.8,TikTok,Yes,7.2,7,Single,3,6
+19,Male,Graduate,Egypt,Luxor,5.9,Instagram,Yes,4.9,6,Complicated,3,8
+19,Female,Graduate,Egypt,Fayoum,5.5,TikTok,Yes,5.6,5,Single,3,9
+20,Male,Undergraduate,Egypt,Alexandria,6.4,LINE,Yes,6.4,6,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Alexandria,7.0,Instagram,Yes,4.7,4,Single,4,9
+19,Female,Undergraduate,Egypt,Beheira,5.7,LinkedIn,Yes,6.9,5,Single,4,8
+19,Female,Undergraduate,Egypt,Beheira,5.9,Instagram,Yes,6.2,6,Single,3,8
+22,Female,Undergraduate,Egypt,Dakahlia,4.8,Instagram,No,6.8,6,Single,3,5
+21,Female,Undergraduate,Egypt,Assiut,5.5,TikTok,No,6.1,7,In Relationship,2,6
+22,Male,Graduate,Egypt,Dakahlia,4.7,YouTube,No,6.0,7,Single,3,5
+19,Male,Undergraduate,Egypt,Giza,4.8,WhatsApp,Yes,5.7,6,Single,4,7
+18,Female,Graduate,Egypt,Luxor,5.2,Instagram,Yes,6.7,6,Single,3,8
+21,Female,Undergraduate,Egypt,Port Said,4.8,Instagram,No,7.0,7,In Relationship,2,5
+22,Male,Undergraduate,Egypt,Beheira,4.8,TikTok,No,8.9,7,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Luxor,5.4,Instagram,Yes,7.7,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Ismailia,4.0,Instagram,Yes,7.3,5,Single,3,6
+19,Female,Undergraduate,Egypt,Qena,8.4,WhatsApp,Yes,4.9,4,In Relationship,5,9
+20,Female,Graduate,Egypt,Ismailia,6.9,TikTok,Yes,6.7,5,Single,4,8
+21,Male,Undergraduate,Egypt,Monufia,3.3,TikTok,No,8.3,8,Single,1,4
+19,Female,Undergraduate,Egypt,Luxor,2.9,Instagram,No,8.2,7,Complicated,2,5
+21,Male,Undergraduate,Egypt,Sohag,4.2,Twitter,No,8.2,8,Single,3,4
+20,Female,Undergraduate,Egypt,Cairo,4.7,TikTok,No,7.5,8,In Relationship,2,3
+22,Male,Graduate,Egypt,Assiut,4.7,Facebook,No,8.3,7,Single,3,6
+19,Male,Undergraduate,Egypt,Qena,3.8,WeChat,Yes,6.9,7,Single,3,7
+20,Female,Undergraduate,Egypt,Monufia,5.9,Instagram,Yes,6.3,5,Single,4,8
+19,Female,Graduate,Egypt,Monufia,6.4,TikTok,Yes,6.4,7,Single,3,6
+21,Female,Undergraduate,Egypt,Gharbia,3.1,KakaoTalk,No,9.5,7,Single,2,5
+22,Male,Undergraduate,Egypt,Aswan,3.7,TikTok,No,7.3,7,Single,2,4
+22,Female,Graduate,Egypt,Aswan,2.8,TikTok,No,8.7,8,In Relationship,1,4
+20,Female,High School,Egypt,Gharbia,3.6,Facebook,No,8.3,7,Single,2,5
+21,Male,Undergraduate,Egypt,Qena,3.1,Instagram,No,7.9,7,Complicated,2,5
+21,Female,Undergraduate,Egypt,Fayoum,5.4,LinkedIn,Yes,5.5,6,Single,4,7
+23,Female,Undergraduate,Egypt,Dakahlia,5.5,KakaoTalk,Yes,8.0,6,In Relationship,4,7
+20,Female,Undergraduate,Egypt,Minya,6.1,LinkedIn,Yes,6.7,6,Single,3,7
+19,Female,Graduate,Egypt,Ismailia,5.6,Instagram,Yes,6.7,6,Single,3,7
+20,Female,Undergraduate,Egypt,Qena,4.8,Facebook,Yes,6.5,5,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Gharbia,4.6,Instagram,Yes,6.7,7,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Beheira,3.6,Facebook,Yes,7.8,5,Single,3,7
+19,Male,Graduate,Egypt,Port Said,4.8,Facebook,Yes,6.8,5,Single,4,8
+19,Female,Graduate,Egypt,Fayoum,4.8,Twitter,Yes,7.1,6,Single,3,8
+20,Male,Graduate,Egypt,Assiut,5.1,TikTok,Yes,7.3,6,Single,3,7
+22,Male,Graduate,Egypt,Suez,2.4,WhatsApp,No,8.3,8,Single,2,4
+24,Female,Graduate,Egypt,Suez,5.9,Instagram,No,7.0,7,Single,3,5
+22,Male,Graduate,Egypt,Port Said,6.7,Twitter,Yes,5.8,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Beheira,5.7,TikTok,Yes,6.6,6,In Relationship,3,7
+22,Male,Graduate,Egypt,Monufia,4.9,KakaoTalk,Yes,7.0,6,Single,2,6
+19,Female,Undergraduate,Egypt,Suez,6.0,Instagram,Yes,5.7,6,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Assiut,3.6,Instagram,Yes,8.3,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Fayoum,3.0,Facebook,No,8.8,8,Single,2,4
+22,Male,Undergraduate,Egypt,Qalyubia,7.2,Twitter,Yes,5.2,5,In Relationship,5,9
+20,Female,Undergraduate,Egypt,Minya,5.5,TikTok,No,7.5,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Monufia,4.7,Facebook,Yes,5.3,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Aswan,2.4,Twitter,No,8.6,8,Single,0,3
+21,Female,Graduate,Egypt,Beheira,7.3,WhatsApp,Yes,5.2,6,In Relationship,3,8
+19,Male,Graduate,Egypt,Red Sea,4.9,Snapchat,Yes,7.5,6,In Relationship,4,7
+22,Female,Undergraduate,Egypt,Qena,4.4,Instagram,Yes,6.1,6,In Relationship,3,7
+24,Female,Undergraduate,Egypt,Cairo,3.5,WeChat,No,8.2,8,Single,2,4
+20,Female,Graduate,Egypt,Fayoum,7.0,Facebook,Yes,5.3,4,In Relationship,4,9
+22,Female,Graduate,Egypt,Fayoum,4.6,LINE,Yes,7.9,7,Single,3,6
+22,Male,Undergraduate,Egypt,Suez,6.5,Twitter,Yes,6.7,5,Single,4,7
+19,Male,High School,Egypt,Minya,5.4,TikTok,Yes,5.9,7,In Relationship,3,7
+24,Male,Graduate,Egypt,Giza,3.3,TikTok,Yes,7.5,7,Single,2,6
+20,Female,Undergraduate,Egypt,Luxor,5.0,Facebook,Yes,7.2,7,Single,3,7
+20,Female,Graduate,Egypt,Sohag,4.1,Instagram,No,7.6,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Gharbia,7.1,TikTok,Yes,5.8,5,Single,4,8
+20,Male,Undergraduate,Egypt,Aswan,3.0,Facebook,No,7.7,8,Single,1,3
+19,Female,Undergraduate,Egypt,Qalyubia,6.2,TikTok,Yes,4.9,5,Single,4,8
+19,Female,Undergraduate,Egypt,Sohag,6.7,TikTok,Yes,5.4,5,Single,4,8
+22,Male,Undergraduate,Egypt,Fayoum,3.0,Instagram,No,8.1,8,In Relationship,1,4
+22,Female,Graduate,Egypt,Suez,4.8,Facebook,No,6.8,7,In Relationship,3,5
+20,Male,Undergraduate,Egypt,Sohag,5.9,TikTok,Yes,5.9,5,Single,4,8
+21,Male,Graduate,Egypt,Aswan,3.8,Facebook,No,9.0,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Qena,2.5,Facebook,No,9.5,8,In Relationship,1,3
+24,Male,Graduate,Egypt,Minya,3.9,Instagram,No,7.9,6,Single,3,5
+21,Male,Undergraduate,Egypt,Gharbia,4.8,TikTok,Yes,6.4,6,In Relationship,3,6
+20,Female,Undergraduate,Egypt,Fayoum,3.6,TikTok,Yes,7.3,6,Single,3,7
+22,Male,Graduate,Egypt,Cairo,5.5,LINE,No,6.2,7,Single,2,4
+19,Female,Graduate,Egypt,Luxor,5.3,WhatsApp,Yes,6.5,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Minya,6.0,TikTok,Yes,6.9,5,Single,4,7
+22,Male,Graduate,Egypt,Fayoum,2.7,LinkedIn,No,7.9,8,In Relationship,1,4
+21,Female,Undergraduate,Egypt,Giza,4.8,Instagram,No,6.2,8,Single,2,5
+19,Female,Undergraduate,Egypt,Minya,4.7,Facebook,Yes,5.3,7,Single,2,7
+22,Female,Undergraduate,Egypt,Assiut,6.9,LINE,Yes,5.3,6,Complicated,3,7
+22,Female,Graduate,Egypt,Assiut,3.8,Facebook,No,7.3,7,Single,2,4
+22,Male,Graduate,Egypt,Port Said,3.3,Instagram,No,7.7,8,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Minya,4.4,TikTok,Yes,7.3,7,In Relationship,3,7
+20,Male,Graduate,Egypt,Ismailia,5.0,TikTok,Yes,8.0,7,In Relationship,2,7
+21,Male,Graduate,Egypt,Fayoum,5.6,VKontakte,Yes,5.8,5,Single,3,8
+22,Male,Undergraduate,Egypt,Red Sea,4.2,Instagram,Yes,8.2,7,Single,3,6
+20,Male,High School,Egypt,Monufia,4.1,Instagram,Yes,7.7,6,Complicated,3,7
+22,Female,Undergraduate,Egypt,Ismailia,3.0,WhatsApp,No,8.3,8,Single,2,4
+20,Female,Undergraduate,Egypt,Qalyubia,5.2,Facebook,Yes,6.5,7,Single,3,7
+21,Male,Graduate,Egypt,Assiut,4.9,Facebook,Yes,7.3,6,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Qalyubia,4.8,WhatsApp,Yes,6.9,6,Single,3,6
+19,Male,Undergraduate,Egypt,Red Sea,5.3,Instagram,Yes,5.4,6,Single,3,7
+21,Female,Graduate,Egypt,Aswan,6.1,Instagram,Yes,5.8,6,In Relationship,3,8
+20,Female,Graduate,Egypt,Beheira,5.0,WeChat,Yes,6.2,6,In Relationship,2,7
+21,Male,Undergraduate,Egypt,Port Said,6.6,Facebook,Yes,5.6,5,Single,4,8
+19,Female,Graduate,Egypt,Sohag,7.3,Facebook,Yes,5.6,5,Single,4,9
+21,Female,Graduate,Egypt,Assiut,5.3,VKontakte,Yes,6.6,5,Single,4,8
+19,Female,Undergraduate,Egypt,Beheira,4.4,TikTok,Yes,6.5,5,Complicated,3,7
+20,Female,Graduate,Egypt,Giza,7.2,TikTok,Yes,4.8,4,Single,4,9
+19,Male,Graduate,Egypt,Sohag,4.4,WhatsApp,Yes,6.1,6,Single,3,7
+21,Female,Graduate,Egypt,Port Said,3.8,Instagram,Yes,7.3,6,Single,3,8
+21,Male,Undergraduate,Egypt,Beheira,6.2,Facebook,Yes,5.5,5,In Relationship,3,8
+23,Male,Graduate,Egypt,Alexandria,5.8,Instagram,Yes,5.5,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Beheira,6.3,Facebook,Yes,6.5,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Minya,5.0,Instagram,Yes,6.6,7,In Relationship,3,6
+22,Female,Graduate,Egypt,Qalyubia,4.9,TikTok,Yes,7.1,5,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Dakahlia,3.4,TikTok,No,7.7,7,In Relationship,2,5
+19,Male,Graduate,Egypt,Sharqia,5.8,Twitter,Yes,5.8,5,Single,4,8
+21,Female,Undergraduate,Egypt,Ismailia,7.4,VKontakte,Yes,5.4,4,In Relationship,5,9
+20,Male,Undergraduate,Egypt,Aswan,5.8,KakaoTalk,Yes,5.8,6,Single,3,7
+21,Female,Graduate,Egypt,Cairo,3.8,WeChat,No,8.2,7,In Relationship,2,5
+20,Female,Graduate,Egypt,Ismailia,6.4,Facebook,Yes,4.7,6,In Relationship,4,7
+23,Male,Graduate,Egypt,Dakahlia,5.7,Instagram,Yes,6.4,6,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Sharqia,3.1,Twitter,No,8.2,8,In Relationship,1,4
+21,Female,Undergraduate,Egypt,Qena,5.7,Instagram,Yes,7.0,6,Single,3,7
+21,Male,Undergraduate,Egypt,Qena,4.3,TikTok,No,7.2,6,Single,3,6
+21,Male,Undergraduate,Egypt,Red Sea,6.1,Instagram,Yes,6.2,5,Single,4,8
+20,Female,Undergraduate,Egypt,Assiut,3.8,Instagram,No,7.6,7,In Relationship,2,4
+19,Male,Graduate,Egypt,Assiut,6.0,TikTok,Yes,5.2,5,Complicated,4,9
+23,Female,Undergraduate,Egypt,Beheira,4.0,YouTube,Yes,7.7,7,Single,4,7
+21,Male,Undergraduate,Egypt,Qalyubia,4.6,TikTok,Yes,6.8,7,Single,2,6
+20,Female,Undergraduate,Egypt,Ismailia,5.3,Instagram,No,7.1,8,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Assiut,4.3,Snapchat,No,8.1,7,In Relationship,2,6
+21,Male,Graduate,Egypt,Gharbia,4.6,Instagram,No,7.4,7,In Relationship,3,5
+19,Female,Graduate,Egypt,Ismailia,4.8,WhatsApp,No,7.3,7,Single,2,5
+19,Female,Graduate,Egypt,Suez,5.7,TikTok,Yes,5.7,5,Single,4,9
+20,Female,Undergraduate,Egypt,Assiut,3.7,TikTok,Yes,8.6,7,Complicated,3,6
+19,Male,Undergraduate,Egypt,Cairo,4.1,Facebook,Yes,7.8,6,In Relationship,3,6
+20,Male,Graduate,Egypt,Suez,7.3,LINE,Yes,6.5,5,Single,4,8
+19,Female,Undergraduate,Egypt,Giza,5.9,Instagram,Yes,6.6,6,Single,4,7
+22,Female,Graduate,Egypt,Monufia,6.2,TikTok,No,6.4,7,Single,2,6
+20,Female,Undergraduate,Egypt,Port Said,4.4,Instagram,No,7.8,7,Single,2,5
+21,Male,Undergraduate,Egypt,Gharbia,4.5,TikTok,Yes,8.0,5,Single,3,7
+21,Male,Graduate,Egypt,Suez,5.4,Instagram,Yes,6.1,7,Single,3,7
+19,Male,Graduate,Egypt,Qalyubia,3.5,LinkedIn,Yes,7.4,7,In Relationship,2,6
+22,Female,Undergraduate,Egypt,Suez,4.1,YouTube,Yes,7.9,7,Complicated,3,7
+20,Female,Undergraduate,Egypt,Assiut,4.8,Facebook,Yes,7.2,6,In Relationship,3,8
+22,Female,Graduate,Egypt,Monufia,5.3,KakaoTalk,Yes,6.2,5,In Relationship,3,8
+21,Male,Graduate,Egypt,Dakahlia,3.1,Facebook,No,8.6,8,Single,2,4
+20,Male,Undergraduate,Egypt,Qena,4.3,Twitter,No,7.8,7,In Relationship,3,6
+19,Male,Undergraduate,Egypt,Assiut,6.8,TikTok,Yes,5.3,6,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Fayoum,4.3,Instagram,Yes,6.3,5,Single,3,6
+22,Male,Undergraduate,Egypt,Sharqia,5.5,TikTok,No,8.0,7,In Relationship,3,5
+20,Male,Graduate,Egypt,Minya,4.7,Twitter,Yes,8.6,7,In Relationship,2,6
+20,Male,Undergraduate,Egypt,Gharbia,3.8,Facebook,No,7.8,7,Single,2,5
+19,Female,Undergraduate,Egypt,Ismailia,4.2,TikTok,Yes,7.1,7,In Relationship,2,6
+19,Female,Undergraduate,Egypt,Sohag,6.4,Facebook,Yes,6.6,6,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Sohag,4.8,TikTok,Yes,6.8,7,In Relationship,2,6
+20,Male,Undergraduate,Egypt,Alexandria,4.9,Instagram,Yes,6.8,6,Single,3,7
+19,Female,Graduate,Egypt,Port Said,6.2,Facebook,Yes,5.9,5,In Relationship,4,8
+22,Male,Graduate,Egypt,Luxor,3.7,Facebook,No,7.8,8,Single,2,4
+22,Male,Undergraduate,Egypt,Beheira,6.8,Facebook,Yes,6.0,5,Single,4,8
+20,Female,Undergraduate,Egypt,Ismailia,4.4,WhatsApp,Yes,7.3,5,Single,4,8
+19,Female,Graduate,Egypt,Beheira,5.5,Instagram,Yes,5.3,6,In Relationship,3,7
+23,Male,Graduate,Egypt,Monufia,8.4,Twitter,Yes,4.1,4,Single,5,9
+24,Male,Undergraduate,Egypt,Ismailia,7.0,Twitter,Yes,5.5,5,Single,4,8
+20,Male,Graduate,Egypt,Fayoum,5.8,Instagram,Yes,5.9,5,Single,3,8
+22,Male,Graduate,Egypt,Sharqia,4.1,Instagram,Yes,7.1,6,Single,2,8
+22,Male,Undergraduate,Egypt,Aswan,4.1,Facebook,No,7.5,7,In Relationship,3,5
+19,Male,Undergraduate,Egypt,Port Said,5.8,TikTok,Yes,7.2,6,Single,3,7
+20,Male,Graduate,Egypt,Sharqia,4.9,Instagram,Yes,6.8,6,Single,3,7
+20,Female,Undergraduate,Egypt,Monufia,3.6,Facebook,Yes,7.9,6,In Relationship,3,6
+19,Male,Undergraduate,Egypt,Sohag,3.5,Instagram,Yes,7.3,7,Complicated,3,7
+23,Female,Undergraduate,Egypt,Suez,2.8,Instagram,No,8.7,8,In Relationship,1,3
+19,Male,Graduate,Egypt,Qalyubia,6.7,Instagram,Yes,5.6,5,Single,4,8
+18,Female,Undergraduate,Egypt,Suez,8.4,Snapchat,Yes,4.4,4,Single,4,9
+19,Male,Undergraduate,Egypt,Sohag,4.0,Instagram,Yes,6.1,7,Single,3,7
+22,Male,Graduate,Egypt,Luxor,3.9,Instagram,No,6.9,6,In Relationship,2,5
+21,Male,Graduate,Egypt,Monufia,4.1,Facebook,No,7.0,6,Complicated,3,5
+22,Male,Graduate,Egypt,Fayoum,5.0,TikTok,Yes,7.0,6,Single,2,7
+22,Male,Undergraduate,Egypt,Beheira,2.4,LinkedIn,No,9.5,8,Single,1,4
+19,Female,Undergraduate,Egypt,Luxor,3.8,TikTok,Yes,7.2,6,In Relationship,3,6
+21,Male,Undergraduate,Egypt,Sohag,3.3,Instagram,No,8.5,8,Single,2,4
+20,Male,Undergraduate,Egypt,Giza,7.4,Instagram,Yes,6.0,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Sohag,5.3,TikTok,Yes,6.0,5,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Minya,4.4,TikTok,Yes,7.4,7,Single,3,7
+21,Female,Undergraduate,Egypt,Red Sea,7.9,Instagram,Yes,4.1,5,Single,4,9
+19,Male,Undergraduate,Egypt,Qena,2.0,Instagram,No,9.5,8,In Relationship,0,3
+19,Female,Graduate,Egypt,Sohag,5.1,TikTok,Yes,7.3,6,In Relationship,3,8
+21,Male,Undergraduate,Egypt,Luxor,2.6,Instagram,No,9.5,8,In Relationship,2,4
+21,Male,Graduate,Egypt,Sharqia,4.9,Instagram,Yes,7.3,7,In Relationship,3,7
+20,Male,Graduate,Egypt,Qena,7.2,Facebook,Yes,4.7,5,Single,4,8
+19,Female,Graduate,Egypt,Qalyubia,5.2,Instagram,Yes,5.5,6,Single,4,7
+19,Female,Undergraduate,Egypt,Beheira,4.6,Instagram,Yes,7.2,6,Single,3,7
+20,Female,Undergraduate,Egypt,Sharqia,6.4,Instagram,Yes,5.4,5,Single,4,8
+19,Female,Graduate,Egypt,Assiut,5.7,LINE,Yes,5.4,7,In Relationship,2,6
+19,Male,Undergraduate,Egypt,Minya,3.0,Instagram,No,9.2,6,In Relationship,2,5
+20,Male,Graduate,Egypt,Suez,4.2,Facebook,No,7.3,7,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Beheira,4.2,Instagram,No,6.6,8,Single,2,4
+21,Female,Graduate,Egypt,Monufia,5.7,WhatsApp,Yes,5.1,5,Single,4,8
+22,Female,Graduate,Egypt,Qena,3.3,TikTok,No,7.9,7,In Relationship,3,4
+21,Male,Undergraduate,Egypt,Suez,3.3,TikTok,Yes,7.2,6,In Relationship,2,6
+20,Female,Undergraduate,Egypt,Red Sea,4.3,LinkedIn,Yes,6.7,6,Single,3,7
+21,Female,Graduate,Egypt,Aswan,7.1,WhatsApp,Yes,4.9,5,Single,4,8
+22,Male,High School,Egypt,Fayoum,5.3,WeChat,Yes,7.3,6,Single,3,7
+21,Male,Undergraduate,Egypt,Gharbia,3.8,Instagram,No,7.6,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Qena,3.7,Instagram,No,6.3,8,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Monufia,4.6,Facebook,No,7.0,7,Single,2,5
+21,Female,Graduate,Egypt,Red Sea,4.7,Instagram,Yes,7.3,6,In Relationship,3,6
+20,Male,Graduate,Egypt,Dakahlia,5.4,Instagram,Yes,7.5,6,Single,3,7
+20,Male,Undergraduate,Egypt,Luxor,2.8,LINE,No,8.9,8,Single,2,5
+22,Female,Undergraduate,Egypt,Beheira,5.2,Facebook,Yes,7.1,5,Single,3,8
+20,Male,Undergraduate,Egypt,Suez,4.4,Instagram,Yes,7.9,6,Single,3,7
+19,Female,Graduate,Egypt,Qalyubia,3.9,Instagram,No,7.4,8,Single,2,5
+21,Male,Graduate,Egypt,Port Said,5.6,Facebook,Yes,6.3,6,In Relationship,4,7
+20,Male,Graduate,Egypt,Qalyubia,4.2,TikTok,No,7.1,8,In Relationship,2,5
+19,Male,High School,Egypt,Luxor,4.6,Instagram,No,6.2,7,In Relationship,2,5
+22,Male,Graduate,Egypt,Ismailia,6.5,Facebook,Yes,5.4,5,Single,4,9
+19,Female,Graduate,Egypt,Gharbia,6.0,Instagram,Yes,4.6,5,Single,4,9
+21,Male,Undergraduate,Egypt,Qalyubia,6.6,WhatsApp,Yes,5.4,6,In Relationship,4,8
+23,Female,Undergraduate,Egypt,Qalyubia,4.6,Instagram,Yes,6.2,7,Complicated,2,6
+21,Male,Graduate,Egypt,Minya,6.8,Twitter,Yes,5.3,4,Single,4,9
+23,Female,Undergraduate,Egypt,Beheira,4.3,LINE,Yes,6.7,7,In Relationship,2,6
+21,Male,Undergraduate,Egypt,Dakahlia,2.5,Facebook,Yes,8.4,6,Single,3,7
+22,Female,Graduate,Egypt,Fayoum,4.8,Twitter,Yes,6.9,6,Single,3,7
+21,Male,Graduate,Egypt,Suez,4.7,Snapchat,No,7.7,7,In Relationship,2,5
+24,Male,Graduate,Egypt,Aswan,7.7,Instagram,Yes,5.2,4,Single,4,9
+22,Female,Undergraduate,Egypt,Alexandria,2.9,TikTok,No,7.5,8,Single,2,4
+20,Male,Graduate,Egypt,Giza,7.2,Instagram,Yes,6.5,6,Single,3,8
+22,Male,Undergraduate,Egypt,Minya,4.8,Instagram,Yes,6.6,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Port Said,2.9,TikTok,No,8.4,7,Single,3,5
+20,Female,Undergraduate,Egypt,Qena,3.7,Instagram,No,7.4,7,Complicated,2,5
+22,Female,Undergraduate,Egypt,Assiut,2.5,TikTok,No,8.6,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Sharqia,5.8,Instagram,Yes,7.0,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Fayoum,4.6,Instagram,No,8.4,7,In Relationship,3,4
+21,Female,Graduate,Egypt,Dakahlia,5.6,Facebook,No,7.1,7,Single,2,5
+23,Male,Graduate,Egypt,Luxor,3.3,TikTok,No,8.7,8,In Relationship,1,4
+20,Male,Graduate,Egypt,Cairo,6.7,Facebook,Yes,5.8,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Luxor,6.9,Facebook,Yes,5.8,5,In Relationship,4,9
+22,Male,Graduate,Egypt,Fayoum,3.9,Instagram,No,7.5,8,Single,2,4
+20,Female,Graduate,Egypt,Monufia,5.8,WhatsApp,Yes,5.4,5,Single,4,9
+21,Male,Graduate,Egypt,Red Sea,3.5,KakaoTalk,Yes,7.7,6,Single,3,7
+19,Male,Graduate,Egypt,Monufia,4.7,TikTok,Yes,7.8,6,Single,4,8
+19,Female,Graduate,Egypt,Monufia,6.1,Instagram,Yes,5.2,5,Single,4,9
+23,Female,Graduate,Egypt,Giza,6.5,YouTube,Yes,6.5,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Luxor,4.8,Instagram,No,7.0,7,Complicated,2,5
+19,Female,Undergraduate,Egypt,Sharqia,6.2,KakaoTalk,Yes,6.1,5,Single,3,7
+21,Male,Undergraduate,Egypt,Beheira,6.7,LinkedIn,Yes,6.5,7,Single,3,7
+22,Male,Graduate,Egypt,Qalyubia,2.6,TikTok,No,8.2,8,Single,2,4
+21,Male,Graduate,Egypt,Port Said,6.1,Facebook,Yes,7.2,6,Single,3,7
+21,Male,Undergraduate,Egypt,Sharqia,6.4,TikTok,Yes,5.3,5,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Fayoum,4.4,Twitter,Yes,6.9,7,Single,3,7
+19,Female,Graduate,Egypt,Monufia,4.1,Facebook,Yes,8.4,6,Single,3,6
+19,Female,Graduate,Egypt,Assiut,4.5,TikTok,Yes,6.8,7,Single,2,7
+22,Female,Graduate,Egypt,Assiut,4.0,Facebook,Yes,7.0,6,Single,3,7
+20,Male,Undergraduate,Egypt,Assiut,5.5,Instagram,Yes,6.4,5,In Relationship,4,8
+21,Female,Graduate,Egypt,Red Sea,5.6,WhatsApp,Yes,5.8,6,Single,4,8
+23,Female,Undergraduate,Egypt,Luxor,3.6,LinkedIn,Yes,6.5,6,In Relationship,2,7
+19,Female,Graduate,Egypt,Ismailia,4.6,TikTok,No,8.6,7,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Ismailia,4.6,Facebook,No,7.7,8,Single,2,4
+19,Male,Graduate,Egypt,Beheira,4.9,Instagram,Yes,7.3,6,Single,4,8
+20,Male,Undergraduate,Egypt,Sharqia,8.4,Facebook,Yes,4.6,4,In Relationship,5,9
+21,Female,Graduate,Egypt,Ismailia,5.3,Instagram,Yes,6.7,5,In Relationship,3,7
+20,Male,Graduate,Egypt,Assiut,4.4,Instagram,No,7.2,6,Single,3,6
+19,Male,Undergraduate,Egypt,Qena,3.9,Instagram,No,7.9,7,Single,2,5
+20,Female,Undergraduate,Egypt,Qena,5.4,TikTok,Yes,4.8,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Assiut,3.8,WeChat,No,7.6,8,Single,3,4
+19,Male,Undergraduate,Egypt,Luxor,3.7,Instagram,Yes,8.1,6,In Relationship,2,7
+24,Male,Graduate,Egypt,Minya,4.3,TikTok,No,7.5,7,In Relationship,2,4
+19,Male,Graduate,Egypt,Assiut,4.7,WhatsApp,Yes,6.2,6,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Gharbia,2.0,TikTok,No,9.6,8,In Relationship,0,3
+24,Male,Graduate,Egypt,Qalyubia,4.5,Facebook,No,8.0,6,In Relationship,3,6
+21,Female,Graduate,Egypt,Ismailia,4.3,TikTok,No,7.0,8,In Relationship,2,4
+22,Female,Graduate,Egypt,Beheira,4.0,Instagram,No,9.1,7,In Relationship,2,4
+19,Female,Undergraduate,Egypt,Beheira,5.6,WhatsApp,Yes,5.9,6,Single,3,8
+20,Male,Undergraduate,Egypt,Luxor,8.5,Twitter,Yes,3.8,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Cairo,2.8,Instagram,Yes,8.3,7,Single,2,6
+20,Female,Graduate,Egypt,Gharbia,2.5,Facebook,No,7.9,8,In Relationship,2,4
+19,Female,Graduate,Egypt,Sharqia,3.8,Instagram,Yes,8.1,6,Single,3,6
+19,Female,Undergraduate,Egypt,Qalyubia,3.7,TikTok,No,7.9,7,Single,2,4
+19,Female,Undergraduate,Egypt,Giza,3.8,Facebook,No,7.7,8,Single,2,4
+20,Female,Graduate,Egypt,Fayoum,3.8,TikTok,No,7.3,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Gharbia,6.8,Instagram,Yes,5.2,5,In Relationship,4,9
+24,Female,Graduate,Egypt,Assiut,4.6,Twitter,Yes,5.7,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Monufia,3.4,Instagram,No,8.3,6,Single,2,5
+20,Female,Undergraduate,Egypt,Sohag,3.5,Facebook,No,7.5,7,Single,2,4
+22,Male,Undergraduate,Egypt,Sharqia,4.1,Facebook,No,8.0,8,Single,1,4
+20,Male,Graduate,Egypt,Beheira,3.3,TikTok,No,7.3,7,In Relationship,2,5
+21,Female,Graduate,Egypt,Qena,3.2,Instagram,No,7.4,8,Complicated,2,4
+20,Female,Graduate,Egypt,Giza,3.9,TikTok,No,7.5,8,Single,2,5
+20,Female,Graduate,Egypt,Giza,7.0,Instagram,Yes,5.2,5,Single,4,9
+19,Male,Undergraduate,Egypt,Qena,5.5,Facebook,Yes,6.8,5,Complicated,4,8
+22,Female,Undergraduate,Egypt,Suez,3.5,LINE,No,8.4,7,Single,2,4
+22,Female,Undergraduate,Egypt,Qena,5.8,Facebook,Yes,7.5,6,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Sharqia,5.5,Facebook,Yes,7.1,5,Single,4,8
+22,Male,Undergraduate,Egypt,Cairo,4.5,YouTube,Yes,8.3,6,Single,4,7
+19,Female,Undergraduate,Egypt,Red Sea,4.7,TikTok,Yes,6.3,6,Single,4,8
+22,Female,Graduate,Egypt,Alexandria,4.2,Twitter,No,9.1,7,Single,3,5
+21,Male,Graduate,Egypt,Cairo,4.2,Instagram,No,7.0,7,Complicated,2,6
+20,Male,Graduate,Egypt,Giza,3.9,LINE,No,7.3,8,Single,2,4
+20,Male,Graduate,Egypt,Qalyubia,4.0,Instagram,No,7.0,8,In Relationship,1,5
+19,Male,Undergraduate,Egypt,Giza,4.2,Facebook,No,8.1,7,Single,3,6
+20,Female,Graduate,Egypt,Sohag,4.7,Instagram,No,8.2,7,In Relationship,2,5
+22,Female,Graduate,Egypt,Fayoum,5.3,Facebook,Yes,6.5,5,Single,3,7
+19,Female,Graduate,Egypt,Gharbia,5.0,WhatsApp,Yes,6.5,7,Single,2,7
+22,Male,Undergraduate,Egypt,Aswan,2.4,Twitter,No,8.8,7,Single,2,5
+21,Male,Undergraduate,Egypt,Red Sea,1.5,Instagram,No,8.8,9,Complicated,0,2
+21,Male,Graduate,Egypt,Giza,4.7,KakaoTalk,Yes,7.9,5,Single,4,7
+22,Female,Undergraduate,Egypt,Qena,4.4,TikTok,No,7.1,7,In Relationship,2,5
+20,Female,Graduate,Egypt,Port Said,5.4,Instagram,Yes,5.9,5,Complicated,3,7
+24,Male,Graduate,Egypt,Minya,3.2,Instagram,No,8.7,8,Single,1,3
+19,Male,Undergraduate,Egypt,Sharqia,7.2,TikTok,Yes,5.3,4,In Relationship,5,9
+18,Male,Graduate,Egypt,Port Said,7.0,KakaoTalk,Yes,5.6,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Suez,4.9,WhatsApp,No,6.6,7,Single,2,5
+20,Male,Undergraduate,Egypt,Beheira,3.3,Instagram,No,8.2,8,Single,1,4
+20,Female,Undergraduate,Egypt,Aswan,6.4,KakaoTalk,Yes,6.1,6,Single,3,7
+22,Male,Undergraduate,Egypt,Port Said,4.7,TikTok,No,7.8,7,Single,3,5
+20,Female,Undergraduate,Egypt,Port Said,3.8,Instagram,No,8.6,7,In Relationship,2,4
+19,Male,Graduate,Egypt,Luxor,4.9,Instagram,Yes,6.4,7,In Relationship,3,6
+21,Female,Undergraduate,Egypt,Cairo,4.8,Instagram,Yes,6.7,7,Single,2,7
+19,Male,Graduate,Egypt,Gharbia,3.6,Facebook,Yes,8.0,6,Single,3,7
+22,Female,Graduate,Egypt,Sohag,7.1,Facebook,Yes,5.3,5,Single,4,8
+19,Male,Graduate,Egypt,Qalyubia,4.0,Snapchat,Yes,7.3,6,Single,2,7
+22,Female,Undergraduate,Egypt,Monufia,4.4,Facebook,Yes,7.6,6,In Relationship,3,6
+20,Male,Undergraduate,Egypt,Beheira,4.5,Facebook,Yes,7.2,7,Single,2,7
+20,Female,Graduate,Egypt,Gharbia,7.0,VKontakte,Yes,6.1,5,Complicated,4,8
+20,Female,Undergraduate,Egypt,Beheira,5.9,Facebook,Yes,5.3,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Minya,4.3,WhatsApp,No,7.2,7,In Relationship,2,4
+20,Female,Undergraduate,Egypt,Port Said,4.0,Facebook,No,7.8,7,In Relationship,3,5
+21,Male,Undergraduate,Egypt,Dakahlia,4.9,Instagram,Yes,6.5,5,In Relationship,3,7
+23,Male,Undergraduate,Egypt,Alexandria,4.8,Instagram,Yes,6.5,6,In Relationship,3,8
+22,Male,Graduate,Egypt,Monufia,8.5,Instagram,Yes,3.9,4,In Relationship,5,9
+22,Female,Graduate,Egypt,Beheira,6.7,Instagram,Yes,5.3,6,In Relationship,4,7
+24,Female,Undergraduate,Egypt,Giza,3.8,Instagram,No,7.4,8,Single,2,4
+21,Male,Graduate,Egypt,Fayoum,5.5,TikTok,Yes,6.4,6,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Ismailia,4.7,Facebook,Yes,5.8,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Minya,7.2,WhatsApp,Yes,6.3,5,In Relationship,3,7
+19,Female,Graduate,Egypt,Alexandria,4.4,Facebook,No,6.9,6,In Relationship,2,5
+24,Male,Graduate,Egypt,Alexandria,3.6,YouTube,No,8.4,7,In Relationship,3,5
+19,Female,Undergraduate,Egypt,Dakahlia,4.2,TikTok,No,7.9,7,Single,2,5
+21,Female,Undergraduate,Egypt,Gharbia,3.8,WhatsApp,No,7.8,7,Complicated,1,5
+19,Male,Undergraduate,Egypt,Alexandria,7.9,Instagram,Yes,4.7,4,In Relationship,4,9
+22,Female,High School,Egypt,Cairo,6.9,Instagram,Yes,6.5,5,In Relationship,3,8
+22,Male,Undergraduate,Egypt,Monufia,3.2,WeChat,No,7.4,7,Single,3,5
+20,Male,Undergraduate,Egypt,Luxor,6.1,Instagram,Yes,7.4,7,In Relationship,3,7
+19,Female,Graduate,Egypt,Alexandria,6.8,TikTok,Yes,6.8,4,Single,5,9
+22,Male,Undergraduate,Egypt,Cairo,3.5,TikTok,No,8.7,8,Single,2,4
+21,Male,Undergraduate,Egypt,Fayoum,4.5,Instagram,Yes,7.3,6,Single,4,7
+20,Male,Undergraduate,Egypt,Beheira,4.5,Facebook,Yes,6.7,7,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Qalyubia,5.9,Facebook,Yes,5.5,5,Single,3,8
+22,Female,Undergraduate,Egypt,Assiut,4.5,TikTok,Yes,7.6,5,Single,3,7
+22,Female,Graduate,Egypt,Aswan,4.2,WhatsApp,No,8.2,8,Single,2,4
+22,Female,Graduate,Egypt,Suez,4.5,TikTok,Yes,6.3,6,In Relationship,3,8
+20,Male,Graduate,Egypt,Giza,3.5,Instagram,No,7.5,8,In Relationship,1,3
+20,Male,Graduate,Egypt,Red Sea,5.6,TikTok,Yes,5.9,5,Single,4,7
+24,Female,Graduate,Egypt,Luxor,3.5,Instagram,No,8.7,7,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Gharbia,5.1,TikTok,No,6.6,7,Single,2,5
+20,Male,Graduate,Egypt,Cairo,5.2,LinkedIn,Yes,7.2,6,In Relationship,3,6
+23,Male,Undergraduate,Egypt,Giza,5.3,Instagram,Yes,7.2,6,Single,3,7
+19,Male,Undergraduate,Egypt,Fayoum,4.2,Instagram,No,8.3,8,Single,1,4
+21,Female,Undergraduate,Egypt,Alexandria,4.7,VKontakte,Yes,6.3,5,Single,3,7
+20,Male,Undergraduate,Egypt,Cairo,5.7,TikTok,Yes,5.8,5,Single,4,8
+19,Male,Undergraduate,Egypt,Gharbia,4.4,Twitter,Yes,7.9,6,Complicated,4,8
+21,Female,Graduate,Egypt,Monufia,3.5,TikTok,Yes,8.4,7,In Relationship,3,7
+19,Male,High School,Egypt,Luxor,5.1,Facebook,Yes,6.9,5,In Relationship,4,8
+22,Male,Undergraduate,Egypt,Suez,4.5,Instagram,No,8.2,7,Single,3,5
+22,Female,Undergraduate,Egypt,Ismailia,6.4,Facebook,Yes,6.5,5,Single,4,8
+21,Male,Undergraduate,Egypt,Dakahlia,6.9,TikTok,Yes,6.5,5,Single,4,9
+21,Female,Undergraduate,Egypt,Minya,6.5,Instagram,Yes,5.6,5,Single,4,8
+19,Female,Undergraduate,Egypt,Ismailia,4.4,LinkedIn,Yes,7.6,6,Single,3,7
+18,Female,Undergraduate,Egypt,Port Said,5.9,WhatsApp,Yes,6.0,5,In Relationship,4,9
+20,Male,Graduate,Egypt,Assiut,3.7,Instagram,No,7.5,8,In Relationship,2,5
+22,Female,Graduate,Egypt,Aswan,5.3,LinkedIn,No,7.5,7,Single,2,5
+21,Male,Undergraduate,Egypt,Minya,4.5,Instagram,Yes,5.7,7,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Sharqia,3.2,TikTok,Yes,7.8,6,Single,2,7
+20,Female,Graduate,Egypt,Ismailia,4.5,Facebook,Yes,7.0,5,Complicated,3,7
+20,Female,Undergraduate,Egypt,Sohag,6.5,Instagram,Yes,5.7,6,In Relationship,3,7
+19,Male,Graduate,Egypt,Sharqia,4.4,Instagram,Yes,7.3,6,Complicated,3,7
+18,Male,Undergraduate,Egypt,Sharqia,4.8,LinkedIn,Yes,5.8,6,In Relationship,3,8
+22,Male,High School,Egypt,Red Sea,4.4,TikTok,Yes,7.5,7,In Relationship,3,7
+21,Male,Graduate,Egypt,Dakahlia,4.4,TikTok,No,7.5,6,In Relationship,2,5
+20,Female,Undergraduate,Egypt,Qena,3.9,WhatsApp,No,7.6,7,Single,2,5
+20,Female,Undergraduate,Egypt,Cairo,6.1,Snapchat,Yes,7.0,5,Single,4,8
+22,Female,Undergraduate,Egypt,Ismailia,5.3,WhatsApp,Yes,7.3,6,In Relationship,2,7
+21,Male,Graduate,Egypt,Luxor,3.4,TikTok,No,7.8,8,In Relationship,2,4
+22,Female,Undergraduate,Egypt,Fayoum,2.3,Instagram,No,9.3,8,Single,0,3
+20,Female,Undergraduate,Egypt,Gharbia,5.6,Instagram,Yes,6.9,5,In Relationship,3,8
+20,Male,Undergraduate,Egypt,Qalyubia,5.6,Instagram,No,5.0,6,Single,3,5
+20,Male,Undergraduate,Egypt,Sohag,3.8,TikTok,No,7.4,8,Single,2,5
+21,Male,Undergraduate,Egypt,Port Said,2.2,WhatsApp,No,9.6,8,Single,1,3
+20,Male,Graduate,Egypt,Gharbia,5.0,Facebook,No,6.3,8,In Relationship,2,5
+23,Female,Graduate,Egypt,Alexandria,3.7,LinkedIn,No,7.9,8,In Relationship,1,4
+22,Male,Undergraduate,Egypt,Assiut,4.8,Facebook,No,7.7,7,Single,3,5
+19,Female,Undergraduate,Egypt,Monufia,6.8,TikTok,Yes,4.5,5,Single,4,9
+21,Male,Graduate,Egypt,Red Sea,4.6,Instagram,No,7.3,7,In Relationship,2,5
+23,Male,Undergraduate,Egypt,Cairo,2.9,LinkedIn,No,9.1,9,Single,0,3
+22,Female,Undergraduate,Egypt,Minya,5.9,WhatsApp,Yes,6.8,6,Single,3,7
+22,Male,High School,Egypt,Minya,5.8,TikTok,Yes,7.3,6,In Relationship,3,6
+21,Female,High School,Egypt,Gharbia,5.7,Instagram,Yes,6.1,6,Single,3,7
+22,Female,Undergraduate,Egypt,Monufia,3.8,TikTok,No,7.8,8,Single,2,4
+23,Male,Graduate,Egypt,Suez,3.3,Instagram,No,7.8,8,In Relationship,0,3
+19,Male,Graduate,Egypt,Alexandria,6.6,Instagram,Yes,5.1,5,Single,4,8
+23,Female,Graduate,Egypt,Qalyubia,4.0,Instagram,No,8.4,8,In Relationship,2,4
+20,Male,Undergraduate,Egypt,Sohag,4.5,Instagram,No,7.0,8,Single,2,5
+19,Female,Undergraduate,Egypt,Aswan,4.8,TikTok,Yes,8.4,6,Single,3,7
+20,Male,Graduate,Egypt,Alexandria,4.2,WhatsApp,No,8.9,7,Single,2,4
+21,Female,Graduate,Egypt,Monufia,3.1,Instagram,No,7.4,8,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Cairo,7.2,Instagram,Yes,5.9,6,In Relationship,3,7
+23,Male,Undergraduate,Egypt,Fayoum,7.0,Facebook,Yes,6.7,5,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Sharqia,5.2,LinkedIn,Yes,6.6,6,Single,3,7
+22,Male,Graduate,Egypt,Monufia,4.9,TikTok,No,7.6,7,Single,2,5
+22,Female,Undergraduate,Egypt,Suez,4.5,Instagram,Yes,6.8,5,Single,3,7
+23,Female,Graduate,Egypt,Assiut,4.8,KakaoTalk,Yes,7.0,6,Single,3,7
+21,Female,Graduate,Egypt,Ismailia,4.6,LINE,Yes,7.0,6,Single,3,7
+21,Male,Graduate,Egypt,Assiut,4.7,WhatsApp,Yes,7.5,6,In Relationship,3,8
+23,Female,Undergraduate,Egypt,Sharqia,4.7,TikTok,No,7.1,6,Single,3,5
+19,Female,Graduate,Egypt,Beheira,3.5,Facebook,No,7.9,8,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Red Sea,3.9,Twitter,No,9.2,8,Single,2,4
+20,Female,Graduate,Egypt,Ismailia,4.2,TikTok,No,7.0,7,Single,3,5
+20,Male,Graduate,Egypt,Port Said,5.9,Snapchat,Yes,7.2,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Suez,6.3,Twitter,Yes,6.2,6,In Relationship,3,8
+24,Male,Graduate,Egypt,Sohag,4.9,Facebook,Yes,6.3,6,Single,3,7
+20,Female,Graduate,Egypt,Dakahlia,4.4,WhatsApp,No,6.6,6,In Relationship,3,5
+21,Male,Graduate,Egypt,Red Sea,6.8,LinkedIn,Yes,5.2,4,Single,5,8
+21,Male,Graduate,Egypt,Sharqia,4.7,TikTok,No,7.9,8,Single,2,5
+22,Female,Graduate,Egypt,Giza,6.5,Instagram,Yes,7.0,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Alexandria,6.6,Instagram,Yes,6.6,5,Single,4,8
+22,Male,High School,Egypt,Gharbia,6.9,Instagram,Yes,6.5,6,Single,3,7
+21,Male,Graduate,Egypt,Qalyubia,4.3,Instagram,Yes,7.6,7,Single,3,7
+20,Female,Graduate,Egypt,Gharbia,4.8,Instagram,Yes,6.9,5,In Relationship,3,8
+19,Male,Graduate,Egypt,Assiut,2.5,Instagram,No,8.4,8,In Relationship,1,3
+21,Female,Graduate,Egypt,Sharqia,5.4,Instagram,Yes,7.2,5,Single,3,8
+21,Male,Undergraduate,Egypt,Qalyubia,2.6,Instagram,No,8.4,8,In Relationship,1,4
+18,Female,Graduate,Egypt,Sharqia,4.4,Instagram,No,7.7,6,In Relationship,3,5
+19,Male,Undergraduate,Egypt,Beheira,4.6,Instagram,Yes,5.0,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Assiut,7.1,Instagram,Yes,5.4,5,In Relationship,5,8
+19,Male,Undergraduate,Egypt,Qalyubia,2.6,TikTok,No,8.0,8,Single,2,4
+21,Female,High School,Egypt,Ismailia,6.2,Instagram,Yes,6.0,6,In Relationship,4,7
+19,Female,Undergraduate,Egypt,Alexandria,4.7,Instagram,No,8.0,6,Single,2,5
+23,Male,Undergraduate,Egypt,Red Sea,5.8,Facebook,Yes,5.4,5,Single,3,8
+20,Male,Graduate,Egypt,Alexandria,5.8,Instagram,Yes,4.3,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Red Sea,5.5,KakaoTalk,Yes,5.9,6,Single,3,7
+22,Male,Graduate,Egypt,Gharbia,5.6,Instagram,Yes,5.8,6,Single,4,8
+20,Female,Graduate,Egypt,Port Said,4.5,Instagram,Yes,7.8,7,In Relationship,2,6
+21,Female,Graduate,Egypt,Luxor,4.6,WhatsApp,Yes,7.1,6,Single,3,7
+19,Female,Undergraduate,Egypt,Monufia,6.4,Instagram,Yes,6.6,5,Single,4,8
+19,Female,Graduate,Egypt,Cairo,3.8,Instagram,No,8.6,7,In Relationship,2,4
+20,Female,Graduate,Egypt,Fayoum,1.5,WeChat,No,9.2,8,In Relationship,0,3
+21,Female,Graduate,Egypt,Luxor,2.8,Instagram,No,9.0,8,Single,2,4
+20,Male,Graduate,Egypt,Assiut,2.9,Instagram,No,9.4,8,In Relationship,2,4
+20,Female,Graduate,Egypt,Cairo,6.3,Instagram,Yes,7.2,6,In Relationship,3,7
+22,Female,Graduate,Egypt,Qalyubia,2.9,Instagram,No,8.7,8,Single,1,3
+20,Female,Graduate,Egypt,Sohag,4.2,Instagram,No,7.3,8,Single,2,5
+19,Female,Graduate,Egypt,Sharqia,3.8,Facebook,No,9.0,8,In Relationship,1,4
+23,Male,Graduate,Egypt,Beheira,5.3,Twitter,Yes,6.8,6,Single,3,7
+21,Male,Graduate,Egypt,Red Sea,6.8,Facebook,Yes,5.7,5,Single,4,8
+21,Male,Graduate,Egypt,Beheira,6.1,LinkedIn,Yes,5.9,5,Complicated,4,8
+19,Female,Graduate,Egypt,Monufia,5.7,Instagram,Yes,6.4,5,Single,4,8
+22,Male,Undergraduate,Egypt,Red Sea,5.3,Facebook,Yes,6.6,6,Single,3,7
+21,Female,Graduate,Egypt,Qalyubia,4.1,Instagram,No,8.4,7,Single,2,4
+20,Female,Undergraduate,Egypt,Red Sea,2.7,TikTok,No,8.1,7,In Relationship,2,4
+21,Male,Graduate,Egypt,Luxor,3.9,TikTok,Yes,7.9,7,Single,2,6
+21,Male,Graduate,Egypt,Aswan,4.3,TikTok,No,5.8,7,Single,2,5
+22,Male,Graduate,Egypt,Red Sea,4.2,TikTok,No,8.0,8,Single,2,4
+19,Male,Graduate,Egypt,Aswan,4.3,Instagram,No,8.0,8,In Relationship,2,4
+23,Male,Undergraduate,Egypt,Fayoum,4.7,Twitter,Yes,6.0,5,Single,3,7
+23,Female,Undergraduate,Egypt,Fayoum,4.9,WhatsApp,Yes,7.8,5,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Sohag,3.7,Instagram,No,8.5,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Alexandria,3.5,KakaoTalk,No,8.6,7,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Giza,5.4,LinkedIn,Yes,6.4,7,Single,3,6
+20,Female,Undergraduate,Egypt,Assiut,4.5,TikTok,Yes,7.1,7,In Relationship,3,7
+19,Female,Graduate,Egypt,Suez,4.2,Instagram,No,8.8,7,In Relationship,3,6
+21,Male,Undergraduate,Egypt,Luxor,5.7,TikTok,Yes,7.6,6,Single,3,8
+22,Female,Undergraduate,Egypt,Qena,3.4,TikTok,No,9.4,7,Single,2,4
+24,Female,Undergraduate,Egypt,Suez,3.7,Instagram,No,7.8,8,Single,1,4
+20,Male,Graduate,Egypt,Ismailia,4.3,WhatsApp,Yes,7.3,6,In Relationship,2,7
+22,Female,Undergraduate,Egypt,Qena,4.2,Instagram,No,8.0,6,Single,2,5
+20,Female,Undergraduate,Egypt,Cairo,5.5,Instagram,Yes,6.5,5,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Port Said,3.7,Instagram,Yes,7.1,7,Single,3,6
+20,Female,Undergraduate,Egypt,Ismailia,3.6,Facebook,Yes,7.8,6,In Relationship,3,7
+23,Female,High School,Egypt,Dakahlia,4.0,Instagram,Yes,8.2,7,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Sharqia,3.2,Instagram,No,8.8,8,Single,2,4
+19,Male,Graduate,Egypt,Gharbia,6.2,KakaoTalk,Yes,5.7,6,In Relationship,4,7
+21,Female,Undergraduate,Egypt,Monufia,4.8,Instagram,No,7.5,6,Single,3,6
+23,Male,Graduate,Egypt,Dakahlia,4.2,TikTok,No,6.7,7,Single,2,5
+20,Male,Undergraduate,Egypt,Sharqia,6.7,TikTok,Yes,5.6,5,Single,4,8
+20,Male,Graduate,Egypt,Sharqia,5.6,WhatsApp,Yes,7.3,6,In Relationship,3,8
+21,Female,Undergraduate,Egypt,Luxor,3.3,Instagram,No,7.9,7,Complicated,2,4
+21,Female,Undergraduate,Egypt,Red Sea,4.4,LINE,No,7.4,7,Single,2,5
+18,Female,Graduate,Egypt,Dakahlia,3.0,TikTok,No,8.4,8,In Relationship,1,4
+21,Female,Graduate,Egypt,Alexandria,3.7,Facebook,No,8.3,8,Single,2,5
+21,Male,Undergraduate,Egypt,Gharbia,4.6,Facebook,Yes,8.2,6,Single,3,7
+19,Male,Undergraduate,Egypt,Fayoum,5.6,WhatsApp,Yes,6.5,6,Single,4,8
+19,Female,Graduate,Egypt,Suez,4.9,TikTok,Yes,7.3,6,In Relationship,4,7
+22,Male,Undergraduate,Egypt,Giza,4.6,TikTok,No,7.1,7,Single,3,6
+22,Female,Undergraduate,Egypt,Beheira,6.2,Facebook,Yes,6.4,6,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Dakahlia,8.5,TikTok,Yes,5.4,5,Single,5,9
+24,Female,Graduate,Egypt,Luxor,6.5,TikTok,Yes,6.2,5,In Relationship,4,8
+22,Female,Graduate,Egypt,Beheira,6.8,Instagram,Yes,4.5,5,Single,4,8
+23,Female,Undergraduate,Egypt,Sharqia,4.1,Facebook,No,8.6,7,In Relationship,2,5
+22,Female,Graduate,Egypt,Assiut,3.7,TikTok,Yes,7.3,6,Single,2,6
+22,Female,Undergraduate,Egypt,Monufia,3.8,WhatsApp,No,9.1,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Aswan,2.8,Facebook,No,8.7,8,Single,1,4
+22,Male,Undergraduate,Egypt,Dakahlia,6.3,TikTok,Yes,7.4,6,In Relationship,4,8
+22,Female,Graduate,Egypt,Qena,3.7,Facebook,No,8.6,8,In Relationship,1,4
+22,Female,Graduate,Egypt,Fayoum,5.6,Twitter,Yes,6.2,5,Single,4,7
+19,Male,Graduate,Egypt,Luxor,7.3,Instagram,Yes,4.9,5,Single,4,9
+20,Male,Graduate,Egypt,Dakahlia,3.1,WhatsApp,No,8.2,8,In Relationship,1,4
+22,Female,Undergraduate,Egypt,Cairo,3.9,YouTube,No,7.2,7,In Relationship,3,5
+20,Female,Undergraduate,Egypt,Ismailia,3.6,WeChat,No,7.5,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Qena,2.4,WhatsApp,No,8.1,8,In Relationship,2,4
+20,Female,Undergraduate,Egypt,Giza,5.9,WhatsApp,Yes,7.0,5,Single,4,8
+20,Female,Graduate,Egypt,Red Sea,4.0,Instagram,Yes,8.3,6,Single,3,7
+19,Female,Undergraduate,Egypt,Assiut,8.4,Twitter,Yes,4.3,4,Single,5,9
+23,Female,Graduate,Egypt,Port Said,3.8,Twitter,No,7.4,7,In Relationship,2,4
+19,Female,Graduate,Egypt,Red Sea,5.7,Facebook,Yes,6.6,6,Single,4,8
+20,Male,Undergraduate,Egypt,Alexandria,3.7,Instagram,No,8.3,8,In Relationship,1,3
+19,Female,Graduate,Egypt,Qena,4.4,WhatsApp,Yes,6.2,7,In Relationship,2,8
+21,Male,Graduate,Egypt,Fayoum,5.6,Instagram,Yes,7.1,6,Single,3,8
+20,Male,Undergraduate,Egypt,Sohag,3.6,Instagram,No,8.6,6,Single,3,5
+20,Female,Graduate,Egypt,Aswan,5.7,TikTok,Yes,6.6,5,Single,4,7
+21,Female,Graduate,Egypt,Suez,4.2,TikTok,No,7.4,7,Single,2,5
+19,Male,Undergraduate,Egypt,Dakahlia,6.4,Instagram,Yes,5.1,5,Complicated,4,8
+21,Female,Undergraduate,Egypt,Minya,6.9,TikTok,Yes,5.1,5,Single,3,8
+22,Male,Undergraduate,Egypt,Qalyubia,1.5,TikTok,No,9.1,9,Single,0,2
+20,Male,Undergraduate,Egypt,Fayoum,5.7,Twitter,Yes,5.3,5,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Beheira,5.5,Twitter,Yes,7.0,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Assiut,4.4,Instagram,Yes,6.7,7,Single,3,7
+19,Male,Undergraduate,Egypt,Fayoum,5.8,WhatsApp,Yes,4.9,5,In Relationship,4,9
+22,Male,Graduate,Egypt,Sharqia,3.6,WhatsApp,No,7.3,8,In Relationship,1,4
+20,Male,Graduate,Egypt,Assiut,3.9,Facebook,Yes,7.2,6,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Alexandria,6.5,Facebook,Yes,4.3,5,Single,4,8
+22,Male,Undergraduate,Egypt,Fayoum,3.4,Instagram,No,7.6,8,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Alexandria,7.0,Instagram,Yes,5.8,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Monufia,4.8,TikTok,Yes,6.6,5,Complicated,3,8
+19,Female,Graduate,Egypt,Alexandria,5.1,WeChat,Yes,7.3,7,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Luxor,6.0,Instagram,Yes,6.4,7,Single,2,7
+19,Male,Graduate,Egypt,Sohag,4.4,Facebook,No,7.2,7,Single,2,5
+22,Male,Graduate,Egypt,Sohag,4.3,Instagram,Yes,7.3,6,Single,3,7
+19,Female,Undergraduate,Egypt,Ismailia,6.7,Snapchat,Yes,6.3,4,Single,5,9
+19,Male,Undergraduate,Egypt,Fayoum,5.2,TikTok,Yes,6.4,6,Single,4,8
+19,Male,Undergraduate,Egypt,Ismailia,5.3,Facebook,No,7.2,7,Single,3,5
+21,Female,Undergraduate,Egypt,Ismailia,5.7,LinkedIn,Yes,6.4,6,In Relationship,2,6
+22,Female,Undergraduate,Egypt,Sharqia,4.1,Instagram,No,8.9,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Beheira,4.0,Instagram,No,7.0,7,In Relationship,3,5
+20,Male,Graduate,Egypt,Gharbia,5.9,Instagram,Yes,5.5,5,In Relationship,5,8
+22,Male,Undergraduate,Egypt,Minya,7.0,Instagram,Yes,6.3,4,In Relationship,5,9
+21,Male,Undergraduate,Egypt,Monufia,3.8,Instagram,No,8.3,8,In Relationship,2,4
+23,Male,Graduate,Egypt,Port Said,4.7,TikTok,Yes,5.8,6,Single,3,7
+18,Female,Undergraduate,Egypt,Monufia,6.5,WhatsApp,Yes,5.0,5,In Relationship,4,9
+19,Male,Graduate,Egypt,Minya,4.5,Facebook,No,6.1,7,Single,2,5
+21,Male,Undergraduate,Egypt,Aswan,6.4,Instagram,Yes,6.7,6,Single,3,8
+19,Male,Undergraduate,Egypt,Luxor,3.8,Instagram,Yes,7.8,7,Single,2,6
+19,Female,Graduate,Egypt,Gharbia,4.8,KakaoTalk,Yes,5.8,6,Single,3,7
+22,Female,Graduate,Egypt,Luxor,2.4,Instagram,No,8.4,8,Single,1,4
+21,Male,Undergraduate,Egypt,Luxor,4.5,TikTok,Yes,7.5,5,In Relationship,3,7
+20,Female,Graduate,Egypt,Monufia,5.6,Twitter,No,5.5,6,Single,2,6
+19,Female,Graduate,Egypt,Qalyubia,5.5,TikTok,Yes,6.2,6,In Relationship,3,8
+22,Male,Graduate,Egypt,Port Said,5.1,Facebook,Yes,5.9,6,Single,3,7
+24,Female,Graduate,Egypt,Minya,3.7,LinkedIn,No,8.2,7,In Relationship,2,4
+22,Male,Graduate,Egypt,Ismailia,3.6,TikTok,No,7.3,8,Single,2,4
+19,Female,Graduate,Egypt,Aswan,4.8,TikTok,Yes,7.0,6,Single,3,7
+22,Female,Undergraduate,Egypt,Port Said,5.0,LINE,No,7.4,5,In Relationship,4,5
+21,Male,Graduate,Egypt,Beheira,7.0,TikTok,Yes,5.8,5,In Relationship,5,8
+24,Male,High School,Egypt,Alexandria,5.8,WhatsApp,Yes,7.0,6,Single,3,7
+20,Male,Undergraduate,Egypt,Giza,7.0,TikTok,Yes,7.4,5,In Relationship,4,9
+21,Female,Undergraduate,Egypt,Minya,6.4,TikTok,Yes,5.7,5,Single,4,8
+20,Male,Undergraduate,Egypt,Cairo,6.2,Instagram,Yes,6.5,6,Single,3,7
+21,Female,Undergraduate,Egypt,Assiut,6.1,Instagram,Yes,6.1,6,Single,3,7
+19,Male,Undergraduate,Egypt,Fayoum,7.0,WhatsApp,Yes,6.6,5,Single,4,8
+19,Female,Undergraduate,Egypt,Assiut,5.0,Instagram,Yes,7.3,5,Single,3,8
+22,Female,Graduate,Egypt,Port Said,3.1,Facebook,No,8.4,8,Single,2,3
+24,Female,Graduate,Egypt,Sohag,5.8,TikTok,No,6.5,6,Single,3,5
+19,Male,Undergraduate,Egypt,Ismailia,3.5,Instagram,No,7.6,7,Single,3,5
+21,Female,Undergraduate,Egypt,Alexandria,2.8,Snapchat,No,7.9,8,Single,1,4
+19,Female,Undergraduate,Egypt,Red Sea,4.5,Facebook,Yes,5.7,7,Single,2,6
+21,Female,Graduate,Egypt,Aswan,4.1,Instagram,Yes,7.9,6,In Relationship,2,7
+21,Female,Graduate,Egypt,Cairo,4.4,Facebook,No,5.8,6,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Cairo,6.5,WhatsApp,Yes,5.5,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Qena,7.1,Facebook,Yes,4.0,5,In Relationship,4,9
+21,Female,Graduate,Egypt,Beheira,6.0,Instagram,Yes,7.4,6,Single,3,7
+20,Female,Undergraduate,Egypt,Assiut,4.6,TikTok,No,7.5,6,In Relationship,3,6
+20,Female,Graduate,Egypt,Ismailia,4.7,Twitter,Yes,6.9,6,In Relationship,3,6
+20,Male,Undergraduate,Egypt,Fayoum,3.3,TikTok,No,8.1,7,In Relationship,1,5
+21,Female,Graduate,Egypt,Qena,5.8,LinkedIn,Yes,6.3,5,Single,4,7
+20,Female,Undergraduate,Egypt,Qena,2.7,Instagram,No,9.1,7,Single,2,5
+23,Male,Undergraduate,Egypt,Fayoum,6.2,TikTok,Yes,6.9,5,Single,4,8
+19,Male,Undergraduate,Egypt,Cairo,7.5,Instagram,Yes,7.2,6,Single,3,7
+21,Female,Undergraduate,Egypt,Sohag,5.6,Facebook,Yes,6.5,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Monufia,4.1,Instagram,Yes,6.7,7,Single,2,6
+24,Male,Undergraduate,Egypt,Port Said,3.6,Facebook,No,9.2,6,Single,3,5
+22,Male,Undergraduate,Egypt,Alexandria,5.2,Instagram,No,6.3,7,Single,2,5
+19,Female,Graduate,Egypt,Cairo,2.4,Instagram,No,8.8,8,Single,1,3
+19,Female,Undergraduate,Egypt,Aswan,4.8,Instagram,Yes,8.0,7,In Relationship,3,6
+19,Female,Undergraduate,Egypt,Luxor,4.7,LinkedIn,No,7.2,6,Single,2,5
+22,Male,Undergraduate,Egypt,Fayoum,4.2,TikTok,No,7.4,8,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Port Said,4.6,LinkedIn,Yes,7.7,7,In Relationship,3,7
+23,Female,High School,Egypt,Giza,5.2,TikTok,Yes,6.6,7,Single,3,7
+19,Female,Graduate,Egypt,Dakahlia,3.9,Twitter,No,8.0,7,Single,2,5
+19,Male,Undergraduate,Egypt,Sohag,5.3,Instagram,Yes,6.2,5,Single,4,8
+19,Female,Graduate,Egypt,Qalyubia,6.7,TikTok,Yes,5.8,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Sohag,4.9,LinkedIn,Yes,6.7,5,Single,3,8
+21,Female,Undergraduate,Egypt,Suez,5.7,TikTok,Yes,6.7,7,Single,2,7
+22,Female,Graduate,Egypt,Fayoum,4.4,TikTok,Yes,6.4,7,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Ismailia,4.5,Instagram,Yes,7.6,7,In Relationship,2,7
+21,Female,High School,Egypt,Qalyubia,4.2,TikTok,No,6.9,6,Single,2,5
+22,Male,Graduate,Egypt,Sohag,3.4,Instagram,No,7.9,7,Complicated,2,5
+20,Female,Graduate,Egypt,Alexandria,4.6,Instagram,Yes,6.8,6,Single,3,7
+19,Male,Graduate,Egypt,Dakahlia,4.4,Instagram,Yes,6.7,6,In Relationship,3,8
+23,Male,Undergraduate,Egypt,Qalyubia,2.6,TikTok,No,7.9,8,Single,2,5
+19,Female,Undergraduate,Egypt,Luxor,5.1,TikTok,Yes,6.5,7,Single,3,6
+22,Male,Graduate,Egypt,Qena,3.7,TikTok,No,8.0,6,Single,2,5
+20,Female,Graduate,Egypt,Suez,2.7,Instagram,No,8.9,8,Single,2,5
+19,Female,Graduate,Egypt,Red Sea,6.1,VKontakte,Yes,7.3,6,Single,3,7
+21,Female,Undergraduate,Egypt,Ismailia,4.7,TikTok,Yes,7.9,6,Single,3,7
+19,Male,Undergraduate,Egypt,Ismailia,4.7,TikTok,Yes,7.1,6,Single,3,6
+23,Female,Undergraduate,Egypt,Minya,4.4,Instagram,No,7.8,7,Single,3,5
+21,Male,Graduate,Egypt,Qena,4.9,Instagram,No,5.9,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Port Said,6.6,Instagram,Yes,5.8,5,In Relationship,4,9
+19,Male,Graduate,Egypt,Dakahlia,7.0,Instagram,Yes,4.6,4,Single,4,9
+20,Male,Undergraduate,Egypt,Luxor,4.5,Instagram,Yes,7.4,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Beheira,6.3,YouTube,Yes,5.5,6,Single,3,7
+21,Male,Graduate,Egypt,Port Said,6.7,Instagram,Yes,5.7,6,Single,3,8
+20,Female,Undergraduate,Egypt,Qena,5.5,Instagram,Yes,5.1,6,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Sohag,4.8,WhatsApp,Yes,7.3,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Sharqia,4.7,Facebook,Yes,6.5,7,Single,3,7
+19,Female,Graduate,Egypt,Qena,6.6,TikTok,Yes,5.5,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Sohag,5.0,Facebook,Yes,6.0,5,In Relationship,3,8
+22,Male,Undergraduate,Egypt,Ismailia,4.9,Instagram,Yes,5.5,6,In Relationship,3,7
+22,Male,Graduate,Egypt,Aswan,4.5,Instagram,Yes,7.0,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Alexandria,5.5,Instagram,Yes,6.0,7,Single,3,7
+21,Female,Undergraduate,Egypt,Qena,5.8,TikTok,Yes,5.2,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Cairo,6.8,WhatsApp,Yes,6.2,7,Single,2,7
+21,Female,High School,Egypt,Gharbia,4.5,Snapchat,Yes,6.5,7,In Relationship,2,7
+22,Female,Undergraduate,Egypt,Cairo,4.3,TikTok,Yes,7.8,7,Single,2,7
+21,Female,Undergraduate,Egypt,Qalyubia,8.3,Instagram,Yes,5.1,4,In Relationship,4,9
+19,Male,Graduate,Egypt,Giza,6.2,Instagram,Yes,5.9,4,Complicated,4,9
+19,Male,High School,Egypt,Sharqia,5.5,VKontakte,Yes,6.6,6,Single,3,7
+21,Female,Undergraduate,Egypt,Ismailia,3.3,Instagram,Yes,8.2,7,Single,3,6
+22,Female,Graduate,Egypt,Qena,3.7,Facebook,No,7.2,7,Single,2,4
+19,Female,Undergraduate,Egypt,Dakahlia,3.7,TikTok,Yes,7.1,7,Single,3,7
+19,Male,Graduate,Egypt,Sohag,3.5,LinkedIn,Yes,7.9,6,Single,2,6
+19,Female,Graduate,Egypt,Beheira,6.7,TikTok,Yes,5.8,5,Single,4,9
+22,Male,Undergraduate,Egypt,Beheira,4.2,TikTok,No,7.5,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Gharbia,5.5,TikTok,Yes,7.2,5,Complicated,4,8
+20,Male,Graduate,Egypt,Qalyubia,6.1,TikTok,Yes,5.2,5,Single,4,8
+22,Male,Undergraduate,Egypt,Sharqia,2.3,Facebook,No,8.5,8,In Relationship,1,3
+24,Female,Undergraduate,Egypt,Qalyubia,3.8,Instagram,No,6.9,7,Single,2,4
+21,Male,Graduate,Egypt,Alexandria,5.6,TikTok,Yes,5.9,7,In Relationship,2,7
+21,Female,Graduate,Egypt,Alexandria,4.4,Snapchat,Yes,6.9,6,Single,3,6
+21,Male,Graduate,Egypt,Ismailia,4.5,WhatsApp,Yes,6.4,7,Single,2,6
+19,Male,Graduate,Egypt,Assiut,3.9,KakaoTalk,Yes,8.5,7,Single,3,6
+20,Female,Undergraduate,Egypt,Fayoum,4.2,Snapchat,Yes,7.5,6,In Relationship,3,7
+19,Male,Graduate,Egypt,Minya,6.7,Instagram,Yes,6.3,5,Single,4,8
+21,Male,Graduate,Egypt,Qalyubia,4.5,Instagram,Yes,8.4,6,In Relationship,3,7
+19,Female,High School,Egypt,Ismailia,4.7,Facebook,Yes,7.3,6,Single,3,7
+20,Male,Graduate,Egypt,Alexandria,3.2,Instagram,No,7.4,8,In Relationship,1,5
+20,Female,Undergraduate,Egypt,Port Said,7.1,Instagram,Yes,5.0,4,In Relationship,5,9
+21,Female,Undergraduate,Egypt,Qena,3.6,WeChat,No,8.2,6,Single,2,5
+21,Male,Graduate,Egypt,Luxor,4.5,Instagram,No,7.6,7,Single,2,5
+20,Female,Undergraduate,Egypt,Luxor,5.6,TikTok,Yes,7.4,6,Single,3,7
+22,Male,Graduate,Egypt,Qena,5.8,TikTok,Yes,6.0,6,Single,3,7
+19,Female,High School,Egypt,Fayoum,4.6,TikTok,No,8.1,5,Single,3,6
+24,Male,Graduate,Egypt,Ismailia,4.5,TikTok,No,8.4,7,Single,4,6
+21,Female,Graduate,Egypt,Luxor,7.2,LinkedIn,Yes,4.4,4,Single,4,9
+20,Male,Graduate,Egypt,Giza,4.0,Instagram,No,6.7,7,In Relationship,2,5
+19,Male,Graduate,Egypt,Luxor,6.1,Instagram,Yes,6.2,7,Complicated,2,7
+21,Male,Undergraduate,Egypt,Qalyubia,7.1,TikTok,Yes,5.2,4,Single,4,9
+20,Male,Undergraduate,Egypt,Sohag,6.7,TikTok,Yes,5.2,5,Single,4,9
+19,Male,High School,Egypt,Cairo,7.0,Facebook,Yes,5.0,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Fayoum,6.5,TikTok,Yes,5.6,5,Single,4,8
+22,Female,Graduate,Egypt,Aswan,3.5,Facebook,No,7.7,7,In Relationship,1,5
+20,Female,Undergraduate,Egypt,Minya,4.2,Instagram,No,7.5,7,Single,2,4
+20,Female,Graduate,Egypt,Assiut,6.6,Instagram,Yes,6.2,5,Single,4,7
+21,Female,Graduate,Egypt,Assiut,6.3,TikTok,Yes,6.2,6,In Relationship,3,7
+21,Female,Graduate,Egypt,Ismailia,2.8,TikTok,No,9.3,8,In Relationship,2,3
+24,Male,High School,Egypt,Alexandria,5.6,Instagram,Yes,7.6,6,Single,4,7
+21,Male,Undergraduate,Egypt,Sohag,4.4,Instagram,No,7.9,8,Single,2,5
+20,Male,Graduate,Egypt,Fayoum,2.6,TikTok,No,8.8,8,Single,1,4
+18,Male,Undergraduate,Egypt,Giza,2.9,WhatsApp,No,8.8,8,In Relationship,1,4
+19,Male,Graduate,Egypt,Aswan,5.1,WhatsApp,Yes,6.2,6,In Relationship,4,7
+23,Female,Graduate,Egypt,Sohag,5.6,WeChat,Yes,6.2,7,Single,2,6
+22,Female,Graduate,Egypt,Gharbia,4.9,Instagram,Yes,6.5,5,In Relationship,3,8
+20,Female,Graduate,Egypt,Dakahlia,5.8,Instagram,Yes,6.8,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Giza,4.7,Twitter,Yes,7.4,6,Single,4,8
+19,Male,Undergraduate,Egypt,Alexandria,6.2,Instagram,Yes,5.9,5,In Relationship,3,9
+19,Female,Undergraduate,Egypt,Port Said,3.2,Facebook,Yes,8.3,6,Single,3,7
+20,Male,Graduate,Egypt,Dakahlia,5.2,Instagram,Yes,7.3,6,Complicated,3,7
+20,Male,Graduate,Egypt,Aswan,5.3,Facebook,Yes,5.6,7,Single,3,7
+22,Female,Graduate,Egypt,Alexandria,6.7,WhatsApp,Yes,5.4,5,In Relationship,4,8
+22,Male,Graduate,Egypt,Monufia,4.8,Instagram,Yes,7.9,6,In Relationship,3,7
+20,Male,Graduate,Egypt,Giza,4.8,Facebook,No,6.8,7,Single,3,5
+19,Female,Graduate,Egypt,Minya,4.6,LinkedIn,Yes,7.9,6,In Relationship,2,7
+19,Male,Undergraduate,Egypt,Aswan,4.1,Instagram,No,7.4,7,Complicated,3,5
+22,Female,Undergraduate,Egypt,Beheira,6.9,LinkedIn,Yes,5.4,5,In Relationship,4,8
+20,Female,Graduate,Egypt,Assiut,3.2,TikTok,Yes,7.5,6,Single,3,7
+20,Male,Undergraduate,Egypt,Aswan,5.5,TikTok,Yes,7.9,6,Single,4,7
+24,Male,Undergraduate,Egypt,Assiut,6.4,Instagram,Yes,6.5,6,Single,3,7
+22,Female,Undergraduate,Egypt,Beheira,4.0,Instagram,No,8.2,8,In Relationship,2,4
+19,Male,Graduate,Egypt,Giza,4.9,Instagram,Yes,7.7,5,Single,3,8
+23,Female,Graduate,Egypt,Sharqia,5.9,Facebook,Yes,6.9,6,Single,4,7
+20,Male,Graduate,Egypt,Beheira,2.2,Instagram,No,9.5,9,Single,0,3
+22,Female,Graduate,Egypt,Minya,5.6,TikTok,Yes,6.4,5,In Relationship,3,7
+22,Male,Graduate,Egypt,Sharqia,5.0,Instagram,Yes,7.6,6,Complicated,3,7
+22,Male,Undergraduate,Egypt,Qena,5.4,TikTok,Yes,6.5,5,Single,4,8
+19,Female,Graduate,Egypt,Fayoum,3.9,TikTok,No,8.3,7,In Relationship,2,5
+19,Male,Graduate,Egypt,Alexandria,4.3,Instagram,No,6.4,6,Single,3,6
+20,Female,Graduate,Egypt,Port Said,4.8,Instagram,Yes,6.3,5,Single,4,7
+21,Female,Undergraduate,Egypt,Aswan,3.8,Instagram,No,8.4,8,Single,1,4
+21,Male,Undergraduate,Egypt,Qalyubia,6.0,TikTok,Yes,4.7,5,Single,3,8
+21,Male,Graduate,Egypt,Gharbia,4.5,Instagram,Yes,6.4,8,In Relationship,3,7
+21,Male,Graduate,Egypt,Red Sea,4.2,Instagram,Yes,7.4,5,Single,3,7
+23,Female,Graduate,Egypt,Aswan,4.8,Instagram,Yes,7.2,6,Single,3,7
+21,Female,Graduate,Egypt,Luxor,4.7,Twitter,Yes,5.9,5,In Relationship,4,7
+19,Female,Graduate,Egypt,Ismailia,6.2,Snapchat,Yes,6.4,6,In Relationship,4,8
+22,Male,Graduate,Egypt,Gharbia,4.7,TikTok,No,6.8,7,In Relationship,3,6
+22,Male,Undergraduate,Egypt,Qalyubia,4.2,Facebook,No,8.1,7,Single,1,5
+20,Female,Graduate,Egypt,Assiut,4.3,Facebook,Yes,6.8,7,Single,2,6
+20,Female,Graduate,Egypt,Dakahlia,4.3,Facebook,Yes,6.7,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Dakahlia,4.3,Instagram,Yes,6.5,6,Single,4,7
+20,Male,Graduate,Egypt,Sharqia,3.1,TikTok,No,7.3,7,Single,2,5
+22,Female,High School,Egypt,Sohag,4.0,TikTok,No,7.2,8,Single,1,5
+19,Male,Graduate,Egypt,Qena,4.4,WeChat,No,8.7,7,In Relationship,3,5
+19,Female,Graduate,Egypt,Dakahlia,3.6,Instagram,No,8.1,7,Single,2,4
+22,Female,Graduate,Egypt,Qalyubia,4.3,WeChat,No,7.2,7,Single,2,5
+20,Male,Undergraduate,Egypt,Cairo,6.8,TikTok,Yes,5.4,5,Single,4,9
+21,Female,Graduate,Egypt,Alexandria,4.4,Instagram,Yes,7.4,6,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Qena,5.2,TikTok,Yes,5.9,7,In Relationship,3,7
+19,Male,Graduate,Egypt,Port Said,7.3,LinkedIn,Yes,5.3,5,Single,4,8
+19,Female,Graduate,Egypt,Luxor,4.4,TikTok,Yes,5.8,5,Single,4,8
+18,Female,Undergraduate,Egypt,Giza,5.3,KakaoTalk,Yes,6.2,6,Single,4,8
+21,Male,Undergraduate,Egypt,Sohag,4.4,WeChat,Yes,7.3,6,Single,3,6
+22,Female,Graduate,Egypt,Assiut,5.5,Instagram,Yes,7.9,6,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Fayoum,6.1,Facebook,Yes,6.2,6,Single,3,7
+22,Female,Undergraduate,Egypt,Qalyubia,4.2,TikTok,Yes,6.5,7,Single,2,7
+22,Female,Graduate,Egypt,Monufia,3.0,LINE,No,7.8,8,In Relationship,2,4
+20,Female,Undergraduate,Egypt,Alexandria,3.9,TikTok,Yes,5.6,6,Single,3,7
+20,Male,Graduate,Egypt,Sohag,4.9,Instagram,No,6.1,7,In Relationship,2,5
+23,Male,Graduate,Egypt,Gharbia,5.9,TikTok,Yes,6.0,6,In Relationship,3,7
+18,Female,Graduate,Egypt,Luxor,4.7,Instagram,Yes,6.8,6,Single,2,7
+19,Female,Undergraduate,Egypt,Red Sea,4.2,Instagram,Yes,8.2,7,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Qalyubia,4.9,TikTok,Yes,6.0,5,Single,3,7
+19,Male,Undergraduate,Egypt,Qalyubia,4.5,Instagram,Yes,6.9,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Sharqia,3.8,TikTok,Yes,8.3,7,In Relationship,2,6
+19,Female,Graduate,Egypt,Gharbia,4.3,Instagram,Yes,8.2,7,In Relationship,2,6
+21,Male,Undergraduate,Egypt,Aswan,4.3,TikTok,Yes,6.2,6,Single,2,7
+19,Female,Undergraduate,Egypt,Luxor,6.4,Instagram,Yes,6.1,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Assiut,5.3,LinkedIn,Yes,7.0,5,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Giza,4.5,WhatsApp,Yes,7.2,6,Single,3,8
+22,Female,Graduate,Egypt,Sharqia,4.5,Instagram,Yes,7.9,6,Single,3,6
+24,Male,Graduate,Egypt,Assiut,4.7,WhatsApp,No,7.0,7,Single,2,4
+20,Female,Graduate,Egypt,Minya,6.1,Instagram,Yes,4.9,5,Single,4,9
+20,Female,Undergraduate,Egypt,Luxor,4.4,WhatsApp,Yes,6.7,5,Single,4,8
+22,Female,Undergraduate,Egypt,Port Said,4.4,Facebook,Yes,7.2,6,In Relationship,3,6
+21,Male,Undergraduate,Egypt,Port Said,4.8,TikTok,Yes,6.6,5,Single,3,7
+20,Female,Undergraduate,Egypt,Red Sea,4.6,Instagram,Yes,7.5,5,Single,4,7
+21,Female,Graduate,Egypt,Minya,3.7,Facebook,No,8.0,8,In Relationship,3,5
+20,Female,Undergraduate,Egypt,Aswan,4.3,Instagram,No,7.0,7,In Relationship,2,5
+19,Female,High School,Egypt,Qalyubia,6.7,Instagram,Yes,5.8,5,Single,4,9
+21,Female,Graduate,Egypt,Minya,2.9,TikTok,No,8.2,7,Single,2,5
+20,Male,Graduate,Egypt,Giza,2.5,Facebook,No,8.8,8,Single,2,4
+22,Female,Undergraduate,Egypt,Dakahlia,2.5,Instagram,No,8.2,8,In Relationship,2,4
+22,Female,Undergraduate,Egypt,Ismailia,4.6,Instagram,Yes,6.5,5,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Alexandria,4.7,Instagram,No,7.1,8,Single,2,5
+22,Male,Undergraduate,Egypt,Port Said,4.2,Instagram,No,7.8,7,In Relationship,3,5
+20,Male,Undergraduate,Egypt,Suez,7.1,Instagram,Yes,5.3,5,Single,4,8
+20,Female,Graduate,Egypt,Cairo,2.7,Facebook,No,8.4,7,In Relationship,2,4
+19,Female,Undergraduate,Egypt,Alexandria,5.9,WhatsApp,Yes,7.2,5,In Relationship,4,7
+22,Male,Undergraduate,Egypt,Assiut,5.5,Instagram,Yes,6.2,5,Single,4,9
+23,Female,Undergraduate,Egypt,Giza,7.0,TikTok,Yes,5.4,5,Single,4,8
+19,Male,Undergraduate,Egypt,Alexandria,6.4,Instagram,Yes,4.8,5,Single,3,7
+22,Male,Graduate,Egypt,Suez,5.9,Instagram,Yes,8.0,5,Single,4,8
+20,Male,Graduate,Egypt,Monufia,4.7,Facebook,Yes,7.4,6,In Relationship,4,8
+22,Male,Graduate,Egypt,Dakahlia,5.1,TikTok,No,6.9,7,Single,2,5
+20,Female,Undergraduate,Egypt,Alexandria,2.2,TikTok,No,9.3,8,Single,1,3
+21,Male,Graduate,Egypt,Minya,8.0,Instagram,Yes,5.7,6,In Relationship,3,8
+19,Male,Undergraduate,Egypt,Fayoum,5.2,Twitter,Yes,6.7,6,Single,3,7
+21,Female,Undergraduate,Egypt,Aswan,6.3,Instagram,Yes,7.1,6,Single,4,8
+22,Male,Graduate,Egypt,Fayoum,4.5,TikTok,Yes,6.9,6,Single,3,6
+22,Male,Undergraduate,Egypt,Cairo,4.4,Instagram,No,8.3,6,Single,3,6
+20,Female,Undergraduate,Egypt,Qena,2.5,Facebook,No,7.7,8,In Relationship,1,4
+20,Male,Undergraduate,Egypt,Alexandria,3.8,Instagram,No,8.8,7,Single,2,4
+21,Male,Graduate,Egypt,Ismailia,4.5,Facebook,Yes,7.7,7,Single,2,7
+24,Male,Undergraduate,Egypt,Assiut,4.5,Facebook,Yes,6.4,6,Single,2,7
+22,Female,Undergraduate,Egypt,Luxor,4.8,Instagram,Yes,6.7,5,In Relationship,3,7
+22,Female,High School,Egypt,Qalyubia,6.8,TikTok,Yes,6.4,5,Single,4,8
+19,Female,Undergraduate,Egypt,Giza,2.5,Instagram,No,9.1,8,Single,1,3
+22,Male,Graduate,Egypt,Qalyubia,7.0,Instagram,Yes,6.1,4,Single,5,9
+21,Female,Graduate,Egypt,Ismailia,3.9,TikTok,Yes,6.4,7,Single,3,7
+22,Female,Undergraduate,Egypt,Qena,4.3,Twitter,No,7.6,7,Single,2,5
+20,Female,Undergraduate,Egypt,Sharqia,6.8,Instagram,Yes,5.8,5,Single,4,8
+19,Female,Undergraduate,Egypt,Qena,7.1,WeChat,Yes,5.3,5,Single,4,9
+21,Male,Graduate,Egypt,Fayoum,7.1,Twitter,Yes,5.1,4,In Relationship,4,9
+19,Male,Graduate,Egypt,Minya,4.6,LINE,Yes,6.8,7,In Relationship,3,6
+20,Male,Undergraduate,Egypt,Suez,4.5,Instagram,Yes,7.4,6,Single,3,7
+19,Female,Undergraduate,Egypt,Minya,4.7,Facebook,Yes,8.3,6,Single,4,7
+21,Male,Graduate,Egypt,Giza,5.6,TikTok,Yes,6.1,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Monufia,2.5,TikTok,No,9.0,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Aswan,3.9,Instagram,No,7.9,8,In Relationship,2,4
+20,Male,Graduate,Egypt,Gharbia,3.2,WhatsApp,Yes,7.9,6,In Relationship,3,6
+19,Male,Graduate,Egypt,Luxor,5.4,WhatsApp,No,6.6,6,In Relationship,3,5
+21,Female,Graduate,Egypt,Luxor,7.9,Instagram,Yes,4.9,5,In Relationship,4,8
+21,Female,Graduate,Egypt,Red Sea,4.7,WeChat,Yes,6.7,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Luxor,3.9,VKontakte,No,8.5,7,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Sohag,4.0,Facebook,No,8.3,7,Single,2,5
+21,Male,Undergraduate,Egypt,Luxor,6.5,TikTok,Yes,5.8,4,In Relationship,4,9
+19,Female,Graduate,Egypt,Luxor,6.5,TikTok,Yes,6.7,5,Single,4,8
+21,Male,Undergraduate,Egypt,Aswan,4.4,Instagram,No,8.1,7,In Relationship,2,5
+21,Female,Graduate,Egypt,Gharbia,5.2,VKontakte,Yes,5.9,5,In Relationship,4,8
+22,Male,Undergraduate,Egypt,Alexandria,4.5,Facebook,Yes,7.4,7,Single,3,7
+24,Male,Graduate,Egypt,Ismailia,4.2,TikTok,No,7.9,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Alexandria,4.8,Twitter,Yes,7.5,5,Single,4,7
+19,Male,Undergraduate,Egypt,Sohag,6.4,WhatsApp,Yes,5.9,6,Single,3,7
+21,Male,Graduate,Egypt,Suez,4.4,LinkedIn,Yes,7.2,6,Single,3,7
+22,Male,Undergraduate,Egypt,Ismailia,5.1,Instagram,Yes,6.8,6,Single,3,7
+22,Male,Graduate,Egypt,Monufia,4.7,TikTok,Yes,7.1,7,Single,2,6
+21,Male,Undergraduate,Egypt,Suez,6.2,Facebook,Yes,5.8,4,Single,4,8
+20,Female,Undergraduate,Egypt,Beheira,7.1,TikTok,Yes,6.1,5,Single,4,8
+20,Male,Undergraduate,Egypt,Qalyubia,4.3,TikTok,No,7.3,8,In Relationship,1,5
+19,Female,Graduate,Egypt,Aswan,4.1,Twitter,No,7.2,8,Single,1,4
+19,Female,Undergraduate,Egypt,Luxor,4.5,Instagram,No,6.5,7,In Relationship,2,5
+20,Male,Graduate,Egypt,Monufia,6.7,Facebook,Yes,5.3,5,Single,4,9
+22,Male,Graduate,Egypt,Luxor,4.3,Instagram,Yes,6.0,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Ismailia,4.8,Facebook,Yes,8.0,7,Single,3,6
+22,Male,Undergraduate,Egypt,Gharbia,7.3,TikTok,Yes,5.9,5,Single,4,8
+21,Male,Undergraduate,Egypt,Dakahlia,4.7,Instagram,No,8.8,8,In Relationship,3,5
+19,Male,Graduate,Egypt,Luxor,7.6,TikTok,Yes,4.4,4,Single,5,9
+21,Male,High School,Egypt,Red Sea,2.4,Instagram,No,8.2,8,Single,1,4
+20,Female,Graduate,Egypt,Qena,5.2,Facebook,Yes,6.4,6,Complicated,3,6
+19,Female,Undergraduate,Egypt,Monufia,4.7,LinkedIn,No,5.8,8,Single,2,5
+22,Male,Undergraduate,Egypt,Monufia,7.4,Snapchat,Yes,4.1,4,Single,4,9
+23,Female,Graduate,Egypt,Monufia,2.9,YouTube,No,8.9,8,Single,2,5
+22,Female,Graduate,Egypt,Beheira,3.8,YouTube,No,7.5,8,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Ismailia,5.0,Instagram,Yes,6.8,6,Single,4,7
+22,Male,Undergraduate,Egypt,Port Said,6.5,Facebook,Yes,6.3,5,Complicated,4,8
+19,Female,Undergraduate,Egypt,Aswan,3.9,Facebook,Yes,7.9,6,Single,3,7
+22,Male,Graduate,Egypt,Cairo,4.6,Twitter,Yes,5.6,5,Single,4,7
+20,Male,Undergraduate,Egypt,Dakahlia,2.7,YouTube,No,7.4,8,Single,1,3
+19,Male,Graduate,Egypt,Qalyubia,4.3,Instagram,No,7.7,7,Single,2,5
+22,Male,Undergraduate,Egypt,Alexandria,2.8,Instagram,No,8.2,8,Single,1,4
+21,Male,Graduate,Egypt,Alexandria,5.5,WhatsApp,Yes,5.2,5,Single,4,9
+19,Male,Graduate,Egypt,Qena,4.1,TikTok,Yes,8.3,6,Single,3,7
+19,Male,Graduate,Egypt,Red Sea,6.5,LinkedIn,Yes,5.7,4,Single,4,8
+21,Male,Undergraduate,Egypt,Dakahlia,4.8,VKontakte,Yes,6.8,7,Single,3,7
+22,Male,Undergraduate,Egypt,Minya,5.0,TikTok,Yes,5.6,7,In Relationship,3,7
+20,Male,Graduate,Egypt,Fayoum,4.4,WhatsApp,Yes,7.6,6,Single,3,7
+20,Female,Graduate,Egypt,Monufia,6.3,WhatsApp,Yes,5.8,6,In Relationship,3,8
+20,Male,Graduate,Egypt,Sharqia,6.7,Facebook,Yes,6.5,5,Single,4,9
+19,Female,Graduate,Egypt,Qena,7.2,TikTok,Yes,5.4,4,In Relationship,5,9
+20,Male,Graduate,Egypt,Assiut,5.8,TikTok,Yes,7.8,5,Single,3,7
+21,Male,Graduate,Egypt,Port Said,4.4,Facebook,No,6.7,7,Single,2,5
+21,Male,Undergraduate,Egypt,Minya,4.9,TikTok,Yes,6.5,5,Single,3,8
+22,Male,Undergraduate,Egypt,Red Sea,7.1,Instagram,Yes,4.8,5,In Relationship,4,8
+23,Female,Undergraduate,Egypt,Sharqia,5.6,Instagram,Yes,7.2,5,Single,4,7
+22,Female,High School,Egypt,Qena,6.6,TikTok,Yes,5.2,5,Single,4,9
+23,Female,Graduate,Egypt,Monufia,6.8,Instagram,Yes,5.5,5,Single,4,9
+19,Female,High School,Egypt,Ismailia,3.9,Instagram,No,8.1,7,In Relationship,3,5
+21,Female,Graduate,Egypt,Qena,6.2,Instagram,Yes,5.4,5,In Relationship,3,8
+22,Male,Graduate,Egypt,Beheira,5.0,TikTok,Yes,5.8,5,Single,4,7
+21,Female,Undergraduate,Egypt,Gharbia,6.7,Instagram,Yes,6.2,6,In Relationship,3,6
+22,Male,Undergraduate,Egypt,Cairo,4.7,TikTok,Yes,7.3,6,Single,3,7
+20,Male,Undergraduate,Egypt,Qalyubia,3.7,TikTok,No,8.4,8,In Relationship,1,4
+20,Male,Undergraduate,Egypt,Luxor,4.2,Facebook,Yes,8.4,6,In Relationship,3,6
+19,Female,Undergraduate,Egypt,Port Said,4.1,Instagram,No,7.9,7,Single,2,5
+21,Male,Graduate,Egypt,Beheira,2.3,WhatsApp,No,9.1,8,Single,1,4
+21,Male,Graduate,Egypt,Gharbia,7.2,YouTube,Yes,5.5,5,Single,4,8
+20,Female,Undergraduate,Egypt,Assiut,4.3,WeChat,No,9.2,7,In Relationship,2,4
+18,Male,Graduate,Egypt,Monufia,8.5,LinkedIn,Yes,4.0,4,Single,5,9
+20,Male,Graduate,Egypt,Qena,3.9,WhatsApp,Yes,7.1,6,Single,3,7
+19,Female,Undergraduate,Egypt,Minya,3.1,WeChat,No,9.5,8,Single,2,5
+22,Male,Undergraduate,Egypt,Sharqia,4.8,Facebook,Yes,6.5,7,Single,3,7
+19,Male,Undergraduate,Egypt,Aswan,4.1,Instagram,Yes,7.9,7,Single,2,6
+22,Female,Graduate,Egypt,Sohag,5.2,LinkedIn,No,8.0,7,In Relationship,3,5
+20,Female,High School,Egypt,Sohag,7.1,TikTok,Yes,4.9,5,In Relationship,4,9
+19,Female,Graduate,Egypt,Giza,4.5,TikTok,No,7.1,8,In Relationship,1,5
+21,Female,Graduate,Egypt,Qena,4.9,TikTok,Yes,7.2,5,Single,4,8
+22,Female,Undergraduate,Egypt,Dakahlia,5.1,Twitter,No,7.8,7,Single,2,5
+19,Female,Undergraduate,Egypt,Sohag,5.6,TikTok,Yes,5.8,5,In Relationship,4,8
+22,Female,Graduate,Egypt,Fayoum,5.0,Instagram,Yes,7.5,6,Single,3,7
+19,Male,Undergraduate,Egypt,Fayoum,4.5,Instagram,Yes,5.9,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Port Said,4.3,Instagram,No,7.4,7,Single,2,5
+21,Female,Undergraduate,Egypt,Assiut,4.7,Twitter,Yes,7.5,6,Single,4,7
+20,Female,Graduate,Egypt,Red Sea,5.6,Facebook,Yes,5.9,5,In Relationship,4,8
+21,Female,Undergraduate,Egypt,Minya,5.7,LinkedIn,Yes,5.9,5,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Qalyubia,3.2,TikTok,No,8.7,7,Single,2,5
+20,Male,Graduate,Egypt,Assiut,5.6,TikTok,Yes,5.8,6,Single,2,8
+23,Female,Undergraduate,Egypt,Suez,2.9,Instagram,No,8.4,8,In Relationship,0,3
+22,Female,Graduate,Egypt,Gharbia,5.2,Instagram,No,6.5,7,Single,2,5
+20,Male,Graduate,Egypt,Port Said,6.9,Instagram,Yes,6.5,5,Single,4,9
+19,Female,Graduate,Egypt,Beheira,4.6,Facebook,Yes,6.9,6,Single,2,7
+19,Male,Graduate,Egypt,Monufia,6.2,Snapchat,Yes,6.7,5,In Relationship,3,7
+21,Male,High School,Egypt,Cairo,4.6,Instagram,Yes,6.9,7,Single,3,7
+21,Male,Graduate,Egypt,Dakahlia,5.1,Instagram,No,6.5,8,Single,2,5
+23,Male,Undergraduate,Egypt,Sohag,4.5,Instagram,No,7.5,7,In Relationship,2,4
+22,Male,Undergraduate,Egypt,Giza,4.2,TikTok,No,8.2,8,Single,3,5
+21,Female,Graduate,Egypt,Gharbia,4.6,Instagram,No,7.3,7,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Suez,3.8,Instagram,No,7.4,8,In Relationship,1,4
+19,Male,Undergraduate,Egypt,Minya,6.1,Facebook,No,6.8,6,In Relationship,3,6
+19,Female,Graduate,Egypt,Sharqia,5.3,Instagram,Yes,5.7,6,In Relationship,3,7
+22,Male,High School,Egypt,Qalyubia,7.1,Facebook,Yes,5.5,5,Single,4,8
+19,Female,Graduate,Egypt,Beheira,4.9,Instagram,Yes,7.4,7,Single,3,6
+22,Male,Graduate,Egypt,Luxor,2.8,Instagram,No,8.6,8,In Relationship,1,6
+19,Female,Undergraduate,Egypt,Cairo,4.1,Instagram,Yes,6.0,6,Single,2,8
+22,Female,Undergraduate,Egypt,Gharbia,3.7,TikTok,No,7.5,7,Single,3,4
+19,Female,Graduate,Egypt,Assiut,4.4,YouTube,Yes,7.5,6,Single,3,6
+23,Male,Graduate,Egypt,Luxor,6.4,VKontakte,Yes,6.8,6,In Relationship,3,7
+20,Male,Graduate,Egypt,Luxor,4.8,Instagram,Yes,6.7,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Dakahlia,6.9,Facebook,Yes,6.2,5,Single,4,8
+24,Female,Graduate,Egypt,Assiut,6.1,Instagram,Yes,6.8,5,In Relationship,3,8
+21,Female,Graduate,Egypt,Alexandria,5.7,Facebook,Yes,5.7,6,In Relationship,4,7
+19,Female,Graduate,Egypt,Suez,3.7,KakaoTalk,No,7.5,7,Single,1,5
+21,Female,Undergraduate,Egypt,Sharqia,4.3,Instagram,Yes,6.4,7,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Port Said,4.2,Facebook,No,7.3,6,Single,3,6
+20,Male,Undergraduate,Egypt,Dakahlia,4.8,TikTok,Yes,6.1,6,In Relationship,3,7
+20,Male,Graduate,Egypt,Gharbia,4.5,Instagram,Yes,8.2,6,In Relationship,3,7
+22,Female,Undergraduate,Egypt,Suez,2.9,Twitter,No,8.1,8,Single,1,4
+20,Female,Undergraduate,Egypt,Dakahlia,3.5,Instagram,No,7.3,8,In Relationship,1,5
+22,Female,Graduate,Egypt,Monufia,5.6,TikTok,Yes,6.5,6,Single,4,7
+19,Male,Undergraduate,Egypt,Minya,3.8,LinkedIn,No,8.8,7,Single,3,5
+19,Female,Graduate,Egypt,Sohag,4.7,TikTok,Yes,6.7,6,Single,3,7
+22,Male,Graduate,Egypt,Gharbia,4.1,Facebook,Yes,8.5,6,In Relationship,3,6
+19,Male,Graduate,Egypt,Fayoum,4.2,Facebook,No,7.8,7,In Relationship,2,5
+21,Female,Graduate,Egypt,Suez,4.2,Instagram,No,7.0,6,Single,2,5
+22,Female,Undergraduate,Egypt,Port Said,6.2,TikTok,Yes,5.7,7,Single,3,7
+19,Male,Undergraduate,Egypt,Alexandria,5.6,Instagram,Yes,7.1,5,In Relationship,4,7
+21,Male,Graduate,Egypt,Luxor,4.3,WhatsApp,No,8.1,6,Single,2,5
+19,Female,Undergraduate,Egypt,Giza,4.7,Instagram,No,7.4,7,Single,2,5
+20,Male,Graduate,Egypt,Luxor,5.5,TikTok,Yes,6.0,6,In Relationship,4,8
+22,Female,Graduate,Egypt,Qena,6.4,YouTube,Yes,6.7,6,Single,4,7
+22,Female,Graduate,Egypt,Beheira,6.2,WhatsApp,No,6.4,6,In Relationship,2,6
+20,Female,Undergraduate,Egypt,Giza,5.3,Twitter,Yes,6.6,6,In Relationship,3,8
+22,Female,Undergraduate,Egypt,Ismailia,5.5,Instagram,Yes,7.1,6,Single,4,7
+19,Female,Graduate,Egypt,Suez,6.6,TikTok,Yes,6.1,5,In Relationship,3,9
+21,Female,Graduate,Egypt,Sharqia,3.9,Facebook,No,8.3,8,Single,2,4
+22,Male,Undergraduate,Egypt,Port Said,4.5,LinkedIn,No,7.2,7,Single,3,5
+20,Female,Undergraduate,Egypt,Port Said,5.1,TikTok,Yes,5.7,5,Single,5,9
+21,Female,Graduate,Egypt,Port Said,4.6,Instagram,Yes,6.2,6,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Ismailia,5.6,TikTok,Yes,7.1,6,Single,3,7
+19,Male,Undergraduate,Egypt,Red Sea,5.6,Twitter,Yes,6.2,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Minya,4.9,TikTok,Yes,6.9,6,Single,2,6
+22,Female,Undergraduate,Egypt,Suez,4.6,KakaoTalk,No,7.9,7,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Sharqia,3.3,LinkedIn,No,8.8,7,Single,2,5
+22,Male,Graduate,Egypt,Aswan,7.1,TikTok,Yes,6.0,5,Single,4,8
+20,Male,Graduate,Egypt,Qalyubia,7.4,TikTok,Yes,5.7,5,Single,4,8
+19,Female,Undergraduate,Egypt,Aswan,6.5,WhatsApp,Yes,5.4,4,Single,5,9
+21,Female,Graduate,Egypt,Aswan,4.2,Instagram,No,7.2,7,Single,3,5
+20,Male,Undergraduate,Egypt,Cairo,3.3,VKontakte,No,7.1,7,Single,2,5
+20,Female,Graduate,Egypt,Qena,2.9,Instagram,No,8.3,7,Single,2,4
+22,Male,Undergraduate,Egypt,Qena,3.1,Instagram,No,8.4,8,In Relationship,1,3
+19,Female,Undergraduate,Egypt,Gharbia,5.1,TikTok,No,7.3,6,In Relationship,3,6
+20,Female,Undergraduate,Egypt,Dakahlia,4.4,Facebook,No,7.9,7,In Relationship,3,6
+19,Female,Graduate,Egypt,Alexandria,4.0,Instagram,No,8.1,7,Single,2,5
+20,Female,Undergraduate,Egypt,Qena,5.8,TikTok,Yes,6.7,6,Single,3,7
+21,Male,Graduate,Egypt,Ismailia,4.2,WeChat,Yes,8.2,6,Single,2,7
+21,Female,Undergraduate,Egypt,Sohag,1.5,Instagram,No,9.6,8,Single,0,2
+21,Male,Undergraduate,Egypt,Assiut,6.6,Twitter,Yes,5.2,5,In Relationship,4,7
+19,Male,Graduate,Egypt,Luxor,5.9,TikTok,Yes,6.9,6,Single,3,7
+22,Male,Undergraduate,Egypt,Luxor,4.6,Instagram,No,5.6,7,Single,2,6
+20,Male,Graduate,Egypt,Fayoum,4.0,Instagram,No,8.4,6,In Relationship,2,5
+19,Female,Undergraduate,Egypt,Cairo,4.5,Instagram,Yes,8.2,7,Single,3,7
+19,Male,Graduate,Egypt,Monufia,3.9,Twitter,Yes,7.3,7,Single,3,7
+22,Male,Graduate,Egypt,Beheira,4.3,TikTok,No,8.2,8,Single,1,5
+23,Female,High School,Egypt,Dakahlia,2.3,Facebook,No,8.4,8,Single,1,3
+22,Female,Graduate,Egypt,Minya,3.9,Instagram,Yes,6.4,6,Single,2,6
+21,Female,Undergraduate,Egypt,Assiut,4.5,TikTok,Yes,7.3,5,Single,4,8
+21,Female,Undergraduate,Egypt,Ismailia,6.8,Twitter,Yes,6.0,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Gharbia,3.8,Instagram,Yes,7.8,6,Complicated,2,6
+20,Female,Undergraduate,Egypt,Monufia,4.4,Instagram,Yes,6.0,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Giza,5.5,Instagram,Yes,7.2,6,Single,3,7
+18,Male,Graduate,Egypt,Sohag,5.8,Facebook,Yes,6.2,5,Single,4,8
+22,Female,Graduate,Egypt,Giza,4.2,Instagram,No,7.9,6,Single,3,6
+19,Female,Graduate,Egypt,Sharqia,4.8,Instagram,No,7.4,7,Single,2,5
+21,Male,Undergraduate,Egypt,Luxor,2.9,TikTok,No,8.3,8,Single,1,3
+21,Male,Graduate,Egypt,Luxor,3.6,Instagram,No,8.3,6,In Relationship,2,5
+24,Male,Graduate,Egypt,Fayoum,4.1,TikTok,No,7.7,8,Single,1,3
+21,Female,Undergraduate,Egypt,Alexandria,8.3,Facebook,Yes,4.6,5,Single,5,9
+19,Female,Graduate,Egypt,Gharbia,3.1,TikTok,No,8.3,7,Single,2,5
+21,Female,High School,Egypt,Sohag,4.5,Facebook,Yes,7.5,7,In Relationship,2,6
+19,Female,Graduate,Egypt,Dakahlia,5.2,Instagram,Yes,6.9,6,Single,3,8
+19,Female,Undergraduate,Egypt,Giza,6.3,Instagram,Yes,6.4,6,In Relationship,4,8
+20,Female,Graduate,Egypt,Luxor,4.6,YouTube,No,6.2,8,In Relationship,2,5
+22,Female,Undergraduate,Egypt,Luxor,5.6,TikTok,Yes,6.3,6,Single,3,7
+24,Female,Undergraduate,Egypt,Cairo,7.6,Facebook,Yes,3.8,4,Single,4,9
+20,Female,Undergraduate,Egypt,Sohag,3.1,Instagram,No,9.1,8,In Relationship,1,4
+19,Male,Undergraduate,Egypt,Gharbia,4.3,Instagram,No,8.6,7,Single,3,5
+20,Female,Graduate,Egypt,Giza,5.3,Instagram,Yes,6.0,6,In Relationship,2,7
+23,Male,Graduate,Egypt,Cairo,3.6,WhatsApp,No,7.5,8,In Relationship,2,4
+21,Male,Graduate,Egypt,Sharqia,5.2,TikTok,Yes,6.5,6,Single,3,7
+19,Male,Graduate,Egypt,Minya,4.7,WhatsApp,No,6.9,7,In Relationship,2,5
+19,Male,Graduate,Egypt,Cairo,7.1,Instagram,Yes,5.7,4,In Relationship,5,9
+18,Female,Graduate,Egypt,Qena,5.1,WhatsApp,Yes,7.4,7,Single,2,7
+20,Male,Graduate,Egypt,Minya,5.5,Facebook,No,8.1,6,Single,2,5
+19,Male,Graduate,Egypt,Aswan,4.9,Instagram,Yes,6.5,5,In Relationship,3,8
+21,Male,Undergraduate,Egypt,Alexandria,5.8,Facebook,Yes,6.3,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Qena,5.6,Instagram,Yes,5.9,5,Single,4,8
+23,Female,Undergraduate,Egypt,Qalyubia,2.5,Instagram,No,8.5,8,Single,2,4
+19,Male,Graduate,Egypt,Gharbia,6.8,TikTok,Yes,4.9,5,In Relationship,4,9
+21,Female,Undergraduate,Egypt,Beheira,6.2,WhatsApp,Yes,5.7,5,Single,4,8
+21,Male,Graduate,Egypt,Assiut,3.9,WeChat,Yes,8.3,8,In Relationship,2,6
+22,Female,Undergraduate,Egypt,Red Sea,2.9,Instagram,No,8.2,8,In Relationship,2,4
+21,Female,Undergraduate,Egypt,Beheira,6.4,VKontakte,Yes,5.9,6,Single,3,7
+19,Female,Undergraduate,Egypt,Qalyubia,4.1,KakaoTalk,Yes,7.2,7,In Relationship,3,6
+19,Male,Undergraduate,Egypt,Cairo,4.4,Instagram,No,6.4,7,Single,2,5
+20,Female,Undergraduate,Egypt,Sharqia,3.5,TikTok,No,7.8,6,In Relationship,3,5
+19,Female,Undergraduate,Egypt,Alexandria,4.0,Instagram,No,8.2,7,Single,2,4
+22,Male,Undergraduate,Egypt,Giza,2.4,Instagram,No,8.4,8,In Relationship,1,4
+19,Male,Graduate,Egypt,Aswan,4.7,TikTok,Yes,7.0,6,Single,3,7
+22,Male,Undergraduate,Egypt,Monufia,5.8,TikTok,Yes,6.0,4,Single,4,9
+19,Female,Undergraduate,Egypt,Gharbia,4.3,Facebook,Yes,8.2,7,Single,3,7
+20,Male,Undergraduate,Egypt,Ismailia,4.1,Facebook,Yes,5.8,7,Single,3,7
+20,Male,Undergraduate,Egypt,Red Sea,2.4,Instagram,No,9.2,8,Complicated,0,3
+22,Male,Undergraduate,Egypt,Aswan,7.5,Facebook,Yes,4.7,5,In Relationship,4,9
+21,Female,High School,Egypt,Qalyubia,4.7,TikTok,No,6.5,7,In Relationship,3,5
+20,Male,Undergraduate,Egypt,Assiut,4.7,Facebook,No,5.9,7,Single,2,5
+20,Female,Undergraduate,Egypt,Sharqia,6.4,Facebook,Yes,6.1,5,Single,3,8
+22,Male,Undergraduate,Egypt,Sohag,7.2,Facebook,Yes,5.4,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Sohag,4.9,Twitter,Yes,6.5,6,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Ismailia,5.5,Facebook,Yes,5.8,7,Single,2,6
+22,Female,Graduate,Egypt,Sharqia,3.1,Facebook,No,7.9,7,Single,3,5
+18,Male,Undergraduate,Egypt,Port Said,2.5,Facebook,No,7.5,8,Single,0,4
+19,Male,Graduate,Egypt,Giza,7.1,Instagram,Yes,3.9,4,In Relationship,4,8
+19,Male,Undergraduate,Egypt,Sharqia,5.9,Instagram,Yes,5.1,5,Single,4,8
+20,Male,Graduate,Egypt,Cairo,7.0,TikTok,Yes,6.0,4,Single,4,9
+19,Male,Graduate,Egypt,Sharqia,6.1,Twitter,Yes,5.6,5,In Relationship,4,8
+20,Female,Undergraduate,Egypt,Qena,4.3,Instagram,Yes,7.3,6,Complicated,4,7
+21,Female,Undergraduate,Egypt,Cairo,4.4,Instagram,Yes,6.3,7,Single,3,7
+18,Male,Undergraduate,Egypt,Ismailia,3.2,Instagram,No,7.5,7,Single,2,5
+21,Male,Undergraduate,Egypt,Suez,5.1,VKontakte,Yes,7.3,7,In Relationship,3,6
+22,Male,Undergraduate,Egypt,Suez,6.9,Facebook,Yes,5.0,4,In Relationship,4,9
+22,Male,Undergraduate,Egypt,Aswan,3.9,TikTok,No,7.1,7,Complicated,1,5
+21,Male,Graduate,Egypt,Suez,6.5,Twitter,Yes,7.4,5,Single,4,9
+20,Female,Undergraduate,Egypt,Minya,5.7,WeChat,Yes,6.5,6,In Relationship,3,7
+21,Male,Graduate,Egypt,Giza,6.8,Facebook,Yes,5.4,5,In Relationship,3,7
+21,Male,Graduate,Egypt,Sohag,5.5,TikTok,Yes,6.1,5,In Relationship,4,7
+21,Female,Undergraduate,Egypt,Qalyubia,4.7,Instagram,Yes,6.9,6,Single,2,8
+19,Female,Undergraduate,Egypt,Qena,4.3,Facebook,Yes,7.0,7,Single,3,7
+22,Male,Graduate,Egypt,Assiut,7.0,TikTok,Yes,5.7,4,Single,4,9
+21,Male,Undergraduate,Egypt,Luxor,4.5,WeChat,Yes,6.0,7,Single,3,7
+19,Male,Graduate,Egypt,Aswan,7.4,Instagram,Yes,5.0,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Sohag,5.7,WhatsApp,Yes,7.8,6,In Relationship,4,7
+22,Male,Undergraduate,Egypt,Alexandria,4.4,Twitter,No,6.4,8,Single,2,4
+20,Male,Undergraduate,Egypt,Qalyubia,3.9,LinkedIn,Yes,7.2,7,Complicated,3,7
+20,Female,Graduate,Egypt,Giza,4.3,WhatsApp,Yes,7.5,7,In Relationship,2,6
+19,Female,Undergraduate,Egypt,Minya,5.6,LinkedIn,Yes,5.9,5,In Relationship,4,9
+24,Female,Graduate,Egypt,Red Sea,3.8,Instagram,Yes,7.7,6,In Relationship,3,6
+22,Male,Graduate,Egypt,Qena,6.6,YouTube,Yes,5.0,6,Single,3,8
+21,Female,Undergraduate,Egypt,Fayoum,5.4,Facebook,Yes,6.7,5,Single,4,8
+22,Male,Undergraduate,Egypt,Gharbia,3.5,TikTok,No,7.4,8,Single,2,4
+22,Female,Undergraduate,Egypt,Beheira,8.0,Facebook,Yes,5.3,4,Single,5,9
+24,Male,Undergraduate,Egypt,Qalyubia,2.4,Instagram,No,8.9,8,Single,2,4
+22,Male,Graduate,Egypt,Qalyubia,4.4,TikTok,No,7.3,8,Single,2,4
+21,Female,Undergraduate,Egypt,Minya,5.0,YouTube,Yes,7.9,6,Single,3,7
+19,Male,Graduate,Egypt,Luxor,4.8,WhatsApp,Yes,5.9,6,Single,3,7
+21,Male,Undergraduate,Egypt,Fayoum,4.6,TikTok,Yes,7.1,7,In Relationship,3,7
+21,Female,Graduate,Egypt,Sohag,4.2,Instagram,No,6.6,7,Single,2,5
+19,Male,Graduate,Egypt,Aswan,4.2,TikTok,No,7.3,7,In Relationship,2,5
+21,Male,Undergraduate,Egypt,Assiut,3.9,WhatsApp,Yes,7.1,7,Single,2,7
+20,Male,Undergraduate,Egypt,Qena,6.7,Instagram,Yes,5.0,5,In Relationship,4,8
+21,Male,High School,Egypt,Luxor,4.2,Instagram,No,6.3,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Alexandria,4.5,Facebook,Yes,8.1,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Aswan,6.9,Instagram,Yes,6.8,6,Single,4,7
+23,Female,Undergraduate,Egypt,Minya,6.8,Twitter,Yes,6.2,6,In Relationship,3,8
+19,Female,Undergraduate,Egypt,Qena,7.0,TikTok,Yes,4.5,4,Complicated,4,9
+21,Female,Undergraduate,Egypt,Gharbia,3.3,TikTok,No,8.3,8,In Relationship,1,5
+19,Male,Graduate,Egypt,Red Sea,5.1,Instagram,Yes,5.9,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Assiut,5.6,TikTok,Yes,5.9,6,In Relationship,3,8
+19,Male,Graduate,Egypt,Red Sea,3.2,Instagram,Yes,7.8,7,In Relationship,2,6
+19,Female,High School,Egypt,Dakahlia,5.3,Facebook,Yes,5.7,5,In Relationship,4,9
+20,Male,Graduate,Egypt,Qalyubia,3.5,WhatsApp,No,7.4,6,Single,2,5
+19,Male,Graduate,Egypt,Monufia,7.3,Facebook,Yes,7.2,4,Single,4,9
+21,Female,Undergraduate,Egypt,Gharbia,5.1,Facebook,Yes,6.8,5,Single,3,8
+21,Female,Undergraduate,Egypt,Dakahlia,3.1,Instagram,No,7.8,8,Complicated,2,4
+22,Female,Graduate,Egypt,Dakahlia,4.7,Instagram,Yes,7.2,7,In Relationship,3,7
+21,Female,Graduate,Egypt,Beheira,4.7,Facebook,Yes,7.2,6,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Suez,5.8,TikTok,Yes,6.5,6,Single,4,8
+19,Female,Graduate,Egypt,Luxor,6.4,WeChat,Yes,5.5,5,In Relationship,3,8
+23,Male,Graduate,Egypt,Ismailia,6.8,Facebook,Yes,5.4,5,In Relationship,4,8
+21,Male,Graduate,Egypt,Dakahlia,4.7,TikTok,No,7.5,7,In Relationship,2,5
+19,Male,Undergraduate,Egypt,Sohag,7.1,Instagram,Yes,5.9,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Gharbia,5.8,KakaoTalk,Yes,6.1,6,Single,3,8
+19,Male,Undergraduate,Egypt,Sohag,5.1,Instagram,No,7.7,6,Single,2,5
+20,Male,High School,Egypt,Suez,4.9,Instagram,Yes,5.3,5,Single,3,8
+22,Female,Undergraduate,Egypt,Cairo,4.7,Instagram,Yes,5.5,5,Single,3,8
+22,Female,Undergraduate,Egypt,Cairo,3.1,Instagram,No,6.6,7,Single,2,4
+19,Male,Graduate,Egypt,Aswan,4.8,TikTok,Yes,5.4,8,Single,2,7
+21,Male,Graduate,Egypt,Port Said,5.8,TikTok,Yes,7.3,5,Single,4,8
+21,Male,Undergraduate,Egypt,Dakahlia,5.8,WhatsApp,Yes,6.2,6,In Relationship,2,7
+22,Female,Graduate,Egypt,Alexandria,6.5,Twitter,Yes,5.9,5,Single,4,9
+19,Female,Graduate,Egypt,Sohag,4.5,Facebook,No,5.8,7,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Red Sea,5.9,Instagram,Yes,5.2,5,Single,4,8
+21,Female,Undergraduate,Egypt,Cairo,3.5,Instagram,No,8.4,8,In Relationship,1,4
+20,Female,Undergraduate,Egypt,Suez,4.8,Facebook,Yes,5.8,6,Single,4,7
+22,Female,Undergraduate,Egypt,Ismailia,4.5,WhatsApp,No,8.0,7,Single,2,5
+19,Female,Undergraduate,Egypt,Sohag,5.5,Facebook,Yes,6.9,5,Single,4,8
+22,Female,Undergraduate,Egypt,Port Said,5.2,YouTube,Yes,5.5,6,In Relationship,2,8
+20,Male,Undergraduate,Egypt,Cairo,2.9,Instagram,No,7.7,8,Single,1,4
+22,Male,Undergraduate,Egypt,Sohag,3.5,TikTok,No,7.4,8,Single,1,4
+21,Female,Graduate,Egypt,Assiut,4.8,WeChat,No,7.6,8,In Relationship,2,5
+19,Female,Graduate,Egypt,Port Said,3.9,Snapchat,No,7.7,7,Single,2,5
+20,Male,Undergraduate,Egypt,Luxor,2.4,Instagram,No,8.8,7,Complicated,1,4
+19,Female,Undergraduate,Egypt,Giza,3.6,VKontakte,No,7.4,8,Single,2,4
+22,Female,Undergraduate,Egypt,Qalyubia,4.0,WhatsApp,Yes,6.5,7,Complicated,2,6
+22,Female,Undergraduate,Egypt,Sharqia,5.5,Facebook,Yes,5.9,6,In Relationship,4,7
+23,Male,Undergraduate,Egypt,Ismailia,4.4,Instagram,Yes,6.7,6,In Relationship,4,8
+20,Male,Graduate,Egypt,Gharbia,5.8,Instagram,Yes,5.6,6,Single,3,7
+21,Female,Graduate,Egypt,Luxor,7.2,LinkedIn,Yes,5.1,7,In Relationship,3,7
+20,Male,Graduate,Egypt,Alexandria,6.7,Instagram,Yes,5.2,5,In Relationship,4,9
+24,Female,Undergraduate,Egypt,Suez,5.6,Instagram,Yes,6.3,6,In Relationship,3,7
+20,Female,Graduate,Egypt,Monufia,5.1,Facebook,Yes,7.9,7,Single,3,7
+21,Male,Undergraduate,Egypt,Aswan,6.0,Instagram,Yes,5.5,5,In Relationship,4,8
+23,Male,Graduate,Egypt,Qalyubia,4.7,WhatsApp,Yes,6.2,6,Single,2,6
+21,Female,Graduate,Egypt,Sohag,4.3,Instagram,Yes,7.4,6,Single,3,7
+21,Female,Undergraduate,Egypt,Assiut,2.8,Instagram,No,8.5,7,Single,2,5
+21,Male,Undergraduate,Egypt,Suez,1.5,Facebook,No,8.6,9,In Relationship,0,2
+20,Female,Graduate,Egypt,Red Sea,7.5,Instagram,Yes,6.4,4,In Relationship,4,8
+19,Female,Undergraduate,Egypt,Qena,4.2,Instagram,No,7.2,8,Single,2,5
+21,Male,Graduate,Egypt,Sohag,6.0,TikTok,Yes,7.2,6,Single,3,7
+20,Male,Undergraduate,Egypt,Gharbia,4.7,Instagram,Yes,6.9,6,Single,3,7
+20,Female,Graduate,Egypt,Luxor,6.4,WhatsApp,Yes,5.2,5,Single,4,9
+19,Male,Undergraduate,Egypt,Monufia,4.8,Facebook,Yes,6.1,7,In Relationship,2,7
+22,Male,Graduate,Egypt,Cairo,6.5,WhatsApp,Yes,7.1,6,Single,4,8
+20,Male,Graduate,Egypt,Ismailia,6.2,Facebook,Yes,6.8,5,In Relationship,3,7
+21,Male,Undergraduate,Egypt,Beheira,6.3,TikTok,Yes,5.8,4,Single,5,9
+19,Female,Graduate,Egypt,Dakahlia,5.7,LINE,Yes,6.5,7,Single,3,7
+22,Male,Graduate,Egypt,Monufia,6.7,Instagram,Yes,6.1,5,In Relationship,4,8
+20,Male,Undergraduate,Egypt,Aswan,4.1,Instagram,No,6.8,7,In Relationship,2,5
+23,Female,Graduate,Egypt,Beheira,4.5,TikTok,No,6.7,7,In Relationship,1,5
+21,Male,Graduate,Egypt,Beheira,4.7,TikTok,Yes,6.2,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Gharbia,4.7,WeChat,No,8.4,7,In Relationship,3,4
+21,Male,Graduate,Egypt,Aswan,4.0,Facebook,No,7.5,7,In Relationship,4,5
+22,Male,Graduate,Egypt,Ismailia,5.7,TikTok,Yes,6.3,6,Single,3,7
+21,Male,Graduate,Egypt,Giza,5.3,LINE,Yes,7.7,6,Single,2,7
+20,Female,Undergraduate,Egypt,Sharqia,4.5,TikTok,No,7.2,6,Single,2,5
+19,Female,Graduate,Egypt,Aswan,5.9,Instagram,Yes,7.5,5,Single,3,7
+22,Male,Undergraduate,Egypt,Port Said,4.7,LinkedIn,Yes,6.2,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Alexandria,4.8,Instagram,Yes,7.1,6,Single,2,6
+20,Male,Graduate,Egypt,Suez,5.7,TikTok,Yes,4.9,6,Single,2,7
+23,Female,Graduate,Egypt,Cairo,4.9,Instagram,Yes,7.2,7,Single,3,7
+21,Male,Undergraduate,Egypt,Suez,4.8,TikTok,Yes,8.3,7,Single,4,7
+21,Male,Undergraduate,Egypt,Fayoum,5.4,Instagram,Yes,6.5,5,Complicated,4,9
+21,Male,Graduate,Egypt,Minya,4.8,Instagram,Yes,6.7,7,Single,2,7
+20,Male,Graduate,Egypt,Alexandria,5.6,LinkedIn,Yes,5.6,5,Single,2,8
+21,Male,Undergraduate,Egypt,Port Said,6.2,Instagram,Yes,6.6,6,Single,4,7
+20,Female,Undergraduate,Egypt,Sharqia,5.6,WhatsApp,Yes,6.7,5,In Relationship,4,7
+19,Female,Undergraduate,Egypt,Fayoum,5.6,Instagram,Yes,5.9,5,In Relationship,4,7
+19,Female,High School,Egypt,Gharbia,5.7,Instagram,Yes,5.8,5,Single,4,9
+19,Female,Undergraduate,Egypt,Port Said,7.1,KakaoTalk,Yes,4.6,4,In Relationship,4,9
+21,Female,Graduate,Egypt,Fayoum,3.7,Twitter,Yes,8.2,7,Single,2,7
+21,Male,Undergraduate,Egypt,Red Sea,4.8,Instagram,Yes,7.5,6,Single,3,7
+21,Female,Undergraduate,Egypt,Assiut,3.5,WhatsApp,No,7.5,7,In Relationship,2,5
+21,Male,Graduate,Egypt,Sharqia,5.2,Instagram,Yes,6.3,6,In Relationship,3,7
+19,Male,Undergraduate,Egypt,Dakahlia,4.6,LinkedIn,Yes,5.5,6,Single,3,8
+20,Male,Graduate,Egypt,Qena,5.9,LINE,Yes,6.2,5,Single,3,7
+20,Male,Graduate,Egypt,Sohag,6.5,Instagram,Yes,6.8,5,Single,4,7
+24,Female,Undergraduate,Egypt,Dakahlia,4.6,WhatsApp,Yes,5.8,7,Single,3,7
+23,Female,Graduate,Egypt,Gharbia,4.1,TikTok,No,6.8,7,In Relationship,2,5
+21,Female,Undergraduate,Egypt,Port Said,4.9,Instagram,Yes,7.3,6,In Relationship,3,7
+18,Male,Undergraduate,Egypt,Assiut,7.3,LinkedIn,Yes,4.9,5,Single,5,9
+19,Male,Graduate,Egypt,Cairo,5.5,Facebook,Yes,6.1,5,In Relationship,4,8
+19,Female,Graduate,Egypt,Sohag,5.9,Instagram,Yes,5.0,5,In Relationship,3,8
+21,Male,Graduate,Egypt,Aswan,4.7,Twitter,No,7.0,7,Single,2,4
+22,Male,Graduate,Egypt,Gharbia,4.5,Instagram,No,7.5,8,In Relationship,2,6
+22,Male,Graduate,Egypt,Luxor,4.1,Instagram,No,8.1,7,Single,2,5
+22,Female,Graduate,Egypt,Minya,4.5,WhatsApp,Yes,6.7,6,Single,3,6
+22,Female,Undergraduate,Egypt,Dakahlia,3.5,Instagram,Yes,7.0,6,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Red Sea,5.7,Instagram,Yes,5.5,6,Single,4,8
+19,Female,Graduate,Egypt,Ismailia,4.7,Instagram,Yes,6.5,7,Single,3,7
+23,Female,Graduate,Egypt,Cairo,2.6,LinkedIn,No,8.2,8,Single,2,4
+22,Female,Graduate,Egypt,Dakahlia,4.2,TikTok,No,7.2,7,Single,3,5
+19,Female,Undergraduate,Egypt,Aswan,6.5,WhatsApp,Yes,6.0,6,Single,3,6
+21,Female,Undergraduate,Egypt,Assiut,3.9,WhatsApp,No,8.1,7,Single,2,5
+18,Female,Undergraduate,Egypt,Ismailia,7.1,Facebook,Yes,5.7,5,Single,4,9
+19,Male,High School,Egypt,Minya,4.8,Instagram,Yes,5.8,5,In Relationship,3,7
+20,Male,Graduate,Egypt,Aswan,4.7,WeChat,Yes,6.3,6,In Relationship,3,7
+20,Female,Undergraduate,Egypt,Dakahlia,5.6,Instagram,Yes,7.2,6,Single,3,6
+20,Female,Graduate,Egypt,Aswan,6.5,Instagram,Yes,7.7,6,Single,4,7
+22,Female,Graduate,Egypt,Red Sea,5.8,Instagram,Yes,6.2,5,Single,4,8
+19,Male,Graduate,Egypt,Sohag,7.2,Instagram,Yes,5.9,5,In Relationship,3,8
+20,Male,Graduate,Egypt,Fayoum,4.1,TikTok,Yes,7.4,7,Single,3,6
+24,Male,Undergraduate,Egypt,Qalyubia,6.3,Facebook,Yes,5.4,5,Single,4,8
+22,Male,Graduate,Egypt,Beheira,2.6,Instagram,No,8.1,8,Single,2,5
+19,Male,Undergraduate,Egypt,Port Said,4.8,Instagram,No,6.3,8,In Relationship,2,5
+24,Male,Undergraduate,Egypt,Gharbia,5.9,WhatsApp,Yes,4.9,6,In Relationship,3,8
+19,Male,Undergraduate,Egypt,Luxor,3.3,WhatsApp,No,7.6,8,In Relationship,1,4
+23,Male,Graduate,Egypt,Sharqia,6.4,WhatsApp,Yes,5.3,5,Single,3,8
+24,Female,Undergraduate,Egypt,Luxor,7.3,TikTok,Yes,4.1,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Assiut,7.7,Facebook,Yes,5.2,4,In Relationship,5,9
+21,Male,Graduate,Egypt,Port Said,5.3,WhatsApp,Yes,6.0,5,Single,4,8
+20,Female,Graduate,Egypt,Giza,2.9,Instagram,No,7.6,8,Single,2,5
+21,Female,Undergraduate,Egypt,Beheira,4.5,Instagram,No,7.3,6,In Relationship,3,5
+20,Female,Undergraduate,Egypt,Luxor,5.9,WhatsApp,Yes,5.3,6,Single,3,7
+22,Male,Undergraduate,Egypt,Sohag,4.3,Instagram,No,7.6,7,Single,1,5
+21,Female,Undergraduate,Egypt,Port Said,3.8,Twitter,Yes,6.6,5,Single,3,7
+20,Female,Graduate,Egypt,Qena,5.9,Facebook,Yes,6.5,5,Single,3,7
+20,Female,Undergraduate,Egypt,Dakahlia,4.5,Instagram,Yes,6.8,7,In Relationship,3,7
+19,Female,Undergraduate,Egypt,Gharbia,3.4,TikTok,Yes,7.5,5,Single,3,8
+18,Male,Graduate,Egypt,Sohag,4.7,WeChat,Yes,6.5,6,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Port Said,4.6,WhatsApp,Yes,5.8,5,Single,3,7
+19,Female,Graduate,Egypt,Beheira,3.7,Instagram,No,7.2,7,In Relationship,2,4
+21,Male,Undergraduate,Egypt,Luxor,5.8,TikTok,Yes,6.3,6,Single,3,8
+24,Male,Undergraduate,Egypt,Minya,5.0,Facebook,Yes,6.5,5,In Relationship,4,7
+21,Male,Undergraduate,Egypt,Port Said,3.8,TikTok,No,7.4,8,In Relationship,2,5
+23,Female,Undergraduate,Egypt,Sharqia,5.0,TikTok,No,6.8,7,Single,3,5
+20,Male,Graduate,Egypt,Port Said,6.7,TikTok,Yes,6.8,4,In Relationship,5,9
+19,Female,Graduate,Egypt,Giza,4.9,Facebook,No,6.9,7,In Relationship,2,5
+21,Female,Graduate,Egypt,Sharqia,7.2,Twitter,Yes,5.2,4,In Relationship,5,9
+21,Female,Undergraduate,Egypt,Assiut,4.3,Instagram,No,7.8,6,Single,3,5
+21,Male,Undergraduate,Egypt,Cairo,5.1,Instagram,Yes,6.4,7,In Relationship,3,7
+20,Female,Graduate,Egypt,Red Sea,4.8,Instagram,Yes,6.2,8,Single,2,6
+19,Male,Undergraduate,Egypt,Minya,2.2,KakaoTalk,No,8.7,8,Single,1,4
+20,Female,Graduate,Egypt,Assiut,6.3,Instagram,Yes,6.1,5,In Relationship,4,9
+21,Female,Graduate,Egypt,Monufia,4.9,KakaoTalk,Yes,6.4,7,In Relationship,2,6
+18,Male,Graduate,Egypt,Assiut,4.1,Instagram,Yes,7.6,7,Single,2,7
+21,Female,Graduate,Egypt,Beheira,4.3,Instagram,No,7.1,7,Single,2,5
+21,Male,Undergraduate,Egypt,Alexandria,5.4,Instagram,Yes,7.3,6,Single,3,6
+19,Male,Graduate,Egypt,Gharbia,6.9,TikTok,Yes,6.1,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Monufia,3.7,Facebook,Yes,6.8,6,Single,3,6
+18,Female,Undergraduate,Egypt,Port Said,6.1,LINE,Yes,5.9,5,In Relationship,4,8
+22,Female,Undergraduate,Egypt,Minya,3.0,Snapchat,No,8.0,8,In Relationship,1,4
+19,Female,Undergraduate,Egypt,Giza,3.3,Facebook,No,8.2,7,Single,2,4
+22,Male,Undergraduate,Egypt,Giza,5.5,TikTok,Yes,7.3,6,Single,4,7
+19,Female,Undergraduate,Egypt,Giza,2.8,Instagram,No,8.2,7,Single,3,5
+21,Female,Graduate,Egypt,Aswan,4.0,KakaoTalk,Yes,6.6,7,In Relationship,2,7
+19,Male,Graduate,Egypt,Alexandria,4.8,WhatsApp,Yes,7.0,5,In Relationship,3,7
+22,Male,Undergraduate,Egypt,Alexandria,4.6,Facebook,Yes,7.4,7,Single,3,6
+20,Male,Graduate,Egypt,Cairo,4.6,TikTok,Yes,6.9,7,In Relationship,3,7
+21,Male,Graduate,Egypt,Sharqia,5.9,Facebook,Yes,7.1,5,Single,4,8
+23,Male,Graduate,Egypt,Dakahlia,6.4,Instagram,Yes,5.6,5,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Giza,2.5,LINE,No,8.4,8,In Relationship,1,3
+21,Male,Graduate,Egypt,Suez,4.0,Instagram,No,7.8,7,Single,2,5
+21,Female,Undergraduate,Egypt,Beheira,4.9,Instagram,Yes,7.4,5,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Minya,6.0,Instagram,Yes,6.3,6,Single,3,7
+19,Female,High School,Egypt,Giza,6.5,TikTok,Yes,5.8,6,In Relationship,4,8
+21,Male,Graduate,Egypt,Alexandria,5.7,Facebook,Yes,5.0,5,In Relationship,3,7
+19,Male,Graduate,Egypt,Aswan,6.5,Facebook,Yes,5.9,6,Single,3,8
+22,Female,Undergraduate,Egypt,Minya,4.1,TikTok,No,8.8,8,In Relationship,2,4
+19,Male,Graduate,Egypt,Monufia,6.7,TikTok,Yes,5.3,5,In Relationship,3,8
+20,Female,Undergraduate,Egypt,Sohag,7.7,Facebook,Yes,4.0,5,In Relationship,4,9
+22,Female,Graduate,Egypt,Giza,3.6,VKontakte,No,6.8,8,Single,2,5
+20,Male,Undergraduate,Egypt,Monufia,5.8,TikTok,Yes,5.5,6,Single,3,7
+22,Female,Undergraduate,Egypt,Sharqia,6.6,Instagram,Yes,6.4,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Red Sea,5.0,Instagram,Yes,7.6,5,Single,3,8
+22,Male,Graduate,Egypt,Red Sea,4.8,Facebook,No,6.5,7,In Relationship,3,5
+20,Male,Graduate,Egypt,Monufia,5.4,TikTok,Yes,8.0,6,In Relationship,3,7
+22,Female,Graduate,Egypt,Beheira,4.7,VKontakte,Yes,6.7,5,In Relationship,3,7
+21,Male,Graduate,Egypt,Fayoum,7.2,TikTok,Yes,5.5,5,In Relationship,4,8
+23,Female,Graduate,Egypt,Alexandria,3.5,Instagram,No,8.6,7,Single,2,5
+23,Female,Graduate,Egypt,Dakahlia,3.8,Facebook,No,8.8,8,In Relationship,2,4
+19,Male,Undergraduate,Egypt,Dakahlia,5.8,WhatsApp,Yes,7.9,5,In Relationship,4,8
+19,Male,Graduate,Egypt,Qalyubia,4.9,Instagram,No,6.6,7,In Relationship,3,6
+19,Male,Undergraduate,Egypt,Qalyubia,6.6,WhatsApp,Yes,5.7,5,In Relationship,3,8
+18,Female,Undergraduate,Egypt,Red Sea,5.5,WhatsApp,Yes,6.8,7,In Relationship,3,7
+24,Male,High School,Egypt,Fayoum,4.2,Instagram,No,6.1,6,In Relationship,1,5
+20,Male,Undergraduate,Egypt,Sharqia,4.8,TikTok,No,6.6,8,In Relationship,2,5
+20,Male,Undergraduate,Egypt,Qena,7.4,TikTok,Yes,5.7,4,Single,4,9
+20,Male,Undergraduate,Egypt,Monufia,2.6,Facebook,No,8.5,8,Single,1,3
+22,Male,Undergraduate,Egypt,Qalyubia,3.5,Facebook,No,8.6,7,In Relationship,2,5
+19,Female,Graduate,Egypt,Qalyubia,5.0,Facebook,Yes,7.3,6,Single,3,7
+20,Male,Graduate,Egypt,Qalyubia,8.2,Instagram,Yes,4.1,4,In Relationship,4,9
+21,Male,Undergraduate,Egypt,Qena,4.6,Instagram,No,7.2,7,Single,3,6
+18,Female,Undergraduate,Egypt,Beheira,6.4,TikTok,Yes,6.3,6,In Relationship,3,7
+21,Female,Undergraduate,Egypt,Qalyubia,5.9,WhatsApp,Yes,7.4,6,Single,4,7
+19,Male,Undergraduate,Egypt,Cairo,8.5,TikTok,Yes,4.0,4,In Relationship,5,9
+19,Male,Graduate,Egypt,Ismailia,4.6,Facebook,No,7.4,7,Single,3,5
+22,Female,Undergraduate,Egypt,Cairo,6.1,WhatsApp,Yes,6.7,6,Complicated,4,7
+22,Female,Undergraduate,Egypt,Red Sea,4.2,TikTok,No,8.6,8,In Relationship,2,4
+20,Female,Graduate,Egypt,Sharqia,5.8,Instagram,Yes,6.4,5,Single,4,8
+19,Male,Graduate,Egypt,Sohag,4.9,WhatsApp,Yes,7.0,6,In Relationship,3,7
+22,Female,Graduate,Egypt,Gharbia,3.5,Instagram,No,9.2,7,Single,2,4
+20,Male,Undergraduate,Egypt,Suez,4.7,Instagram,Yes,7.3,6,In Relationship,3,7
+19,Female,Graduate,Egypt,Red Sea,4.5,TikTok,No,7.4,7,Single,2,5
+21,Male,Undergraduate,Egypt,Suez,6.2,Facebook,Yes,5.4,5,In Relationship,4,8
+22,Female,Graduate,Egypt,Luxor,4.5,Instagram,Yes,5.5,5,In Relationship,3,7
+20,Male,Undergraduate,Egypt,Giza,6.8,Instagram,Yes,5.3,5,Single,3,7
+20,Female,Undergraduate,Egypt,Alexandria,5.5,Facebook,Yes,7.4,6,In Relationship,3,7
+23,Female,Graduate,Egypt,Alexandria,4.3,TikTok,Yes,6.9,6,Single,3,7
+19,Male,Graduate,Egypt,Sohag,4.0,Twitter,Yes,7.2,7,Complicated,2,6
