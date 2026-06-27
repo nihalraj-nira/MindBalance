@@ -43,7 +43,7 @@ explainer = shap.TreeExplainer(model)
 
 # KNN Digital Twins Model
 print("Training KNN for Digital Twins...")
-knn = NearestNeighbors(n_neighbors=5, metric='euclidean').fit(X_train)
+knn = NearestNeighbors(n_neighbors=50, metric='euclidean').fit(X_train)
 
 print(f"Model: {model.__class__.__name__}")
 print(f"Features: {len(train_columns)}")
@@ -364,15 +364,24 @@ def get_risk_index(raw_input):
 
 def get_digital_twins(processed_row):
     """
-    Finds the 5 most similar students using KNN.
+    Finds highly similar students using KNN (dynamic count between 5 and 50).
     Returns their raw habits and average scores.
     """
     distances, indices = knn.kneighbors(processed_row)
     
+    # Dynamic radius: scale the distance of the 5th closest person to find "highly similar" group
+    radius = max(2.5, distances[0][4] * 1.25)
+    
+    valid_indices = [idx for d, idx in zip(distances[0], indices[0]) if d <= radius]
+    if len(valid_indices) < 5:
+        valid_indices = indices[0][:5].tolist()
+        
+    N = len(valid_indices)
+    
     twins = []
     avg_score = 0
     
-    for idx in indices[0]:
+    for idx in valid_indices:
         scaled_row = X_train.iloc[[idx]]
         # Inverse transform to get raw values
         raw_values = scaler.inverse_transform(scaled_row)[0]
@@ -391,24 +400,25 @@ def get_digital_twins(processed_row):
             "conflicts": round(max(0, raw_dict["Conflicts_Over_Social_Media"]), 0)
         })
         
-    avg_score = avg_score / 5
+    avg_score = avg_score / N
     
     # Sort twins so the healthiest (lowest score) is first
     twins.sort(key=lambda x: x["score"])
     
     healthiest = twins[0]
     
-    msg = f"We found 5 students with your exact lifestyle. Their average addiction score is {round(avg_score, 1)}. "
+    msg = f"We found {N} students with a highly similar lifestyle. Their average addiction score is {round(avg_score, 1)}. "
     if healthiest["score"] < avg_score:
         msg += f"The healthiest student in this group managed a lower score of {healthiest['score']} by keeping screen time at {healthiest['screen_time']}h and sleep at {healthiest['sleep_hours']}h."
     else:
         msg += "They all share similar high risk levels due to these shared behavioral patterns."
         
     return {
+        "num_found": N,
         "average_score": round(avg_score, 2),
         "healthiest_twin": healthiest,
         "message": msg,
-        "all_twins": twins
+        "all_twins": twins[:5] # Only return top 5 details to save bandwidth
     }
 
 
