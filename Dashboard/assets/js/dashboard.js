@@ -188,50 +188,148 @@
         };
     }
 
-    function runPrediction() {
+    function mapInputsToApi(inputs) {
+        return {
+            "Age": 20, 
+            "Gender": "Male", 
+            "Academic_Level": "Undergraduate", 
+            "Governorate": "Cairo", 
+            "Relationship_Status": "Single", 
+            "Avg_Daily_Usage_Hours": inputs.screenT,
+            "Sleep_Hours_Per_Night": inputs.sleepT,
+            "Most_Used_Platform": inputs.platform.includes('Twitter') ? 'Twitter' : inputs.platform,
+            "Mental_Health_Score": inputs.sleepQ, 
+            "Conflicts_Over_Social_Media": Math.round(inputs.stressL / 2), 
+            "Affects_Academic_Performance": inputs.studyH < 2 ? "Yes" : "No"
+        };
+    }
+
+    async function runPrediction() {
         const inputs = getCurrentInputs();
-        const { score, contributions } = computeRisk(inputs);
-        const idx = deriveIndices(inputs, score);
+        
+        try {
+            const payload = mapInputsToApi(inputs);
+            const res = await fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            
+            // Map API response back to UI format
+            const score = Math.round(data.predicted_score * 10);
+            
+            // Scale indices to 0-100 gauge (approximate)
+            const idx = {
+                recovery: Math.min(100, Math.round(data.engineered_scores.Recovery_Capacity * 1.5)), 
+                balance: Math.min(100, Math.round(data.engineered_scores.Lifestyle_Balance * 25)),
+                load: Math.min(100, Math.round(data.engineered_scores.Psychosocial_Load * 2)),
+                density: Math.min(100, Math.round(data.engineered_scores.Stress_Density * 30))
+            };
+            
+            // Format SHAP contributions for ledger
+            const contributions = data.top_features.map(f => ({
+                factor: f.feature.replace(/_/g, " "),
+                value: (f.shap_value * 15) // Scale for visual ledger
+            }));
 
-        renderGauge(score);
-        renderBand(score);
-        renderHeadline(score, inputs);
-        renderIndices(idx);
-        renderLedger(contributions);
-        renderRecommendations(inputs, score);
+            renderGauge(score);
+            renderBand(score);
+            
+            // Replace headline with API's natural language explanation
+            $('riskHeadline').textContent = data.natural_language_explanation || "Run a prediction to see your digital wellness outlook.";
+            $('riskSub').textContent = "This prediction is generated live by the Gradient Boosting model.";
+            
+            renderIndices(idx);
+            renderLedger(contributions);
+            
+            // Render API recommendations
+            let htmlRecos = '';
+            data.recommendations.slice(0, 4).forEach(r => {
+                htmlRecos += `
+                  <div class="reco-item ${r.priority === 'high' ? 'urgent' : ''}">
+                    <div class="reco-tag">${r.area}</div>
+                    <div class="reco-body">
+                      <h4>AI Recommendation</h4>
+                      <p>${r.message}</p>
+                    </div>
+                  </div>`;
+            });
+            $('recoList').innerHTML = htmlRecos;
 
-        lastInputs = inputs;
-        lastScore = score;
-
-        // sync what-if sliders to current values as a sensible starting point
-        runWhatIf();
+            lastInputs = inputs;
+            lastScore = score;
+            runWhatIf();
+            
+        } catch (e) {
+            console.error("API error, falling back to local model", e);
+            const { score, contributions } = computeRisk(inputs);
+            const idx = deriveIndices(inputs, score);
+            renderGauge(score);
+            renderBand(score);
+            renderHeadline(score, inputs);
+            renderIndices(idx);
+            renderLedger(contributions);
+            renderRecommendations(inputs, score);
+            lastInputs = inputs;
+            lastScore = score;
+            runWhatIf();
+        }
     }
 
     // ---------- WHAT-IF ----------
-    function runWhatIf() {
+    async function runWhatIf() {
         if (!lastInputs) { return; }
-        const base = computeRisk(lastInputs).score;
+        
         const simInputs = Object.assign({}, lastInputs, {
             sleepT: parseFloat(simsleep.value),
             screenT: parseFloat(simscreen.value)
         });
-        const sim = computeRisk(simInputs).score;
+        
+        try {
+            const payload = {
+                current: mapInputsToApi(lastInputs),
+                adjusted: mapInputsToApi(simInputs)
+            };
+            
+            const res = await fetch("http://127.0.0.1:5000/whatif", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+            const data = await res.json();
+            
+            const base = Math.round(data.current.predicted_score * 10);
+            const sim = Math.round(data.adjusted.predicted_score * 10);
 
-        $('sim-from').textContent = base;
-        $('sim-to').textContent = sim;
-        $('sim-to').className = 'dc-to ' + (sim < base ? 'better' : (sim > base ? 'worse' : ''));
+            $('sim-from').textContent = base;
+            $('sim-to').textContent = sim;
+            $('sim-to').className = 'dc-to ' + (sim < base ? 'better' : (sim > base ? 'worse' : ''));
 
-        const delta = sim - base;
-        const deltaEl = $('sim-delta');
-        if (delta < 0) {
-            deltaEl.textContent = `▼ ${Math.abs(delta)} pts`;
-            deltaEl.style.color = '#8FB89C';
-        } else if (delta > 0) {
-            deltaEl.textContent = `▲ ${delta} pts`;
-            deltaEl.style.color = '#D97D6B';
-        } else {
-            deltaEl.textContent = `No change`;
-            deltaEl.style.color = '#8A92A3';
+            const delta = sim - base;
+            const deltaEl = $('sim-delta');
+            if (delta < 0) {
+                deltaEl.textContent = `▼ ${Math.abs(delta)} pts`;
+                deltaEl.style.color = '#8FB89C';
+            } else if (delta > 0) {
+                deltaEl.textContent = `▲ ${delta} pts`;
+                deltaEl.style.color = '#D97D6B';
+            } else {
+                deltaEl.textContent = `No change`;
+                deltaEl.style.color = '#8A92A3';
+            }
+        } catch (e) {
+            console.error("API error in whatif", e);
+            const base = computeRisk(lastInputs).score;
+            const sim = computeRisk(simInputs).score;
+            $('sim-from').textContent = base;
+            $('sim-to').textContent = sim;
+            $('sim-to').className = 'dc-to ' + (sim < base ? 'better' : (sim > base ? 'worse' : ''));
+            const delta = sim - base;
+            const deltaEl = $('sim-delta');
+            if (delta < 0) { deltaEl.textContent = `▼ ${Math.abs(delta)} pts`; deltaEl.style.color = '#8FB89C'; } 
+            else if (delta > 0) { deltaEl.textContent = `▲ ${delta} pts`; deltaEl.style.color = '#D97D6B'; } 
+            else { deltaEl.textContent = `No change`; deltaEl.style.color = '#8A92A3'; }
         }
     }
 
