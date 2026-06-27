@@ -260,6 +260,96 @@ def explain_prediction(processed_row):
 
     return results
 
+def get_nl_explanation(top_features):
+    """
+    Translates SHAP features into a natural language sentence.
+    """
+    risk_drivers = [f["feature"].replace("_", " ").lower() for f in top_features[:3] if f["direction"] == "Increases Risk"]
+    
+    if not risk_drivers:
+        return "Your habits currently show a healthy balance with no major risk drivers."
+    
+    if len(risk_drivers) == 1:
+        return f"Your addiction score is mainly influenced by your {risk_drivers[0]}."
+    else:
+        return f"Your addiction score is mainly influenced by your {', '.join(risk_drivers[:-1])} and {risk_drivers[-1]}."
+
+
+# ============================================================
+# HELPER: COUNTERFACTUAL AI (Minimum Viable Change)
+# ============================================================
+
+def get_counterfactual(raw_input, current_score):
+    """
+    Calculates the minimum lifestyle change needed to reach a moderate/low score.
+    """
+    if current_score < 5.5:
+        return {"status": "healthy", "message": "You are already in a healthy range!"}
+        
+    best_change = None
+    min_effort = float('inf')
+    
+    current_sleep = raw_input.get("Sleep_Hours_Per_Night", 8)
+    current_usage = raw_input.get("Avg_Daily_Usage_Hours", 4)
+    
+    # Grid search: try increasing sleep (up to +4h) and decreasing usage (down to 1h)
+    for sleep_add in np.arange(0, 4.5, 0.5):
+        for usage_sub in np.arange(0, current_usage, 0.5):
+            if sleep_add == 0 and usage_sub == 0:
+                continue
+                
+            test_input = raw_input.copy()
+            test_input["Sleep_Hours_Per_Night"] = min(9.0, current_sleep + sleep_add) # Cap at 9h
+            test_input["Avg_Daily_Usage_Hours"] = max(1.0, current_usage - usage_sub) # Floor at 1h
+            
+            test_processed = preprocess_row(test_input)
+            test_score = float(model.predict(test_processed)[0])
+            
+            if test_score < 6.0: # Target: get out of HIGH risk
+                effort = sleep_add + usage_sub 
+                if effort < min_effort:
+                    min_effort = effort
+                    best_change = {
+                        "target_score": round(test_score, 2),
+                        "sleep_change": sleep_add,
+                        "usage_change": -usage_sub,
+                        "new_sleep": test_input["Sleep_Hours_Per_Night"],
+                        "new_usage": test_input["Avg_Daily_Usage_Hours"]
+                    }
+                    
+    if best_change:
+        changes = []
+        if best_change['sleep_change'] > 0:
+            changes.append(f"increase sleep by {best_change['sleep_change']} hours")
+        if best_change['usage_change'] < 0:
+            changes.append(f"reduce screen time by {abs(best_change['usage_change'])} hours")
+            
+        msg = f"Minimum change to reach healthy score ({best_change['target_score']}): " + " and ".join(changes) + "."
+        best_change["message"] = msg
+        return best_change
+    else:
+        return {"status": "difficult", "message": "Significant changes across multiple habits (including mental health/conflicts) are needed."}
+
+# ============================================================
+# HELPER: BEHAVIOURAL RISK INDEX
+# ============================================================
+def get_risk_index(raw_input):
+    sleep = raw_input.get("Sleep_Hours_Per_Night", 8)
+    usage = raw_input.get("Avg_Daily_Usage_Hours", 4)
+    mental = raw_input.get("Mental_Health_Score", 10)
+    
+    burnout_score = (usage / (sleep + 0.1)) + ((10 - mental) / 2)
+    burnout_risk = "HIGH" if burnout_score > 4 else "MODERATE" if burnout_score > 2 else "LOW"
+    
+    sleep_risk = "HIGH" if sleep < 6 else "MODERATE" if sleep < 7.5 else "LOW"
+    mental_risk = "HIGH" if mental < 5 else "MODERATE" if mental < 7 else "LOW"
+    
+    return {
+        "Burnout_Risk": burnout_risk,
+        "Sleep_Risk": sleep_risk,
+        "Mental_Health_Risk": mental_risk
+    }
+
 
 # ============================================================
 # API ENDPOINT: /predict
@@ -271,8 +361,11 @@ def predict():
     Accepts raw student data, returns:
       - predicted addiction score
       - risk level
+      - behavioural risk index
       - top 5 SHAP features
+      - natural language explanation
       - personalised recommendations
+      - counterfactual (minimum change needed)
     """
     try:
         data = request.get_json()
@@ -296,18 +389,28 @@ def predict():
         # Predict
         score = float(model.predict(processed)[0])
         risk = get_risk_label(score)
+        
+        # Risk Index
+        risk_index = get_risk_index(data)
 
         # Explain
         top_features = explain_prediction(processed)
+        nl_explanation = get_nl_explanation(top_features)
 
         # Recommendations
         recs = get_recommendations(score, data, top_features)
+        
+        # Counterfactual AI
+        counterfactual = get_counterfactual(data, score)
 
         return jsonify({
             "predicted_score": round(score, 2),
             "risk_level": risk,
+            "behavioural_risk_index": risk_index,
+            "natural_language_explanation": nl_explanation,
             "top_features": top_features,
             "recommendations": recs,
+            "counterfactual_goal": counterfactual,
             "engineered_scores": {
                 "Recovery_Capacity": round(data["Sleep_Hours_Per_Night"] * data["Mental_Health_Score"], 2),
                 "Psychosocial_Load": round(data["Avg_Daily_Usage_Hours"] * data["Conflicts_Over_Social_Media"], 2),
@@ -330,12 +433,6 @@ def whatif():
     Accepts 'current' and 'adjusted' student data.
     Returns both predictions side-by-side so the user can see
     the impact of changing habits.
-
-    Example request body:
-    {
-      "current": { ...raw student data... },
-      "adjusted": { ...same data with some values changed... }
-    }
     """
     try:
         data = request.get_json()
@@ -442,11 +539,11 @@ def options():
 
 if __name__ == "__main__":
     print("=" * 70)
-    print("MINDBALANCE WHAT-IF SIMULATOR API")
+    print("MINDBALANCE AI PLATFORM API")
     print("=" * 70)
     print()
     print("Endpoints:")
-    print("  POST /predict  - Predict addiction score for a student")
+    print("  POST /predict  - Predict score, SHAP, Counterfactual AI, Risk Index")
     print("  POST /whatif   - Compare current vs adjusted habits")
     print("  GET  /options  - Get valid dropdown values")
     print()
