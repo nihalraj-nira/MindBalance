@@ -237,9 +237,11 @@
         <div id="chatHistory" class="chat-history">
             <div class="chat-msg ai">Hello! I'm your AI Therapist. Run a prediction, then ask me how to improve your score!</div>
         </div>
-        <div class="chat-input-area">
-            <input type="text" id="chatInput" placeholder="Ask about your score..." />
-            <button id="chatSend">Send</button>
+        <div class="chat-input-area" id="predefinedQuestions" style="flex-direction: column; gap: 8px;">
+            <button class="chat-predefined-btn" data-qid="1">Which behavioral factors contribute most to digital wellness risk?</button>
+            <button class="chat-predefined-btn" data-qid="2">How much daily screen time becomes unhealthy?</button>
+            <button class="chat-predefined-btn" data-qid="3">What happens if sleep increases from 5 to 7 hours?</button>
+            <button class="chat-predefined-btn" data-qid="4">Can AI accurately predict digital wellness?</button>
         </div>
     </div>
     

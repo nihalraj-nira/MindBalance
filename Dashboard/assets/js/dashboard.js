@@ -412,8 +412,6 @@
     const chatToggle = $('chatToggle');
     const chatWidget = $('chatWidget');
     const chatClose = $('chatClose');
-    const chatSend = $('chatSend');
-    const chatInput = $('chatInput');
     const chatHistory = $('chatHistory');
 
     chatToggle.addEventListener('click', () => {
@@ -424,8 +422,7 @@
         chatWidget.classList.add('hidden');
     });
 
-    async function sendChatMessage() {
-        const text = chatInput.value.trim();
+    async function sendChatMessage(text) {
         if (!text) return;
 
         // Append user message
@@ -434,43 +431,46 @@
         userMsg.textContent = text;
         chatHistory.appendChild(userMsg);
 
-        chatInput.value = '';
         chatHistory.scrollTop = chatHistory.scrollHeight;
 
-        try {
-            // Build Context
-            const context = {
-                predicted_score: lastScore,
-                sleep_hours: lastInputs ? parseFloat(lastInputs.Sleep_Hours_Per_Night) : 7.0,
-                screen_time: lastInputs ? parseFloat(lastInputs.Avg_Daily_Usage_Hours) : 4.0
-            };
+        // Add a small delay for realism
+        setTimeout(async () => {
+            try {
+                // Build Context
+                const context = {
+                    predicted_score: lastScore,
+                    sleep_hours: lastInputs ? parseFloat(lastInputs.Sleep_Hours_Per_Night) : 7.0,
+                    screen_time: lastInputs ? parseFloat(lastInputs.Avg_Daily_Usage_Hours) : 4.0
+                };
 
-            const res = await fetch("http://127.0.0.1:5000/chat", {
-                method: "POST",
-                headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ message: text, context: context })
-            });
+                const res = await fetch("http://127.0.0.1:5000/chat", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ message: text, context: context })
+                });
 
-            if (res.ok) {
-                const data = await res.json();
+                if (res.ok) {
+                    const data = await res.json();
+                    const aiMsg = document.createElement('div');
+                    aiMsg.className = 'chat-msg ai';
+                    aiMsg.textContent = data.reply || "I didn't quite catch that.";
+                    chatHistory.appendChild(aiMsg);
+                }
+            } catch (e) {
                 const aiMsg = document.createElement('div');
                 aiMsg.className = 'chat-msg ai';
-                aiMsg.textContent = data.reply || "I didn't quite catch that.";
+                aiMsg.textContent = "Oops! Cannot connect to the AI server. Did you start the Python API?";
                 chatHistory.appendChild(aiMsg);
             }
-        } catch (e) {
-            const aiMsg = document.createElement('div');
-            aiMsg.className = 'chat-msg ai';
-            aiMsg.textContent = "Oops! Cannot connect to the AI server. Did you start the Python API?";
-            chatHistory.appendChild(aiMsg);
-        }
-        
-        chatHistory.scrollTop = chatHistory.scrollHeight;
+            
+            chatHistory.scrollTop = chatHistory.scrollHeight;
+        }, 300);
     }
 
-    chatSend.addEventListener('click', sendChatMessage);
-    chatInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') sendChatMessage();
+    document.querySelectorAll('.chat-predefined-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            sendChatMessage(e.target.textContent);
+        });
     });
 
     // ---------- FORECAST CHART ----------
