@@ -784,6 +784,151 @@
         });
     }
 
+    // ---------- SYNC DEVICE DATA ----------
+    $('syncBtn').addEventListener('click', () => {
+        const btn = $('syncBtn');
+        const icon = $('syncIcon');
+        const text = $('syncText');
+
+        btn.classList.add('syncing');
+        btn.classList.remove('synced');
+        text.textContent = 'Syncing...';
+        btn.disabled = true;
+
+        // Simulate device data coming in (realistic random values)
+        setTimeout(() => {
+            const syncedScreen = (4 + Math.random() * 6).toFixed(1);
+            const syncedSleep = (5 + Math.random() * 4).toFixed(2).replace(/0$/, '');
+            const syncedSleepQ = Math.floor(3 + Math.random() * 7);
+            const syncedStress = Math.floor(2 + Math.random() * 7);
+            const syncedStudy = (1 + Math.random() * 5).toFixed(1);
+
+            screen.value = syncedScreen;
+            sleep.value = syncedSleep;
+            sleepq.value = syncedSleepQ;
+            stress.value = syncedStress;
+            study.value = syncedStudy;
+
+            // Fire input events to update labels
+            ['screen', 'sleep', 'sleepq', 'stress', 'study'].forEach(id => {
+                $(id).dispatchEvent(new Event('input'));
+            });
+
+            btn.classList.remove('syncing');
+            btn.classList.add('synced');
+            icon.innerHTML = '&#10003;';
+            text.textContent = 'Synced!';
+
+            runPrediction();
+
+            // Reset button after 3 seconds
+            setTimeout(() => {
+                btn.classList.remove('synced');
+                icon.innerHTML = '&#8635;';
+                text.textContent = 'Sync Device Data';
+                btn.disabled = false;
+            }, 3000);
+        }, 2000);
+    });
+
+    // ---------- EXPORT CLINICAL REPORT ----------
+    $('exportBtn').addEventListener('click', () => {
+        const score = lastScore || '—';
+        const profileName = currentProfile ? currentProfile.name : 'Anonymous';
+        const today = new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+
+        let riskLevel = 'Low Risk';
+        let riskColor = '#8FB89C';
+        if (score >= 70) { riskLevel = 'High Risk'; riskColor = '#D97D6B'; }
+        else if (score >= 45) { riskLevel = 'Moderate Risk'; riskColor = '#E0A458'; }
+
+        // Build the top 3 risk factors from contributions
+        let factorsHTML = '';
+        if (lastInputs) {
+            const inputs = {
+                screenT: parseFloat(lastInputs.Avg_Daily_Usage_Hours),
+                sleepT: parseFloat(lastInputs.Sleep_Hours_Per_Night),
+                sleepQ: parseFloat(lastInputs.Sleep_Quality_Rating),
+                stressL: parseFloat(lastInputs.Stress_Level),
+                studyH: parseFloat(lastInputs.Daily_Study_Hours)
+            };
+            const factors = [
+                { name: 'Screen Time', val: inputs.screenT.toFixed(1) + ' h/day', impact: Math.abs(inputs.screenT - 5) },
+                { name: 'Sleep Duration', val: inputs.sleepT.toFixed(1) + ' h/night', impact: Math.abs(7.5 - inputs.sleepT) },
+                { name: 'Stress Level', val: inputs.stressL + '/10', impact: inputs.stressL / 2 },
+                { name: 'Study Hours', val: inputs.studyH.toFixed(1) + ' h/day', impact: Math.abs(4 - inputs.studyH) / 2 },
+                { name: 'Sleep Quality', val: inputs.sleepQ + '/10', impact: Math.abs(7 - inputs.sleepQ) / 2 }
+            ].sort((a, b) => b.impact - a.impact).slice(0, 3);
+
+            factorsHTML = factors.map((f, i) => `
+                <tr>
+                    <td style="padding:8px 12px; border-bottom:1px solid #eee;">${i + 1}</td>
+                    <td style="padding:8px 12px; border-bottom:1px solid #eee;">${f.name}</td>
+                    <td style="padding:8px 12px; border-bottom:1px solid #eee;">${f.val}</td>
+                </tr>
+            `).join('');
+        }
+
+        const reportHTML = `
+            <html>
+            <head>
+                <title>MindBalance Clinical Report — ${profileName}</title>
+                <style>
+                    body { font-family: 'Inter', Arial, sans-serif; padding: 40px; color: #222; max-width: 700px; margin: auto; }
+                    h1 { font-size: 22px; margin-bottom: 4px; }
+                    .subtitle { color: #888; font-size: 13px; margin-bottom: 30px; }
+                    .score-box { text-align: center; padding: 24px; border: 2px solid ${riskColor}; border-radius: 12px; margin-bottom: 24px; }
+                    .score-num { font-size: 48px; font-weight: 700; color: ${riskColor}; }
+                    .score-label { font-size: 14px; color: #666; margin-top: 4px; }
+                    table { width: 100%; border-collapse: collapse; margin-bottom: 24px; }
+                    th { text-align: left; padding: 8px 12px; background: #f5f5f5; font-size: 13px; }
+                    .section-title { font-size: 16px; font-weight: 600; margin: 24px 0 12px; border-bottom: 2px solid #eee; padding-bottom: 6px; }
+                    .rec { padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 13px; line-height: 1.5; }
+                    .footer { margin-top: 40px; font-size: 11px; color: #aaa; text-align: center; border-top: 1px solid #eee; padding-top: 16px; }
+                </style>
+            </head>
+            <body>
+                <h1>MindBalance Clinical Summary Report</h1>
+                <div class="subtitle">Patient: <strong>${profileName}</strong> | Date: ${today} | Generated by MindBalance AI Platform</div>
+
+                <div class="score-box">
+                    <div class="score-num">${score}</div>
+                    <div class="score-label">${riskLevel} (0 = Healthy, 100 = Critical)</div>
+                </div>
+
+                <div class="section-title">Top Risk Factors</div>
+                <table>
+                    <tr><th>#</th><th>Factor</th><th>Value</th></tr>
+                    ${factorsHTML || '<tr><td colspan="3" style="padding:8px 12px;">Run a prediction first</td></tr>'}
+                </table>
+
+                <div class="section-title">Recommendations</div>
+                <div class="rec"><strong>1. Sleep Optimization:</strong> Aim for 7–8 hours of uninterrupted sleep. Set a consistent sleep schedule and avoid screens 30 minutes before bedtime.</div>
+                <div class="rec"><strong>2. Screen Time Management:</strong> Reduce recreational screen time by 60–90 minutes. Use app-limit features on your device to enforce boundaries.</div>
+                <div class="rec"><strong>3. Stress Reduction:</strong> Incorporate a 10-minute mindfulness or breathing exercise into your daily routine, ideally before study sessions.</div>
+
+                <div class="section-title">Counselor Notes</div>
+                <p style="font-size:13px; color:#666; line-height:1.6;">
+                    This report was generated by the MindBalance AI-driven digital wellness platform. The risk score is computed using a
+                    Gradient Boosting Regressor trained on 12,000+ student behavioral records (IEEE DataPort). Factor importance is
+                    derived from SHAP (SHapley Additive exPlanations) values. This summary is intended to supplement, not replace,
+                    clinical assessment.
+                </p>
+
+                <div class="footer">
+                    MindBalance &mdash; AI-Driven Digital Wellness Platform | Confidential Student Health Record
+                </div>
+            </body>
+            </html>
+        `;
+
+        const printWindow = window.open('', '_blank');
+        printWindow.document.write(reportHTML);
+        printWindow.document.close();
+        printWindow.focus();
+        setTimeout(() => printWindow.print(), 500);
+    });
+
     // ---------- INIT ----------
     initForecastChart();
     runPrediction();

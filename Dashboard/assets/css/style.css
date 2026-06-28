@@ -893,3 +893,73 @@ svg text {
     color: var(--text);
     font-weight: 500;
 }
+
+/* ---------- SYNC DEVICE DATA BUTTON ---------- */
+.sync-btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: 1px solid rgba(99, 152, 255, 0.4);
+    background: rgba(99, 152, 255, 0.08);
+    color: #6398FF;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.sync-btn:hover {
+    background: rgba(99, 152, 255, 0.18);
+    border-color: rgba(99, 152, 255, 0.6);
+    box-shadow: 0 0 20px rgba(99, 152, 255, 0.15);
+}
+.sync-icon {
+    display: inline-block;
+    font-size: 18px;
+    transition: transform 0.3s;
+}
+.sync-btn.syncing .sync-icon {
+    animation: spin 0.8s linear infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.sync-btn.synced {
+    background: rgba(143, 184, 156, 0.15);
+    border-color: rgba(143, 184, 156, 0.5);
+    color: #8FB89C;
+}
+
+/* ---------- EXPORT REPORT BUTTON ---------- */
+.export-btn {
+    padding: 12px 32px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(135deg, #8FB89C, #6B9E7A);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.export-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(143, 184, 156, 0.35);
+}
+
+/* ---------- PRINT STYLES ---------- */
+@media print {
+    body { background: #fff !important; color: #222 !important; }
+    .chat-widget, .chat-toggle-btn, .sync-btn, .export-btn,
+    .run-btn, #profileSelector, .day-selector, .day-detail-card,
+    .toggle-row, input[type="range"], select, .field label .val { display: none !important; }
+    .panel { border: 1px solid #ddd !important; break-inside: avoid; margin-bottom: 16px !important; }
+    .panel-title { color: #222 !important; }
+    #printReport { display: block !important; }
+}
