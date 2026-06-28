@@ -845,19 +845,12 @@
         // Build the top 3 risk factors from contributions
         let factorsHTML = '';
         if (lastInputs) {
-            const inputs = {
-                screenT: parseFloat(lastInputs.Avg_Daily_Usage_Hours),
-                sleepT: parseFloat(lastInputs.Sleep_Hours_Per_Night),
-                sleepQ: parseFloat(lastInputs.Sleep_Quality_Rating),
-                stressL: parseFloat(lastInputs.Stress_Level),
-                studyH: parseFloat(lastInputs.Daily_Study_Hours)
-            };
             const factors = [
-                { name: 'Screen Time', val: inputs.screenT.toFixed(1) + ' h/day', impact: Math.abs(inputs.screenT - 5) },
-                { name: 'Sleep Duration', val: inputs.sleepT.toFixed(1) + ' h/night', impact: Math.abs(7.5 - inputs.sleepT) },
-                { name: 'Stress Level', val: inputs.stressL + '/10', impact: inputs.stressL / 2 },
-                { name: 'Study Hours', val: inputs.studyH.toFixed(1) + ' h/day', impact: Math.abs(4 - inputs.studyH) / 2 },
-                { name: 'Sleep Quality', val: inputs.sleepQ + '/10', impact: Math.abs(7 - inputs.sleepQ) / 2 }
+                { name: 'Screen Time', val: lastInputs.screenT.toFixed(1) + ' h/day', impact: Math.abs(lastInputs.screenT - 5) },
+                { name: 'Sleep Duration', val: lastInputs.sleepT.toFixed(1) + ' h/night', impact: Math.abs(7.5 - lastInputs.sleepT) },
+                { name: 'Stress Level', val: lastInputs.stressL + '/10', impact: lastInputs.stressL / 2 },
+                { name: 'Study Hours', val: lastInputs.studyH.toFixed(1) + ' h/day', impact: Math.abs(4 - lastInputs.studyH) / 2 },
+                { name: 'Sleep Quality', val: lastInputs.sleepQ + '/10', impact: Math.abs(7 - lastInputs.sleepQ) / 2 }
             ].sort((a, b) => b.impact - a.impact).slice(0, 3);
 
             factorsHTML = factors.map((f, i) => `
