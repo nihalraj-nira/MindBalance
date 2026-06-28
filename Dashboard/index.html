@@ -240,10 +240,32 @@
         <!-- WEEKLY REPORT PANEL -->
         <div class="panel" id="weeklyReportPanel" style="margin-top:24px; display: none;">
             <div class="panel-title">Weekly Progress Report</div>
-            <p style="font-size:13px; color:var(--text-dim); margin-bottom:18px;">
-                Historical risk score tracking over the last 7 days for the loaded profile.
+            <p style="font-size:13px; color:var(--text-dim); margin-bottom:12px;" id="weeklyProfileName">
+                Tracking data for the loaded profile.
             </p>
-            <div style="height: 250px; width: 100%;">
+
+            <!-- DAY SELECTOR -->
+            <div class="day-selector" id="daySelector">
+                <button class="day-btn" data-day="0">Mon</button>
+                <button class="day-btn" data-day="1">Tue</button>
+                <button class="day-btn" data-day="2">Wed</button>
+                <button class="day-btn" data-day="3">Thu</button>
+                <button class="day-btn" data-day="4">Fri</button>
+                <button class="day-btn" data-day="5">Sat</button>
+                <button class="day-btn active" data-day="6">Sun</button>
+            </div>
+
+            <!-- DAY DETAIL CARD -->
+            <div class="day-detail-card" id="dayDetailCard">
+                <div class="day-detail-row"><span class="day-detail-label">📱 Screen Time</span><span class="day-detail-val" id="dd-screen">—</span></div>
+                <div class="day-detail-row"><span class="day-detail-label">😴 Sleep</span><span class="day-detail-val" id="dd-sleep">—</span></div>
+                <div class="day-detail-row"><span class="day-detail-label">😰 Stress</span><span class="day-detail-val" id="dd-stress">—</span></div>
+                <div class="day-detail-row"><span class="day-detail-label">📚 Study</span><span class="day-detail-val" id="dd-study">—</span></div>
+                <div class="day-detail-row"><span class="day-detail-label">⚠️ Risk Score</span><span class="day-detail-val" id="dd-risk" style="font-weight:700;">—</span></div>
+            </div>
+
+            <!-- CHART -->
+            <div style="height: 280px; width: 100%; margin-top: 16px;">
                 <canvas id="weeklyChart"></canvas>
             </div>
         </div>

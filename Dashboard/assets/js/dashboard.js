@@ -25,63 +25,116 @@
         });
     });
 
-    // ---------- MOCK PROFILES ----------
+    // ---------- MOCK PROFILES (per-day tracking) ----------
     const profiles = {
         'alex': {
             name: 'Alex',
-            screenT: 12.0, sleepT: 4.5, sleepQ: 3, stressL: 9, studyH: 1.0, late: 2, platform: 'TikTok',
-            history: [88, 89, 90, 85, 92, 94, 91], // High risk scores over 7 days
-            screenHistory: [9.5, 10.0, 11.5, 9.0, 12.5, 13.0, 12.0]
+            days: [
+                { screenT: 9.5,  sleepT: 5.0,  sleepQ: 4, stressL: 7, studyH: 2.0, late: 1, platform: 'TikTok',    risk: 72 },
+                { screenT: 10.0, sleepT: 4.5,  sleepQ: 3, stressL: 8, studyH: 1.5, late: 2, platform: 'TikTok',    risk: 81 },
+                { screenT: 11.5, sleepT: 4.0,  sleepQ: 3, stressL: 9, studyH: 1.0, late: 2, platform: 'Instagram', risk: 88 },
+                { screenT: 9.0,  sleepT: 5.5,  sleepQ: 4, stressL: 7, studyH: 2.5, late: 1, platform: 'TikTok',    risk: 68 },
+                { screenT: 12.5, sleepT: 4.0,  sleepQ: 2, stressL: 9, studyH: 0.5, late: 2, platform: 'TikTok',    risk: 92 },
+                { screenT: 13.0, sleepT: 3.75, sleepQ: 2, stressL: 10,studyH: 0.5, late: 2, platform: 'Instagram', risk: 94 },
+                { screenT: 12.0, sleepT: 4.5,  sleepQ: 3, stressL: 9, studyH: 1.0, late: 2, platform: 'TikTok',    risk: 91 }
+            ]
         },
         'sarah': {
             name: 'Sarah',
-            screenT: 3.5, sleepT: 7.5, sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp',
-            history: [25, 24, 22, 28, 26, 25, 23], // Low risk scores
-            screenHistory: [3.5, 3.0, 2.5, 4.0, 3.5, 3.0, 3.5]
+            days: [
+                { screenT: 3.5, sleepT: 7.5,  sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp', risk: 25 },
+                { screenT: 3.0, sleepT: 8.0,  sleepQ: 9, stressL: 2, studyH: 5.5, late: 0, platform: 'WhatsApp', risk: 21 },
+                { screenT: 2.5, sleepT: 7.75, sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp', risk: 22 },
+                { screenT: 4.0, sleepT: 7.0,  sleepQ: 7, stressL: 4, studyH: 4.5, late: 0, platform: 'WhatsApp', risk: 28 },
+                { screenT: 3.5, sleepT: 7.5,  sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp', risk: 26 },
+                { screenT: 3.0, sleepT: 8.0,  sleepQ: 9, stressL: 2, studyH: 6.0, late: 0, platform: 'WhatsApp', risk: 20 },
+                { screenT: 3.5, sleepT: 7.5,  sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp', risk: 23 }
+            ]
         },
         'jordan': {
             name: 'Jordan',
-            screenT: 6.5, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram',
-            history: [55, 58, 62, 59, 61, 65, 60], // Moderate risk
-            screenHistory: [5.5, 6.0, 7.0, 6.5, 6.0, 7.5, 6.5]
+            days: [
+                { screenT: 5.5, sleepT: 6.5, sleepQ: 6, stressL: 5, studyH: 3.5, late: 1, platform: 'Instagram', risk: 52 },
+                { screenT: 6.0, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram', risk: 58 },
+                { screenT: 7.0, sleepT: 5.5, sleepQ: 4, stressL: 7, studyH: 2.5, late: 1, platform: 'Instagram', risk: 66 },
+                { screenT: 6.5, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram', risk: 59 },
+                { screenT: 6.0, sleepT: 6.25,sleepQ: 5, stressL: 6, studyH: 3.5, late: 1, platform: 'Instagram', risk: 55 },
+                { screenT: 7.5, sleepT: 5.5, sleepQ: 4, stressL: 7, studyH: 2.0, late: 2, platform: 'Instagram', risk: 70 },
+                { screenT: 6.5, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram', risk: 60 }
+            ]
         }
     };
 
     let currentProfile = null;
+    let selectedDay = 6; // default to Sunday (today)
     let weeklyChartInstance = null;
 
+    function loadDay(dayIndex) {
+        if (!currentProfile) return;
+        selectedDay = dayIndex;
+        const d = currentProfile.days[dayIndex];
+
+        // Update sliders to this day's data
+        screen.value = d.screenT;
+        sleep.value = d.sleepT;
+        sleepq.value = d.sleepQ;
+        stress.value = d.stressL;
+        study.value = d.studyH;
+        platform.value = d.platform;
+
+        // Update late-night pills
+        document.querySelectorAll('#latenight .toggle-pill').forEach(x => {
+            x.classList.remove('active');
+            if (parseInt(x.dataset.val) === d.late) x.classList.add('active');
+        });
+        lateNight = d.late;
+
+        // Fire input events to update slider labels
+        ['screen', 'sleep', 'sleepq', 'stress', 'study'].forEach(id => {
+            $(id).dispatchEvent(new Event('input'));
+        });
+
+        // Update day detail card
+        $('dd-screen').textContent = d.screenT.toFixed(1) + ' h';
+        $('dd-sleep').textContent = d.sleepT.toFixed(1) + ' h';
+        $('dd-stress').textContent = d.stressL + ' / 10';
+        $('dd-study').textContent = d.studyH.toFixed(1) + ' h';
+        const riskEl = $('dd-risk');
+        riskEl.textContent = d.risk + ' / 100';
+        if (d.risk >= 70) riskEl.style.color = '#D97D6B';
+        else if (d.risk >= 45) riskEl.style.color = '#E0A458';
+        else riskEl.style.color = '#8FB89C';
+
+        // Highlight active day button
+        document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
+        document.querySelector(`.day-btn[data-day="${dayIndex}"]`).classList.add('active');
+
+        // Update chart highlight
+        updateWeeklyChart(currentProfile.days.map(x => x.risk), currentProfile.days.map(x => x.screenT), dayIndex);
+
+        runPrediction();
+    }
+
+    // Day selector click handler
+    document.querySelectorAll('.day-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            loadDay(parseInt(e.target.dataset.day));
+        });
+    });
+
+    // Profile dropdown handler
     $('profileSelector').addEventListener('change', (e) => {
         const pId = e.target.value;
         if (pId === 'none' || !profiles[pId]) {
             $('weeklyReportPanel').style.display = 'none';
+            currentProfile = null;
             return;
         }
-        
+
         currentProfile = profiles[pId];
-        
-        // Update sliders
-        screen.value = currentProfile.screenT;
-        sleep.value = currentProfile.sleepT;
-        sleepq.value = currentProfile.sleepQ;
-        stress.value = currentProfile.stressL;
-        study.value = currentProfile.studyH;
-        platform.value = currentProfile.platform;
-        
-        // Update late night pills
-        document.querySelectorAll('#latenight .toggle-pill').forEach(x => {
-            x.classList.remove('active');
-            if(parseInt(x.dataset.val) === currentProfile.late) x.classList.add('active');
-        });
-        lateNight = currentProfile.late;
-        
-        // Dispatch input events to update labels
-        ['screen', 'sleep', 'sleepq', 'stress', 'study'].forEach(id => {
-            $(id).dispatchEvent(new Event('input'));
-        });
-        
+        $('weeklyProfileName').textContent = `Tracking data for ${currentProfile.name}'s weekly habits.`;
         $('weeklyReportPanel').style.display = 'block';
-        updateWeeklyChart(currentProfile.history, currentProfile.screenHistory);
-        runPrediction();
+        loadDay(6); // Load Sunday (today) by default
     });
 
     // ---------- "MODEL" (lightweight client-side stand-in for the trained RF model) ----------
@@ -596,7 +649,7 @@
     }
 
     // ---------- WEEKLY REPORT CHART ----------
-    function updateWeeklyChart(historyData, screenData) {
+    function updateWeeklyChart(historyData, screenData, activeDay) {
         const ctx = document.getElementById('weeklyChart');
         if (!ctx) return;
         
@@ -604,7 +657,45 @@
             weeklyChartInstance.destroy();
         }
 
-        const labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Today'];
+        const labels = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+
+        // Build colors: selected day is brighter, others are dimmed
+        const barColors = historyData.map((score, i) => {
+            const isActive = (i === activeDay);
+            if (score >= 70) return isActive ? 'rgba(217, 125, 107, 1)' : 'rgba(217, 125, 107, 0.4)';
+            if (score >= 45) return isActive ? 'rgba(224, 164, 88, 1)'  : 'rgba(224, 164, 88, 0.4)';
+            return isActive ? 'rgba(143, 184, 156, 1)' : 'rgba(143, 184, 156, 0.4)';
+        });
+
+        const barBorders = historyData.map((score, i) => {
+            if (i !== activeDay) return 'transparent';
+            if (score >= 70) return '#D97D6B';
+            if (score >= 45) return '#E0A458';
+            return '#8FB89C';
+        });
+
+        // Threshold plugin — draws a dashed "danger zone" line at 70
+        const thresholdPlugin = {
+            id: 'thresholdLine',
+            afterDraw(chart) {
+                const yScale = chart.scales.y;
+                const ctx2 = chart.ctx;
+                const yPos = yScale.getPixelForValue(70);
+                ctx2.save();
+                ctx2.strokeStyle = 'rgba(217, 125, 107, 0.5)';
+                ctx2.lineWidth = 2;
+                ctx2.setLineDash([6, 4]);
+                ctx2.beginPath();
+                ctx2.moveTo(chart.chartArea.left, yPos);
+                ctx2.lineTo(chart.chartArea.right, yPos);
+                ctx2.stroke();
+                // Label
+                ctx2.fillStyle = 'rgba(217, 125, 107, 0.7)';
+                ctx2.font = '11px Inter, sans-serif';
+                ctx2.fillText('High Risk Threshold', chart.chartArea.right - 120, yPos - 6);
+                ctx2.restore();
+            }
+        };
         
         weeklyChartInstance = new Chart(ctx, {
             type: 'bar',
@@ -612,24 +703,27 @@
                 labels: labels,
                 datasets: [
                     {
-                        label: 'Screen Time (Hours)',
+                        label: 'Screen Time (h)',
                         data: screenData,
                         type: 'line',
-                        borderColor: '#3498db',
-                        backgroundColor: '#3498db',
-                        borderWidth: 3,
-                        tension: 0.3,
+                        borderColor: '#6398FF',
+                        backgroundColor: 'rgba(99, 152, 255, 0.1)',
+                        pointBackgroundColor: screenData.map((_, i) => i === activeDay ? '#fff' : '#6398FF'),
+                        pointRadius: screenData.map((_, i) => i === activeDay ? 6 : 3),
+                        pointBorderWidth: screenData.map((_, i) => i === activeDay ? 3 : 0),
+                        pointBorderColor: '#6398FF',
+                        borderWidth: 2.5,
+                        tension: 0.35,
+                        fill: true,
                         yAxisID: 'y-screen'
                     },
                     {
                         label: 'Risk Score',
                         data: historyData,
-                        backgroundColor: historyData.map(score => {
-                            if(score >= 70) return 'rgba(217, 125, 107, 0.8)'; // High risk - Red
-                            if(score >= 45) return 'rgba(224, 164, 88, 0.8)';  // Mod risk - Yellow
-                            return 'rgba(143, 184, 156, 0.8)';                 // Low risk - Green
-                        }),
-                        borderRadius: 4,
+                        backgroundColor: barColors,
+                        borderColor: barBorders,
+                        borderWidth: 2,
+                        borderRadius: 6,
                         yAxisID: 'y'
                     }
                 ]
@@ -645,7 +739,8 @@
                         min: 0,
                         max: 100,
                         grid: { color: 'rgba(255,255,255,0.05)' },
-                        title: { display: true, text: 'Risk Score (0-100)', color: '#8A92A3' }
+                        title: { display: true, text: 'Risk Score (0-100)', color: '#8A92A3', font: { size: 11 } },
+                        ticks: { color: '#8A92A3' }
                     },
                     'y-screen': {
                         type: 'linear',
@@ -653,24 +748,39 @@
                         position: 'right',
                         min: 0,
                         max: 16,
-                        grid: { drawOnChartArea: false }, // only draw grid lines for one axis
-                        title: { display: true, text: 'Screen Time (h)', color: '#3498db' }
+                        grid: { drawOnChartArea: false },
+                        title: { display: true, text: 'Screen Time (h)', color: '#6398FF', font: { size: 11 } },
+                        ticks: { color: '#6398FF' }
                     },
                     x: {
-                        grid: { display: false }
+                        grid: { display: false },
+                        ticks: {
+                            color: labels.map((_, i) => i === activeDay ? '#fff' : '#8A92A3'),
+                            font: {
+                                weight: labels.map((_, i) => i === activeDay ? 'bold' : 'normal')
+                            }
+                        }
                     }
                 },
                 plugins: {
                     legend: { 
                         display: true,
-                        labels: { color: '#8A92A3' }
+                        labels: { color: '#8A92A3', usePointStyle: true, pointStyle: 'circle' }
                     },
                     tooltip: {
                         mode: 'index',
-                        intersect: false
+                        intersect: false,
+                        backgroundColor: 'rgba(30,35,50,0.95)',
+                        titleColor: '#fff',
+                        bodyColor: '#ccc',
+                        borderColor: 'rgba(99,152,255,0.3)',
+                        borderWidth: 1,
+                        padding: 12,
+                        cornerRadius: 8
                     }
                 }
-            }
+            },
+            plugins: [thresholdPlugin]
         });
     }
 

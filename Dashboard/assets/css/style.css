@@ -829,3 +829,67 @@ svg text {
     background: rgba(143,184,156,0.2);
     border-color: rgba(143,184,156,0.5);
 }
+
+/* ---------- DAY SELECTOR ---------- */
+.day-selector {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+.day-btn {
+    flex: 1;
+    padding: 10px 0;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--surface);
+    color: var(--text-dim);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    text-align: center;
+}
+.day-btn:hover {
+    background: rgba(99, 152, 255, 0.1);
+    border-color: rgba(99, 152, 255, 0.4);
+    color: var(--text);
+}
+.day-btn.active {
+    background: linear-gradient(135deg, #4A90D9, #6398FF);
+    color: #fff;
+    border-color: transparent;
+    box-shadow: 0 4px 14px rgba(99, 152, 255, 0.35);
+    transform: translateY(-2px);
+}
+
+/* ---------- DAY DETAIL CARD ---------- */
+.day-detail-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 24px;
+}
+.day-detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+}
+.day-detail-row:last-child {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+    padding-top: 10px;
+}
+.day-detail-label {
+    font-size: 13px;
+    color: var(--text-dim);
+}
+.day-detail-val {
+    font-size: 14px;
+    color: var(--text);
+    font-weight: 500;
+}
