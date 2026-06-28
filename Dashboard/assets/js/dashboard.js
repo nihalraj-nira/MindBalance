@@ -30,17 +30,20 @@
         'alex': {
             name: 'Alex',
             screenT: 12.0, sleepT: 4.5, sleepQ: 3, stressL: 9, studyH: 1.0, late: 2, platform: 'TikTok',
-            history: [88, 89, 90, 85, 92, 94, 91] // High risk scores over 7 days
+            history: [88, 89, 90, 85, 92, 94, 91], // High risk scores over 7 days
+            screenHistory: [9.5, 10.0, 11.5, 9.0, 12.5, 13.0, 12.0]
         },
         'sarah': {
             name: 'Sarah',
             screenT: 3.5, sleepT: 7.5, sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp',
-            history: [25, 24, 22, 28, 26, 25, 23] // Low risk scores
+            history: [25, 24, 22, 28, 26, 25, 23], // Low risk scores
+            screenHistory: [3.5, 3.0, 2.5, 4.0, 3.5, 3.0, 3.5]
         },
         'jordan': {
             name: 'Jordan',
             screenT: 6.5, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram',
-            history: [55, 58, 62, 59, 61, 65, 60] // Moderate risk
+            history: [55, 58, 62, 59, 61, 65, 60], // Moderate risk
+            screenHistory: [5.5, 6.0, 7.0, 6.5, 6.0, 7.5, 6.5]
         }
     };
 
@@ -77,7 +80,7 @@
         });
         
         $('weeklyReportPanel').style.display = 'block';
-        updateWeeklyChart(currentProfile.history);
+        updateWeeklyChart(currentProfile.history, currentProfile.screenHistory);
         runPrediction();
     });
 
@@ -593,7 +596,7 @@
     }
 
     // ---------- WEEKLY REPORT CHART ----------
-    function updateWeeklyChart(historyData) {
+    function updateWeeklyChart(historyData, screenData) {
         const ctx = document.getElementById('weeklyChart');
         if (!ctx) return;
         
@@ -607,32 +610,65 @@
             type: 'bar',
             data: {
                 labels: labels,
-                datasets: [{
-                    label: 'Risk Score',
-                    data: historyData,
-                    backgroundColor: historyData.map(score => {
-                        if(score >= 70) return 'rgba(217, 125, 107, 0.8)'; // High risk - Red
-                        if(score >= 45) return 'rgba(224, 164, 88, 0.8)';  // Mod risk - Yellow
-                        return 'rgba(143, 184, 156, 0.8)';                 // Low risk - Green
-                    }),
-                    borderRadius: 4
-                }]
+                datasets: [
+                    {
+                        label: 'Screen Time (Hours)',
+                        data: screenData,
+                        type: 'line',
+                        borderColor: '#3498db',
+                        backgroundColor: '#3498db',
+                        borderWidth: 3,
+                        tension: 0.3,
+                        yAxisID: 'y-screen'
+                    },
+                    {
+                        label: 'Risk Score',
+                        data: historyData,
+                        backgroundColor: historyData.map(score => {
+                            if(score >= 70) return 'rgba(217, 125, 107, 0.8)'; // High risk - Red
+                            if(score >= 45) return 'rgba(224, 164, 88, 0.8)';  // Mod risk - Yellow
+                            return 'rgba(143, 184, 156, 0.8)';                 // Low risk - Green
+                        }),
+                        borderRadius: 4,
+                        yAxisID: 'y'
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
                     y: {
+                        type: 'linear',
+                        display: true,
+                        position: 'left',
                         min: 0,
                         max: 100,
-                        grid: { color: 'rgba(255,255,255,0.05)' }
+                        grid: { color: 'rgba(255,255,255,0.05)' },
+                        title: { display: true, text: 'Risk Score (0-100)', color: '#8A92A3' }
+                    },
+                    'y-screen': {
+                        type: 'linear',
+                        display: true,
+                        position: 'right',
+                        min: 0,
+                        max: 16,
+                        grid: { drawOnChartArea: false }, // only draw grid lines for one axis
+                        title: { display: true, text: 'Screen Time (h)', color: '#3498db' }
                     },
                     x: {
                         grid: { display: false }
                     }
                 },
                 plugins: {
-                    legend: { display: false }
+                    legend: { 
+                        display: true,
+                        labels: { color: '#8A92A3' }
+                    },
+                    tooltip: {
+                        mode: 'index',
+                        intersect: false
+                    }
                 }
             }
         });
