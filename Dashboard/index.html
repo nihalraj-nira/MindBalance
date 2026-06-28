@@ -28,6 +28,17 @@
 
             <!-- ===== LEFT: ASSESSMENT INPUT ===== -->
             <div>
+                <!-- MOCK PROFILE SELECTOR -->
+                <div class="panel" style="margin-bottom: 24px; border-left: 4px solid var(--google-blue);">
+                    <div class="panel-title" style="margin-bottom: 8px;">Load Demo Profile</div>
+                    <select id="profileSelector" class="form-control" style="width: 100%; padding: 8px; border-radius: 4px; background: var(--bg); color: var(--text); border: 1px solid var(--border);">
+                        <option value="none">-- Select a Student Persona --</option>
+                        <option value="alex">Alex (High Risk / Burnout)</option>
+                        <option value="sarah">Sarah (Healthy / Balanced)</option>
+                        <option value="jordan">Jordan (Moderate Risk)</option>
+                    </select>
+                </div>
+
                 <div class="panel">
                     <div class="panel-title">Digital Wellness Assessment</div>
 
@@ -223,6 +234,17 @@
             </p>
             <div style="height: 300px; width: 100%;">
                 <canvas id="forecastChart"></canvas>
+            </div>
+        </div>
+
+        <!-- WEEKLY REPORT PANEL -->
+        <div class="panel" id="weeklyReportPanel" style="margin-top:24px; display: none;">
+            <div class="panel-title">Weekly Progress Report</div>
+            <p style="font-size:13px; color:var(--text-dim); margin-bottom:18px;">
+                Historical risk score tracking over the last 7 days for the loaded profile.
+            </p>
+            <div style="height: 250px; width: 100%;">
+                <canvas id="weeklyChart"></canvas>
             </div>
         </div>
 

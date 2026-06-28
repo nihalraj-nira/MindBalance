@@ -25,6 +25,62 @@
         });
     });
 
+    // ---------- MOCK PROFILES ----------
+    const profiles = {
+        'alex': {
+            name: 'Alex',
+            screenT: 12.0, sleepT: 4.5, sleepQ: 3, stressL: 9, studyH: 1.0, late: 2, platform: 'TikTok',
+            history: [88, 89, 90, 85, 92, 94, 91] // High risk scores over 7 days
+        },
+        'sarah': {
+            name: 'Sarah',
+            screenT: 3.5, sleepT: 7.5, sleepQ: 8, stressL: 3, studyH: 5.0, late: 0, platform: 'WhatsApp',
+            history: [25, 24, 22, 28, 26, 25, 23] // Low risk scores
+        },
+        'jordan': {
+            name: 'Jordan',
+            screenT: 6.5, sleepT: 6.0, sleepQ: 5, stressL: 6, studyH: 3.0, late: 1, platform: 'Instagram',
+            history: [55, 58, 62, 59, 61, 65, 60] // Moderate risk
+        }
+    };
+
+    let currentProfile = null;
+    let weeklyChartInstance = null;
+
+    $('profileSelector').addEventListener('change', (e) => {
+        const pId = e.target.value;
+        if (pId === 'none' || !profiles[pId]) {
+            $('weeklyReportPanel').style.display = 'none';
+            return;
+        }
+        
+        currentProfile = profiles[pId];
+        
+        // Update sliders
+        screen.value = currentProfile.screenT;
+        sleep.value = currentProfile.sleepT;
+        sleepq.value = currentProfile.sleepQ;
+        stress.value = currentProfile.stressL;
+        study.value = currentProfile.studyH;
+        platform.value = currentProfile.platform;
+        
+        // Update late night pills
+        document.querySelectorAll('#latenight .toggle-pill').forEach(x => {
+            x.classList.remove('active');
+            if(parseInt(x.dataset.val) === currentProfile.late) x.classList.add('active');
+        });
+        lateNight = currentProfile.late;
+        
+        // Dispatch input events to update labels
+        ['screen', 'sleep', 'sleepq', 'stress', 'study'].forEach(id => {
+            $(id).dispatchEvent(new Event('input'));
+        });
+        
+        $('weeklyReportPanel').style.display = 'block';
+        updateWeeklyChart(currentProfile.history);
+        runPrediction();
+    });
+
     // ---------- "MODEL" (lightweight client-side stand-in for the trained RF model) ----------
     // Coefficients approximate plausible directionality from EDA; Person C's exported
     // model/SHAP values should replace this function 1:1 via the same interface.
@@ -534,6 +590,52 @@
             forecastChartInstance.data.datasets[1].data = [];
         }
         forecastChartInstance.update();
+    }
+
+    // ---------- WEEKLY REPORT CHART ----------
+    function updateWeeklyChart(historyData) {
+        const ctx = document.getElementById('weeklyChart');
+        if (!ctx) return;
+        
+        if (weeklyChartInstance) {
+            weeklyChartInstance.destroy();
+        }
+
+        const labels = ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Today'];
+        
+        weeklyChartInstance = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Risk Score',
+                    data: historyData,
+                    backgroundColor: historyData.map(score => {
+                        if(score >= 70) return 'rgba(217, 125, 107, 0.8)'; // High risk - Red
+                        if(score >= 45) return 'rgba(224, 164, 88, 0.8)';  // Mod risk - Yellow
+                        return 'rgba(143, 184, 156, 0.8)';                 // Low risk - Green
+                    }),
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    y: {
+                        min: 0,
+                        max: 100,
+                        grid: { color: 'rgba(255,255,255,0.05)' }
+                    },
+                    x: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
     }
 
     // ---------- INIT ----------
